@@ -49,8 +49,7 @@ export default function TimListPage() {
             center
             icon={<IconTools size="1rem" style={{ color: '#228BE6' }} />}
           >
-            <List.Item>USB-C to USB-A cables (3-6 needed)</List.Item>
-            <List.Item>Bluetooth speaker (second hand is fine)</List.Item>
+            <List.Item>USB-C to USB-A cables (6 wanted in total)</List.Item>
             <List.Item>5TB 2.5" Internal Hard Drive for laptop</List.Item>
             <List.Item>Basic headphones (always useful to have extras)</List.Item>
           </List>
@@ -65,7 +64,6 @@ export default function TimListPage() {
             <List.Item>3m tape sling from climbing shop</List.Item>
             <List.Item>Whetman HMS screwgate karabiner</List.Item>
             <List.Item>Technical Gore-tex waterproof jacket</List.Item>
-            <List.Item>OS Map: Raasay and Applecross (Sheet 24)</List.Item>
           </List>
 
           <Title order={3}>Books & Media</Title>
@@ -76,7 +74,6 @@ export default function TimListPage() {
             icon={<IconBook size="1rem" style={{ color: '#7048E8' }} />}
           >
             <List.Item>"Wild Spirit" by Helen Lloyd</List.Item>
-            <List.Item>Walking in Torridon guidebook</List.Item>
             <List.Item>AI credits</List.Item>
           </List>
 
