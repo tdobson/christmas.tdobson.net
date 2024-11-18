@@ -1,5 +1,5 @@
 import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
-import { IconAlertCircle } from '@tabler/icons-react';
+import { IconAlertCircle, IconGift, IconTools, IconHeart } from '@tabler/icons-react';
 
 export default function AdultsListPage() {
   return (
@@ -27,7 +27,7 @@ export default function AdultsListPage() {
             spacing="xs"
             size="sm"
             center
-            icon={<IconGift size="1rem" style={{ color: '#228BE6' }} />}
+            icon={<IconTools size="1rem" style={{ color: '#228BE6' }} />}
           >
             <List.Item>USB-C to USB-A cables (3-6 needed)</List.Item>
             <List.Item>Additional laptop power supplies (2 needed)</List.Item>
@@ -36,7 +36,12 @@ export default function AdultsListPage() {
             <List.Item>Secateurs (sharp ones)</List.Item>
           </List>
           <Title order={3}>Other Ideas</Title>
-          <List>
+          <List
+            spacing="xs"
+            size="sm"
+            center
+            icon={<IconHeart size="1rem" style={{ color: '#40C057' }} />}
+          >
             <List.Item>Technical Gore-tex waterproof jacket</List.Item>
             <List.Item>Firewood</List.Item>
             <List.Item>AI credits</List.Item>
