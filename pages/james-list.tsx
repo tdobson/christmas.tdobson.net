@@ -1,5 +1,6 @@
 import { Title, List, Stack, Card, Text, Alert } from '@mantine/core';
 import { IconAlertCircle } from '@tabler/icons-react';
+import React from 'react';
 
 export default function JamesListPage() {
   const priorityItems = [
