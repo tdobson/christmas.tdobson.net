@@ -1,5 +1,5 @@
-import { Title, Stack, Card, Text, Timeline } from '@mantine/core';
-import { IconCalendar, IconUsers, IconMusic } from '@tabler/icons-react';
+import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
+import { IconCalendar, IconUsers, IconMusic, IconStar, IconBell } from '@tabler/icons-react';
 
 export default function SchedulePage() {
   return (
@@ -65,9 +65,16 @@ export default function SchedulePage() {
       <Card withBorder>
         <Stack gap="sm">
           <Title order={2}>Important Notes</Title>
-          <Text>• Keeping gatherings smaller this year for James's comfort</Text>
-          <Text>• Focusing on quality time in smaller groups</Text>
-          <Text>• Maintaining James's routine where possible</Text>
+          <List
+            spacing="xs"
+            size="sm"
+            center
+            icon={<IconStar size="1rem" style={{ color: '#228BE6' }} />}
+          >
+            <List.Item>Keeping gatherings smaller this year for James's comfort</List.Item>
+            <List.Item>Focusing on quality time in smaller groups</List.Item>
+            <List.Item>Maintaining James's routine where possible</List.Item>
+          </List>
         </Stack>
       </Card>
     </Stack>

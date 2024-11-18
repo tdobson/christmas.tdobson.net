@@ -23,7 +23,12 @@ export default function AdultsListPage() {
         <Stack gap="sm">
           <Title order={2}>Tim's List</Title>
           <Title order={3}>Tech/Practical Items</Title>
-          <List>
+          <List
+            spacing="xs"
+            size="sm"
+            center
+            icon={<IconGift size="1rem" style={{ color: '#228BE6' }} />}
+          >
             <List.Item>USB-C to USB-A cables (3-6 needed)</List.Item>
             <List.Item>Additional laptop power supplies (2 needed)</List.Item>
             <List.Item>WiFi router upgrade for better home network speed</List.Item>

@@ -1,5 +1,5 @@
-import { Alert, Card, List, Stack, Text, Title } from "@mantine/core";
-import { IconAlertCircle } from "@tabler/icons-react";
+import { Title, Stack, Card, List, Text, Alert } from "@mantine/core";
+import { IconAlertCircle, IconGift, IconBan, IconStar } from "@tabler/icons-react";
 import React from "react";
 
 export default function JamesListPage() {
@@ -45,7 +45,12 @@ export default function JamesListPage() {
 			<Card withBorder>
 				<Stack gap="sm">
 					<Title order={2}>Priority Items</Title>
-					<List>
+					<List
+					  spacing="xs"
+					  size="sm"
+					  center
+					  icon={<IconBan size="1rem" style={{ color: '#FA5252' }} />}
+					>
 						{priorityItems.map((item) => (
 							<List.Item key={item}>{item}</List.Item>
 						))}
@@ -56,7 +61,12 @@ export default function JamesListPage() {
 			<Card withBorder>
 				<Stack gap="sm">
 					<Title order={2}>Other Items</Title>
-					<List>
+					<List
+					  spacing="xs"
+					  size="sm"
+					  center
+					  icon={<IconGift size="1rem" style={{ color: '#40C057' }} />}
+					>
 						{otherItems.map((item) => (
 							<List.Item key={item}>{item}</List.Item>
 						))}
