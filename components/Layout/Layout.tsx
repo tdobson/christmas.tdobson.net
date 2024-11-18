@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const [opened, { toggle }] = useDisclosure();
+  const [opened, { toggle, close }] = useDisclosure();
   const router = useRouter();
 
   const links = [
@@ -41,6 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             label={link.label}
             leftSection={<link.icon size="1rem" stroke={1.5} />}
             active={router.pathname === link.href}
+            onClick={() => close()}
           />
         ))}
       </AppShell.Navbar>
