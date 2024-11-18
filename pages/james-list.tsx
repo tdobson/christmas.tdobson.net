@@ -1,5 +1,10 @@
-import { Title, Stack, Card, List, Text, Alert } from "@mantine/core";
-import { IconAlertCircle, IconGift, IconBan, IconStar } from "@tabler/icons-react";
+import { Alert, Card, List, Stack, Text, Title } from "@mantine/core";
+import {
+	IconAlertCircle,
+	IconBan,
+	IconGift,
+	IconStar,
+} from "@tabler/icons-react";
 import React from "react";
 
 export default function JamesListPage() {
@@ -49,9 +54,16 @@ export default function JamesListPage() {
 			>
 				<List>
 					<List.Item>Second-hand items are welcomed and encouraged</List.Item>
-					<List.Item>Practical/useful items preferred over decorative</List.Item>
-					<List.Item>Help with tasks/time is often more valuable than physical items</List.Item>
-					<List.Item>Consider helping with research/planning when giving money towards items</List.Item>
+					<List.Item>
+						Practical/useful items preferred over decorative
+					</List.Item>
+					<List.Item>
+						Help with tasks/time is often more valuable than physical items
+					</List.Item>
+					<List.Item>
+						Consider helping with research/planning when giving money towards
+						items
+					</List.Item>
 				</List>
 			</Alert>
 
@@ -59,10 +71,10 @@ export default function JamesListPage() {
 				<Stack gap="sm">
 					<Title order={2}>Priority Items</Title>
 					<List
-					  spacing="xs"
-					  size="sm"
-					  center
-					  icon={<IconBan size="1rem" style={{ color: '#FA5252' }} />}
+						spacing="xs"
+						size="sm"
+						center
+						icon={<IconBan size="1rem" style={{ color: "#FA5252" }} />}
 					>
 						{priorityItems.map((item) => (
 							<List.Item key={item}>{item}</List.Item>
@@ -75,10 +87,10 @@ export default function JamesListPage() {
 				<Stack gap="sm">
 					<Title order={2}>Other Items</Title>
 					<List
-					  spacing="xs"
-					  size="sm"
-					  center
-					  icon={<IconGift size="1rem" style={{ color: '#40C057' }} />}
+						spacing="xs"
+						size="sm"
+						center
+						icon={<IconGift size="1rem" style={{ color: "#40C057" }} />}
 					>
 						{otherItems.map((item) => (
 							<List.Item key={item}>{item}</List.Item>
