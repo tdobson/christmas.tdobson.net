@@ -1,12 +1,12 @@
 import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
-import { 
-  IconAlertCircle, 
-  IconGift, 
-  IconTools, 
-  IconHeart, 
-  IconMountain, 
-  IconBook, 
-  IconStar 
+import {
+  IconAlertCircle,
+  IconGift,
+  IconTools,
+  IconHeart,
+  IconMountain,
+  IconBook,
+  IconStar
 } from '@tabler/icons-react';
 
 export default function AdultsListPage() {
@@ -30,8 +30,8 @@ export default function AdultsListPage() {
       <Card withBorder>
         <Stack gap="sm">
           <Title order={2}>Tim's List</Title>
-          
-          <Title order={3}>High Priority</Title>
+
+          <Title order={3}>T</Title>
           <List
             spacing="xs"
             size="sm"
@@ -40,7 +40,6 @@ export default function AdultsListPage() {
           >
             <List.Item>Poang chair (second hand is great) - for working in</List.Item>
             <List.Item>Moorland Grit guidebook (North-West Peak District)</List.Item>
-            <List.Item>Chainsaw cutting course/qualifications</List.Item>
             <List.Item>170W ThinkPad Chargers (second hand from eBay)</List.Item>
             <List.Item>Wetsuit (large) - 3mm or 5mm</List.Item>
           </List>
@@ -68,7 +67,8 @@ export default function AdultsListPage() {
             <List.Item>3m tape sling from climbing shop</List.Item>
             <List.Item>Whetman HMS screwgate karabiner</List.Item>
             <List.Item>Technical Gore-tex waterproof jacket</List.Item>
-            <List.Item>OS Map: Raasay and Applecross (Sheet 24)</List.Item>
+            <List.Item>Chainsaw cutting course/qualifications</List.Item>
+
           </List>
 
           <Title order={3}>Books & Media</Title>
@@ -79,7 +79,6 @@ export default function AdultsListPage() {
             icon={<IconBook size="1rem" style={{ color: '#7048E8' }} />}
           >
             <List.Item>"Wild Spirit" by Helen Lloyd</List.Item>
-            <List.Item>Walking in Torridon guidebook</List.Item>
             <List.Item>AI credits</List.Item>
           </List>
 
