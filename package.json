@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "next build && wrangler pages deploy out",
+
     "analyze": "ANALYZE=true next build",
     "start": "next start",
     "export": "next build && next export",
