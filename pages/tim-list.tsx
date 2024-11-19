@@ -1,3 +1,4 @@
+import React from 'react';
 import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
 import {
   IconAlertCircle,
