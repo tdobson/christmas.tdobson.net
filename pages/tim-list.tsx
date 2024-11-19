@@ -114,7 +114,11 @@ export default function TimListPage() {
             color="blue"
           >
             <Text size="sm">Currently have plenty of books - prefer other gifts unless specifically listed</Text>
-            <Text size="sm">Amazon wishlist: https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301</Text>
+            <Text size="sm">
+              Amazon wishlist: <a href="https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301" target="_blank" rel="noopener noreferrer">
+                https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301
+              </a>
+            </Text>
           </Alert>
         </Stack>
       </Card>

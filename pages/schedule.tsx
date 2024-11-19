@@ -10,9 +10,16 @@ export default function SchedulePage() {
         <Timeline active={-1} bulletSize={24}>
           <Timeline.Item 
             bullet={<IconCalendar size={12} />} 
-            title="December 21-22"
+            title="December 21"
           >
             <Text size="sm">Potential visit window for Tim's family</Text>
+          </Timeline.Item>
+
+          <Timeline.Item 
+            bullet={<IconCalendar size={12} />} 
+            title="December 22"
+          >
+            <Text size="sm">Visiting Judith and Adrian</Text>
           </Timeline.Item>
 
           <Timeline.Item 
