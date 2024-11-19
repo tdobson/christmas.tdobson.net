@@ -119,6 +119,13 @@
 			"category": "support",
 			"icon": "IconHeart",
 			"url": ""
+		},
+		{
+			"name": "Tire compressor",
+			"shortDescription": "For pumping up flat tires",
+			"category": "tech",
+			"icon": "IconTools",
+			"url": ""
 		}
 	],
 	"categories": {

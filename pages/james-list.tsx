@@ -14,6 +14,7 @@ export default function JamesListPage() {
 		"Kids' food preparation knives",
 		"Animal posters for his room (especially dogs)",
 		"Number floor tiles/mats",
+		"Baby listener/monitor",
 	];
 
 	const otherItems = [
