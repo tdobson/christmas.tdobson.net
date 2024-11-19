@@ -9,7 +9,7 @@ import React from "react";
 
 export default function JamesListPage() {
 	const priorityItems = [
-		"Teeny weenie balance bike (smallest available size - currently size 3.5 feet)",
+		"Teeny weenie balance bike (smallest available size - for height 85-95cm)",
 		"Thicker foam/rubber play mat for safety under climbing areas",
 		"Kids' food preparation knives",
 		"Animal posters for his room (especially dogs)",

@@ -23,9 +23,9 @@ export default function JenListPage() {
         <Stack gap="sm">
           <Title order={3}>Priority Items</Title>
           <List>
-            <List.Item>Burke Harris jacket upgrade (waterproof technical coat)</List.Item>
+            <List.Item>Baby wearing coat (£85)</List.Item>
             <List.Item>Additional baby monitor screens/equipment</List.Item>
-            <List.Item>Additional chargers for current monitor (Specific model: DC babysitter)</List.Item>
+            <List.Item>Additional chargers for current monitor (Specific model: BT6000)</List.Item>
           </List>
           
           <Title order={3}>Other Ideas</Title>
