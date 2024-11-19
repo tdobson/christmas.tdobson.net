@@ -1,151 +1,151 @@
 {
-  "items": [
-    {
-      "name": "Poang chair",
-      "shortDescription": "For working in",
-      "longDescription": "Second hand is great",
-      "category": "highPriority",
-      "icon": "IconStar",
-      "url": "https://www.ikea.com/gb/en/cat/poang-series-07472/"
-    },
-    {
-      "name": "Moorland Grit guidebook",
-      "shortDescription": "North-West Peak District",
-      "category": "highPriority",
-      "icon": "IconStar",
-      "url": "https://www.bmcshop.co.uk/products/moorland-grit"
-    },
-    {
-      "name": "Chainsaw cutting course",
-      "shortDescription": "Qualifications needed",
-      "category": "highPriority",
-      "icon": "IconStar",
-      "url": ""
-    },
-    {
-      "name": "170W ThinkPad Chargers",
-      "shortDescription": "Second hand from eBay",
-      "category": "highPriority",
-      "icon": "IconStar",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+thinkpad+charger"
-    },
-    {
-      "name": "Wetsuit",
-      "shortDescription": "Large size - 3mm or 5mm",
-      "category": "highPriority",
-      "icon": "IconStar",
-      "url": ""
-    },
-    {
-      "name": "USB-C to USB-A cables",
-      "shortDescription": "6 wanted in total",
-      "category": "tech",
-      "icon": "IconTools",
-      "url": ""
-    },
-    {
-      "name": "5TB 2.5\" Internal Hard Drive",
-      "shortDescription": "For laptop",
-      "category": "tech",
-      "icon": "IconTools",
-      "url": ""
-    },
-    {
-      "name": "Basic headphones",
-      "shortDescription": "Always useful to have extras",
-      "category": "tech",
-      "icon": "IconTools",
-      "url": ""
-    },
-    {
-      "name": "3m tape sling",
-      "shortDescription": "From climbing shop",
-      "category": "outdoor",
-      "icon": "IconMountain",
-      "url": ""
-    },
-    {
-      "name": "Whetman HMS screwgate karabiner",
-      "shortDescription": "",
-      "category": "outdoor",
-      "icon": "IconMountain",
-      "url": ""
-    },
-    {
-      "name": "Technical Gore-tex waterproof jacket",
-      "shortDescription": "",
-      "category": "outdoor",
-      "icon": "IconMountain",
-      "url": ""
-    },
-    {
-      "name": "Wild Spirit by Helen Lloyd",
-      "shortDescription": "Book",
-      "category": "books",
-      "icon": "IconBook",
-      "url": ""
-    },
-    {
-      "name": "AI credits",
-      "shortDescription": "",
-      "category": "books",
-      "icon": "IconBook",
-      "url": ""
-    },
-    {
-      "name": "Babysitting",
-      "shortDescription": "Even 30 minutes is appreciated",
-      "category": "support",
-      "icon": "IconHeart",
-      "url": ""
-    },
-    {
-      "name": "Sentimental items",
-      "shortDescription": "Photos or personal memories",
-      "category": "support",
-      "icon": "IconHeart",
-      "url": ""
-    },
-    {
-      "name": "Firewood",
-      "shortDescription": "",
-      "category": "support",
-      "icon": "IconHeart",
-      "url": ""
-    },
-    {
-      "name": "A stress-free Christmas",
-      "shortDescription": "",
-      "category": "support",
-      "icon": "IconHeart",
-      "url": ""
-    }
-  ],
-  "categories": {
-    "highPriority": {
-      "title": "High Priority",
-      "icon": "IconStar",
-      "color": "#FFD700"
-    },
-    "tech": {
-      "title": "Tech & Equipment",
-      "icon": "IconTools",
-      "color": "#228BE6"
-    },
-    "outdoor": {
-      "title": "Outdoor & Climbing",
-      "icon": "IconMountain",
-      "color": "#40C057"
-    },
-    "books": {
-      "title": "Books & Media",
-      "icon": "IconBook",
-      "color": "#7048E8"
-    },
-    "support": {
-      "title": "Time & Support",
-      "icon": "IconHeart",
-      "color": "#E64980"
-    }
-  }
+	"items": [
+		{
+			"name": "Poang chair",
+			"shortDescription": "For working in",
+			"longDescription": "Second hand is great",
+			"category": "highPriority",
+			"icon": "IconStar",
+			"url": "https://www.ikea.com/gb/en/cat/poang-series-07472/"
+		},
+		{
+			"name": "Moorland Grit guidebook",
+			"shortDescription": "North-West Peak District",
+			"category": "highPriority",
+			"icon": "IconStar",
+			"url": "https://www.bmcshop.co.uk/products/moorland-grit"
+		},
+		{
+			"name": "Chainsaw cutting course",
+			"shortDescription": "Qualifications needed",
+			"category": "highPriority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "170W ThinkPad Chargers",
+			"shortDescription": "Second hand from eBay",
+			"category": "highPriority",
+			"icon": "IconStar",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+thinkpad+charger"
+		},
+		{
+			"name": "Wetsuit",
+			"shortDescription": "Large size - 3mm or 5mm",
+			"category": "highPriority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "USB-C to USB-A cables",
+			"shortDescription": "6 wanted in total",
+			"category": "tech",
+			"icon": "IconTools",
+			"url": ""
+		},
+		{
+			"name": "5TB 2.5\" Internal Hard Drive",
+			"shortDescription": "For laptop",
+			"category": "tech",
+			"icon": "IconTools",
+			"url": ""
+		},
+		{
+			"name": "Basic headphones",
+			"shortDescription": "Always useful to have extras",
+			"category": "tech",
+			"icon": "IconTools",
+			"url": ""
+		},
+		{
+			"name": "3m tape sling",
+			"shortDescription": "From climbing shop",
+			"category": "outdoor",
+			"icon": "IconMountain",
+			"url": ""
+		},
+		{
+			"name": "Whetman HMS screwgate karabiner",
+			"shortDescription": "",
+			"category": "outdoor",
+			"icon": "IconMountain",
+			"url": ""
+		},
+		{
+			"name": "Technical Gore-tex waterproof jacket",
+			"shortDescription": "",
+			"category": "outdoor",
+			"icon": "IconMountain",
+			"url": ""
+		},
+		{
+			"name": "Wild Spirit by Helen Lloyd",
+			"shortDescription": "Book",
+			"category": "books",
+			"icon": "IconBook",
+			"url": ""
+		},
+		{
+			"name": "AI credits",
+			"shortDescription": "",
+			"category": "books",
+			"icon": "IconBook",
+			"url": ""
+		},
+		{
+			"name": "Babysitting",
+			"shortDescription": "Even 30 minutes is appreciated",
+			"category": "support",
+			"icon": "IconHeart",
+			"url": ""
+		},
+		{
+			"name": "Sentimental items",
+			"shortDescription": "Photos or personal memories",
+			"category": "support",
+			"icon": "IconHeart",
+			"url": ""
+		},
+		{
+			"name": "Firewood",
+			"shortDescription": "",
+			"category": "support",
+			"icon": "IconHeart",
+			"url": ""
+		},
+		{
+			"name": "A stress-free Christmas",
+			"shortDescription": "",
+			"category": "support",
+			"icon": "IconHeart",
+			"url": ""
+		}
+	],
+	"categories": {
+		"highPriority": {
+			"title": "High Priority",
+			"icon": "IconStar",
+			"color": "#FFD700"
+		},
+		"tech": {
+			"title": "Tech & Equipment",
+			"icon": "IconTools",
+			"color": "#228BE6"
+		},
+		"outdoor": {
+			"title": "Outdoor & Climbing",
+			"icon": "IconMountain",
+			"color": "#40C057"
+		},
+		"books": {
+			"title": "Books & Media",
+			"icon": "IconBook",
+			"color": "#7048E8"
+		},
+		"support": {
+			"title": "Time & Support",
+			"icon": "IconHeart",
+			"color": "#E64980"
+		}
+	}
 }
