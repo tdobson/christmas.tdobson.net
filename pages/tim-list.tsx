@@ -8,9 +8,13 @@ import {
   IconBook,
   IconStar
 } from '@tabler/icons-react';
-import giftData from '../config/tim-gifts.json';
+import giftDataImport from '../config/tim-gifts.json';
 
 // Type definitions
+interface GiftData {
+  categories: Record<string, Category>;
+  items: GiftItem[];
+}
 type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook';
 
 interface GiftItem {
@@ -27,6 +31,9 @@ interface Category {
   icon: IconName;
   color: string;
 }
+
+// Convert imported data to typed data
+const giftData = giftDataImport as GiftData;
 
 // Icon mapping
 const iconComponents = {
