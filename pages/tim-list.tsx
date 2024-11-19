@@ -7,8 +7,45 @@ import {
   IconBook,
   IconStar
 } from '@tabler/icons-react';
+import giftData from '../config/tim-gifts.json';
+
+// Type definitions
+type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook';
+
+interface GiftItem {
+  name: string;
+  shortDescription: string;
+  longDescription?: string;
+  category: string;
+  icon: IconName;
+  url: string;
+}
+
+interface Category {
+  title: string;
+  icon: IconName;
+  color: string;
+}
+
+// Icon mapping
+const iconComponents = {
+  IconStar,
+  IconTools,
+  IconHeart,
+  IconMountain,
+  IconBook,
+};
 
 export default function TimListPage() {
+  // Group items by category
+  const itemsByCategory = giftData.items.reduce((acc, item) => {
+    if (!acc[item.category]) {
+      acc[item.category] = [];
+    }
+    acc[item.category].push(item);
+    return acc;
+  }, {} as Record<string, GiftItem[]>);
+
   return (
     <Stack gap="md">
       <Title order={1}>Tim's Gift List</Title>
@@ -28,67 +65,40 @@ export default function TimListPage() {
 
       <Card withBorder>
         <Stack gap="sm">
-          <Title order={3}>High Priority</Title>
-          <List
-            spacing="xs"
-            size="sm"
-            center
-            icon={<IconStar size="1rem" style={{ color: '#FFD700' }} />}
-          >
-            <List.Item>Poang chair (second hand is great) - for working in</List.Item>
-            <List.Item>Moorland Grit guidebook (North-West Peak District)</List.Item>
-            <List.Item>Chainsaw cutting course/qualifications</List.Item>
-            <List.Item>170W ThinkPad Chargers (second hand from eBay)</List.Item>
-            <List.Item>Wetsuit (large) - 3mm or 5mm</List.Item>
-          </List>
+          {Object.entries(giftData.categories).map(([categoryKey, category]) => {
+            const items = itemsByCategory[categoryKey] || [];
+            const IconComponent = iconComponents[category.icon as IconName];
 
-          <Title order={3}>Tech & Equipment</Title>
-          <List
-            spacing="xs"
-            size="sm"
-            center
-            icon={<IconTools size="1rem" style={{ color: '#228BE6' }} />}
-          >
-            <List.Item>USB-C to USB-A cables (6 wanted in total)</List.Item>
-            <List.Item>5TB 2.5" Internal Hard Drive for laptop</List.Item>
-            <List.Item>Basic headphones (always useful to have extras)</List.Item>
-          </List>
-
-          <Title order={3}>Outdoor & Climbing</Title>
-          <List
-            spacing="xs"
-            size="sm"
-            center
-            icon={<IconMountain size="1rem" style={{ color: '#40C057' }} />}
-          >
-            <List.Item>3m tape sling from climbing shop</List.Item>
-            <List.Item>Whetman HMS screwgate karabiner</List.Item>
-            <List.Item>Technical Gore-tex waterproof jacket</List.Item>
-          </List>
-
-          <Title order={3}>Books & Media</Title>
-          <List
-            spacing="xs"
-            size="sm"
-            center
-            icon={<IconBook size="1rem" style={{ color: '#7048E8' }} />}
-          >
-            <List.Item>"Wild Spirit" by Helen Lloyd</List.Item>
-            <List.Item>AI credits</List.Item>
-          </List>
-
-          <Title order={3}>Time & Support</Title>
-          <List
-            spacing="xs"
-            size="sm"
-            center
-            icon={<IconHeart size="1rem" style={{ color: '#E64980' }} />}
-          >
-            <List.Item>Babysitting (even 30 minutes is appreciated)</List.Item>
-            <List.Item>Sentimental items - photos or personal memories</List.Item>
-            <List.Item>Firewood</List.Item>
-            <List.Item>A stress-free Christmas</List.Item>
-          </List>
+            return (
+              <React.Fragment key={categoryKey}>
+                <Title order={3}>{category.title}</Title>
+                <List
+                  spacing="xs"
+                  size="sm"
+                  center
+                  icon={<IconComponent size="1rem" style={{ color: category.color }} />}
+                >
+                  {items.map((item) => (
+                    <List.Item key={item.name}>
+                      {item.url ? (
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
+                          {item.name}
+                        </a>
+                      ) : (
+                        item.name
+                      )}
+                      {item.shortDescription && ` - ${item.shortDescription}`}
+                      {item.longDescription && (
+                        <Text size="xs" c="dimmed">
+                          {item.longDescription}
+                        </Text>
+                      )}
+                    </List.Item>
+                  ))}
+                </List>
+              </React.Fragment>
+            );
+          })}
 
           <Alert
             icon={<IconAlertCircle size="1rem" />}
