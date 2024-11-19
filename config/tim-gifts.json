@@ -149,3 +149,56 @@
 		}
 	}
 }
+{
+  "categories": {
+    "tools": {
+      "title": "Tools & Equipment",
+      "icon": "IconTools",
+      "color": "#FF6B6B"
+    },
+    "outdoor": {
+      "title": "Outdoor & Adventure",
+      "icon": "IconMountain", 
+      "color": "#4ECDC4"
+    },
+    "books": {
+      "title": "Books & Learning",
+      "icon": "IconBook",
+      "color": "#45B7D1"
+    },
+    "personal": {
+      "title": "Personal Items",
+      "icon": "IconHeart",
+      "color": "#96CEB4"
+    },
+    "misc": {
+      "title": "Miscellaneous",
+      "icon": "IconStar",
+      "color": "#FFAD60"
+    }
+  },
+  "items": [
+    {
+      "name": "Leatherman Wave+",
+      "shortDescription": "Multi-tool",
+      "longDescription": "Prefer the standard version without any special editions",
+      "category": "tools",
+      "icon": "IconTools",
+      "url": "https://www.leatherman.com/wave-plus-832563.html"
+    },
+    {
+      "name": "Hiking Boots",
+      "shortDescription": "Size UK 11",
+      "category": "outdoor",
+      "icon": "IconMountain",
+      "url": ""
+    },
+    {
+      "name": "Programming Books",
+      "shortDescription": "TypeScript or React focused",
+      "category": "books",
+      "icon": "IconBook",
+      "url": ""
+    }
+  ]
+}
