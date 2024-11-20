@@ -236,19 +236,22 @@ export function GiftList({ giftData }: GiftListProps) {
 							title="Note"
 							color="blue"
 						>
-							<Text size="sm">{giftData.notes.bookNote}</Text>
-							{giftData.notes.wishlistUrl && (
-								<Text size="sm">
-									Amazon wishlist:{" "}
-									<a
+							<Stack gap="xs">
+								<Text size="sm">{giftData.notes.bookNote}</Text>
+								{giftData.notes.wishlistUrl && (
+									<Button
+										component="a"
 										href={giftData.notes.wishlistUrl}
 										target="_blank"
 										rel="noopener noreferrer"
+										variant="light"
+										size="sm"
+										leftSection={<IconGift size="1rem" />}
 									>
-										{giftData.notes.wishlistUrl}
-									</a>
-								</Text>
-							)}
+										View Amazon Wishlist
+									</Button>
+								)}
+							</Stack>
 						</Alert>
 					)}
 				</Stack>

@@ -6,7 +6,7 @@ export function ShareGiftList() {
     <Card withBorder shadow="sm" p="lg">
       <Stack gap="md">
         <Text size="lg" fw={500}>
-          Do you have gift ideas for *you* to share? 🎁
+          Do you have gift ideas for <strong>you</strong> to share? 🎁
         </Text>
         <Text size="sm" c="dimmed">
           We'd love to see your gift list! It helps us if we're suffering from imagination failure.
