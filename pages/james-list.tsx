@@ -7,7 +7,6 @@ import {
 	IconGift,
 	IconStar,
 } from "@tabler/icons-react";
-import React from "react";
 
 export default function JamesListPage() {
 	const priorityItems = [

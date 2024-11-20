@@ -24,7 +24,8 @@ import {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconSteeringWheel
+  IconSteeringWheel,
+  IconAlertCircle
 } from '@tabler/icons-react';
 import giftDataImport from '../config/tim-gifts.json';
 
