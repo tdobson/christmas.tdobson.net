@@ -1,5 +1,11 @@
 import React from 'react';
-import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
+import { Box } from '@mantine/core';
+import { Title } from '@mantine/core';
+import { Stack } from '@mantine/core';
+import { Card } from '@mantine/core';
+import { Text } from '@mantine/core';
+import { List } from '@mantine/core';
+import { Alert } from '@mantine/core';
 import {
   IconAlertCircle,
   IconTools,
