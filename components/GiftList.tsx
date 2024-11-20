@@ -1,4 +1,4 @@
-import { Alert, Card, List, Stack, Text, Title } from "@mantine/core";
+import { Alert, Card, Stack, Text, Title, Paper, SimpleGrid } from "@mantine/core";
 import {
 	IconAlertCircle,
 	IconArmchair,
@@ -137,41 +137,72 @@ export function GiftList({ giftData }: GiftListProps) {
 							return (
 								<React.Fragment key={categoryKey}>
 									<Title order={3}>{category.title}</Title>
-									<List spacing="xs" size="sm" center>
-										{items.map((item) => {
-											const ItemIcon = iconComponents[item.icon as IconName];
-											return (
-												<List.Item
-													key={item.name}
-													icon={
-														<ItemIcon
-															size="1rem"
-															style={{ color: category.color }}
-														/>
-													}
-												>
-													{item.url ? (
-														<a
-															href={item.url}
-															target="_blank"
-															rel="noopener noreferrer"
-														>
-															{item.name}
-														</a>
-													) : (
-														item.name
-													)}
-													{item.shortDescription &&
-														` - ${item.shortDescription}`}
-													{item.longDescription && (
-														<Text size="xs" c="dimmed">
-															{item.longDescription}
-														</Text>
-													)}
-												</List.Item>
-											);
-										})}
-									</List>
+                  <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="sm">
+                    {items.map((item) => {
+                      const ItemIcon = iconComponents[item.icon as IconName];
+                      const content = (
+                        <Paper
+                          shadow="xs"
+                          p="md"
+                          withBorder
+                          style={{
+                            cursor: item.url ? 'pointer' : 'default',
+                            height: '100%',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.5rem',
+                            transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                            ':hover': item.url ? {
+                              transform: 'translateY(-2px)',
+                              boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                            } : undefined,
+                          }}
+                        >
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <ItemIcon size="1.2rem" style={{ color: category.color }} />
+                            <Text fw={500} size="lg">
+                              {item.name}
+                            </Text>
+                          </div>
+                          
+                          {item.shortDescription && (
+                            <Text size="sm" c="dimmed">
+                              {item.shortDescription}
+                            </Text>
+                          )}
+                          
+                          {item.longDescription && (
+                            <Text size="xs" c="dimmed">
+                              {item.longDescription}
+                            </Text>
+                          )}
+                          
+                          {item.url && (
+                            <Text size="xs" c="blue" mt="auto">
+                              Click to view →
+                            </Text>
+                          )}
+                        </Paper>
+                      );
+
+                      return (
+                        <div key={item.name}>
+                          {item.url ? (
+                            <a
+                              href={item.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              style={{ textDecoration: 'none' }}
+                            >
+                              {content}
+                            </a>
+                          ) : (
+                            content
+                          )}
+                        </div>
+                      );
+                    })}
+                  </SimpleGrid>
 								</React.Fragment>
 							);
 						},
@@ -207,16 +238,24 @@ export function GiftList({ giftData }: GiftListProps) {
 						<Title order={2} c="red">
 							Please Do Not Buy
 						</Title>
-						<List
-							spacing="xs"
-							size="sm"
-							center
-							icon={<IconBan size="1rem" style={{ color: "#FA5252" }} />}
-						>
-							{giftData.doNotBuy.map((item) => (
-								<List.Item key={item}>{item}</List.Item>
-							))}
-						</List>
+            <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="sm">
+              {giftData.doNotBuy.map((item) => (
+                <Paper
+                  key={item}
+                  shadow="xs"
+                  p="md"
+                  withBorder
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                  }}
+                >
+                  <IconBan size="1.2rem" style={{ color: "#FA5252" }} />
+                  <Text>{item}</Text>
+                </Paper>
+              ))}
+            </SimpleGrid>
 					</Stack>
 				</Card>
 			)}
