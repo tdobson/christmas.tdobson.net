@@ -7,16 +7,16 @@ import {
   IconMountain,
   IconBook,
   IconStar,
-  IconChair,
+  IconArmchair,
   IconMap,
   IconCertificate,
   IconPlug,
   IconSwimming,
   IconUsb,
-  IconHardDrive,
+  IconDeviceFloppy,
   IconHeadphones,
-  IconRope,
-  IconCarabiner,
+  IconLine,
+  IconLink,
   IconJacket,
   IconBook2,
   IconRobot,
@@ -33,7 +33,7 @@ interface GiftData {
   categories: Record<string, Category>;
   items: GiftItem[];
 }
-type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconChair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconHardDrive' | 'IconHeadphones' | 'IconRope' | 'IconCarabiner' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconTire';
+type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconArmchair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconDeviceFloppy' | 'IconHeadphones' | 'IconLine' | 'IconLink' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconWheel';
 
 interface GiftItem {
   name: string;
@@ -60,16 +60,16 @@ const iconComponents = {
   IconHeart,
   IconMountain,
   IconBook,
-  IconChair,
+  IconArmchair,
   IconMap,
   IconCertificate,
   IconPlug,
   IconSwimming,
   IconUsb,
-  IconHardDrive,
+  IconDeviceFloppy,
   IconHeadphones,
-  IconRope,
-  IconCarabiner,
+  IconLine,
+  IconLink,
   IconJacket,
   IconBook2,
   IconRobot,
@@ -77,7 +77,7 @@ const iconComponents = {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconTire,
+  IconWheel,
 };
 
 export default function TimListPage() {
