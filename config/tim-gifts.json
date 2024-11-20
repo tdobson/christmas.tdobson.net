@@ -124,7 +124,7 @@
 			"name": "Tire compressor",
 			"shortDescription": "For pumping up flat tires",
 			"category": "tech",
-			"icon": "IconWheel",
+			"icon": "IconSteeringWheel",
 			"url": ""
 		}
 	],

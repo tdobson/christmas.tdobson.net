@@ -24,7 +24,7 @@ import {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconTire
+  IconSteeringWheel
 } from '@tabler/icons-react';
 import giftDataImport from '../config/tim-gifts.json';
 
@@ -33,7 +33,7 @@ interface GiftData {
   categories: Record<string, Category>;
   items: GiftItem[];
 }
-type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconArmchair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconDeviceFloppy' | 'IconHeadphones' | 'IconLine' | 'IconLink' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconWheel';
+type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconArmchair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconDeviceFloppy' | 'IconHeadphones' | 'IconLine' | 'IconLink' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconSteeringWheel';
 
 interface GiftItem {
   name: string;
@@ -77,7 +77,7 @@ const iconComponents = {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconWheel,
+  IconSteeringWheel,
 };
 
 export default function TimListPage() {
