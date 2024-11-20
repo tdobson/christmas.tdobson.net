@@ -4,8 +4,8 @@
 			"name": "Strong mature cheddar",
 			"shortDescription": "Because I love cheese",
 			"longDescription": "All gift of cheddar cheese is welcome. No cheddar is too strong. Much more of a fan of cheddar than, say, fancy french cheeses",
-			"category": "highPriority",
-			"icon": "IconStar",
+			"category": "food",
+			"icon": "IconCheese",
 			"url": "https://www.barbers.co.uk/collections/all"
 		},
 		{
@@ -160,25 +160,30 @@
 		}
 	],
 	"categories": {
-		"highPriority": {
-			"title": "High Priority",
-			"icon": "IconStar",
-			"color": "#FFD700"
+		"food": {
+			"title": "Food & Drink",
+			"icon": "IconCookie",
+			"color": "#FD7E14"
+		},
+		"home": {
+			"title": "Home & Furniture",
+			"icon": "IconHome",
+			"color": "#40C057"
+		},
+		"outdoor": {
+			"title": "Outdoor & Adventure",
+			"icon": "IconMountain",
+			"color": "#228BE6"
+		},
+		"education": {
+			"title": "Courses & Learning",
+			"icon": "IconSchool",
+			"color": "#7048E8"
 		},
 		"tech": {
 			"title": "Tech & Equipment",
-			"icon": "IconTools",
-			"color": "#228BE6"
-		},
-		"outdoor": {
-			"title": "Outdoor & Climbing",
-			"icon": "IconMountain",
-			"color": "#40C057"
-		},
-		"books": {
-			"title": "Books & Media",
-			"icon": "IconBook",
-			"color": "#7048E8"
+			"icon": "IconDevices",
+			"color": "#1C7ED6"
 		},
 		"support": {
 			"title": "Time & Support",
