@@ -63,6 +63,18 @@ export default function HomePage() {
       </SimpleGrid>
 
       <Card withBorder>
+        <Stack gap="sm">
+          <Title order={2}>Frequently Asked Questions</Title>
+          <Stack gap="xs">
+            <div>
+              <Text fw={500}>What's your address?</Text>
+              <Text size="sm">272 Strines Road, Marple, SK6 7GB</Text>
+            </div>
+          </Stack>
+        </Stack>
+      </Card>
+
+      <Card withBorder>
         <Text>
           Navigate using the menu or the cards above to view gift lists and schedule information.
         </Text>
