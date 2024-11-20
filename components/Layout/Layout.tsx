@@ -37,7 +37,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <AppShell.Header>
         <Group h="100%" px={{ base: 'md', sm: 'xl' }} align="center">
           <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-          <h1 style={{ margin: 0 }}>Christmas 2024 ⛄</h1>
+          <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <h1 style={{ margin: 0, cursor: 'pointer' }}>Christmas 2024 ⛄</h1>
+          </Link>
         </Group>
       </AppShell.Header>
 
