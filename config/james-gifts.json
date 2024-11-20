@@ -1,100 +1,100 @@
 {
-  "items": [
-    {
-      "name": "Teeny weenie balance bike",
-      "shortDescription": "Smallest available size - for height 85-95cm",
-      "category": "priority",
-      "icon": "IconBike",
-      "url": ""
-    },
-    {
-      "name": "Thicker foam/rubber play mat",
-      "shortDescription": "For safety under climbing areas",
-      "category": "priority",
-      "icon": "IconSquare",
-      "url": ""
-    },
-    {
-      "name": "Kids' food preparation knives",
-      "category": "priority",
-      "icon": "IconKnife",
-      "url": ""
-    },
-    {
-      "name": "Animal posters for his room",
-      "shortDescription": "Especially dogs",
-      "category": "priority",
-      "icon": "IconPoster",
-      "url": ""
-    },
-    {
-      "name": "Number floor tiles/mats",
-      "category": "priority",
-      "icon": "IconMath",
-      "url": ""
-    },
-    {
-      "name": "Baby listener/monitor",
-      "category": "priority",
-      "icon": "IconDeviceSpeaker",
-      "url": ""
-    },
-    {
-      "name": "Warm boots",
-      "shortDescription": "Size 4-4.5",
-      "category": "other",
-      "icon": "IconShoe",
-      "url": ""
-    },
-    {
-      "name": "Climbing harness",
-      "shortDescription": "Edelrid model",
-      "category": "other",
-      "icon": "IconHarness",
-      "url": ""
-    },
-    {
-      "name": "Small buoyancy aid for swimming",
-      "category": "other",
-      "icon": "IconLifebuoy",
-      "url": ""
-    },
-    {
-      "name": "Orange(s) for Christmas stocking",
-      "category": "other",
-      "icon": "IconFruit",
-      "url": ""
-    },
-    {
-      "name": "Flyaway footballs",
-      "category": "other",
-      "icon": "IconBall",
-      "url": ""
-    }
-  ],
-  "categories": {
-    "priority": {
-      "title": "Priority Items",
-      "icon": "IconStar",
-      "color": "#FA5252"
-    },
-    "other": {
-      "title": "Other Items",
-      "icon": "IconGift",
-      "color": "#40C057"
-    }
-  },
-  "doNotBuy": [
-    "Clothes (except specified boots)",
-    "Coats",
-    "Wellies",
-    "Books",
-    "Media",
-    "Dummies",
-    "Duplo/Lego (have plenty)",
-    "Chocolate/sweets"
-  ],
-  "notes": {
-    "checkFirst": "Please check with parents before purchasing to avoid duplicates"
-  }
+	"items": [
+		{
+			"name": "Teeny weenie balance bike",
+			"shortDescription": "Smallest available size - for height 85-95cm",
+			"category": "priority",
+			"icon": "IconBike",
+			"url": ""
+		},
+		{
+			"name": "Thicker foam/rubber play mat",
+			"shortDescription": "For safety under climbing areas",
+			"category": "priority",
+			"icon": "IconSquare",
+			"url": ""
+		},
+		{
+			"name": "Kids' food preparation knives",
+			"category": "priority",
+			"icon": "IconKnife",
+			"url": ""
+		},
+		{
+			"name": "Animal posters for his room",
+			"shortDescription": "Especially dogs",
+			"category": "priority",
+			"icon": "IconPoster",
+			"url": ""
+		},
+		{
+			"name": "Number floor tiles/mats",
+			"category": "priority",
+			"icon": "IconMath",
+			"url": ""
+		},
+		{
+			"name": "Baby listener/monitor",
+			"category": "priority",
+			"icon": "IconDeviceSpeaker",
+			"url": ""
+		},
+		{
+			"name": "Warm boots",
+			"shortDescription": "Size 4-4.5",
+			"category": "other",
+			"icon": "IconShoe",
+			"url": ""
+		},
+		{
+			"name": "Climbing harness",
+			"shortDescription": "Edelrid model",
+			"category": "other",
+			"icon": "IconHarness",
+			"url": ""
+		},
+		{
+			"name": "Small buoyancy aid for swimming",
+			"category": "other",
+			"icon": "IconLifebuoy",
+			"url": ""
+		},
+		{
+			"name": "Orange(s) for Christmas stocking",
+			"category": "other",
+			"icon": "IconFruit",
+			"url": ""
+		},
+		{
+			"name": "Flyaway footballs",
+			"category": "other",
+			"icon": "IconBall",
+			"url": ""
+		}
+	],
+	"categories": {
+		"priority": {
+			"title": "Priority Items",
+			"icon": "IconStar",
+			"color": "#FA5252"
+		},
+		"other": {
+			"title": "Other Items",
+			"icon": "IconGift",
+			"color": "#40C057"
+		}
+	},
+	"doNotBuy": [
+		"Clothes (except specified boots)",
+		"Coats",
+		"Wellies",
+		"Books",
+		"Media",
+		"Dummies",
+		"Duplo/Lego (have plenty)",
+		"Chocolate/sweets"
+	],
+	"notes": {
+		"checkFirst": "Please check with parents before purchasing to avoid duplicates"
+	}
 }
