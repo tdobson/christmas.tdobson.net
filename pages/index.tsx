@@ -36,7 +36,6 @@ export default function HomePage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>Welcome to Christmas 2024 Planning</Title>
       <Text>We're using this site to coordinate Christmas gifts and schedules.</Text>
 
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
