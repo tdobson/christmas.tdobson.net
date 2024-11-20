@@ -114,8 +114,8 @@
 		},
 		{
 			"name": "AI credits",
-			"shortDescription": "",
-			"longDescription": "",
+			"shortDescription": "Credits for Claude AI - which I use daily",
+			"longDescription": "I find myself finding Anthropic's Claude API extremely helpful and taking up some of my money. It helps me do things faster, better than ever before and I'm finding it extremely helpful. I sometimes spend about $2 per day on it, and it easily is delivering £10 of value to me each time. Money towards it would be warmly welcomed.",
 			"category": "tech",
 			"icon": "IconRobot",
 			"url": "https://www.anthropic.com/pricing#anthropic-api"
