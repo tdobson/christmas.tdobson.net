@@ -240,17 +240,19 @@ export function GiftList({ giftData }: GiftListProps) {
 							<Stack gap="xs">
 								<Text size="sm">{giftData.notes.bookNote}</Text>
 								{giftData.notes.wishlistUrl && (
-									<Button
-										component="a"
-										href={giftData.notes.wishlistUrl}
-										target="_blank"
-										rel="noopener noreferrer"
-										variant="light"
-										size="sm"
-										leftSection={<IconGift size="1rem" />}
-									>
-										View Amazon Wishlist
-									</Button>
+									<div style={{ display: 'inline-block' }}>
+										<Button
+											component="a"
+											href={giftData.notes.wishlistUrl}
+											target="_blank"
+											rel="noopener noreferrer"
+											variant="light"
+											size="sm"
+											leftSection={<IconGift size="1rem" />}
+										>
+											View Amazon Wishlist
+										</Button>
+									</div>
 								)}
 							</Stack>
 						</Alert>
