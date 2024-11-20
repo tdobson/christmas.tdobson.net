@@ -46,18 +46,18 @@ export default function HomePage() {
       color: "blue",
     },
     {
-      title: "Tim's List",
-      description: "Gift ideas for Tim",
-      href: "/tim-list",
-      icon: IconGift,
-      color: "green",
-    },
-    {
       title: "Jen's List",
       description: "Gift ideas for Jen",
       href: "/jen-list",
       icon: IconGift,
       color: "grape",
+
+    },    {
+      title: "Tim's List",
+      description: "Gift ideas for Tim",
+      href: "/tim-list",
+      icon: IconGift,
+      color: "green",
     },
     {
       title: "Schedule",

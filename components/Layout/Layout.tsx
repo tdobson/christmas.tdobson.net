@@ -19,8 +19,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const links = [
     { icon: IconHome, label: 'Home', href: '/', color: colors.home },
     { icon: IconGift, label: 'James List', href: '/james-list', color: colors.jamesList },
-    { icon: IconGift, label: 'Tim List', href: '/tim-list', color: colors.timList },
     { icon: IconGift, label: 'Jen List', href: '/jen-list', color: colors.jenList },
+    { icon: IconGift, label: 'Tim List', href: '/tim-list', color: colors.timList },
     { icon: IconCalendar, label: 'Schedule', href: '/schedule', color: colors.schedule },
   ];
 
