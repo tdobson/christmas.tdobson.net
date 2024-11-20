@@ -64,11 +64,15 @@ export default function HomePage() {
 
       <Card withBorder>
         <Stack gap="sm">
-          <Title order={2}>Q&A</Title>
+          <Title order={2}>Frequently Asked Questions</Title>
           <Stack gap="xs">
             <div>
               <Text fw={500}>What's your address?</Text>
               <Text size="sm">272 Strines Road, Marple, SK6 7GB</Text>
+            </div>
+            <div>
+              <Text fw={500}>What are you doing for New Year?</Text>
+              <Text size="sm">Going somewhere. Somewhere secret. Probably in the van. It's a secret because we don't even know yet.</Text>
             </div>
           </Stack>
         </Stack>
