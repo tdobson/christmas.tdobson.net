@@ -5,14 +5,14 @@
 			"shortDescription": "Because I love cheese",
 			"longDescription": "All gift of cheddar cheese is welcome. No cheddar is too strong. Much more of a fan of cheddar than, say, fancy french cheeses",
 			"category": "food",
-			"icon": "IconCheese",
+			"icon": "IconTools",
 			"url": "https://www.barbers.co.uk/collections/all"
 		},
 		{
 			"name": "Poang chair",
 			"shortDescription": "These are my favourite design of chairs. I love sitting in them.",
 			"longDescription": "I have one, and want more. Ideally for every floor in the house. I don't care about colour etc - second hand is great.",
-			"category": "highPriority",
+			"category": "home",
 			"icon": "IconArmchair",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=poang+chair&_sacat=0&_from=R40&_sop=15&_sadis=25&_stpos=SK67GB&_fspt=1&_blrs=recall_filtering&rt=nc&LH_All=1"
 		},
@@ -20,7 +20,7 @@
 			"name": "Moorland Grit guidebook",
 			"shortDescription": "A climbing guidebook that I won't use",
 			"longDescription": "I don't think I will climb anything in it, but it's a guidebook of esoteric underclimbed, pieces of rock round Glossop. Rock probably best looked at rather than climbed, which is what makes the guidebook likely more fun than climbing them.",
-			"category": "highPriority",
+			"category": "outdoor",
 			"icon": "IconMap",
 			"url": "https://www.amazon.co.uk/Moorland-Grit-bouldering-North-West-District/dp/1909461571"
 		},
@@ -28,32 +28,32 @@
 			"name": "Chainsaw cutting course",
 			"shortDescription": "Because I'd like to learn to chop wood effectively",
 			"longDescription": "But I'd also like to keep all my fingers, and most of my face, so probs ideal to do it safeishly.",
-			"category": "highPriority",
-			"icon": "IconCertificate",
+			"category": "education",
+			"icon": "IconTools",
 			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5"
 		},
 		{
 			"name": "Stick (MMA) welding course",
 			"shortDescription": "Because I've never tried welding",
 			"longDescription": "It could be fun to know how to stick bits of metal together. It might become - to some degree - like learning to \"paint\" in metal.",
-			"category": "highPriority",
-			"icon": "IconCertificate",
+			"category": "education",
+			"icon": "IconTools",
 			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5"
 		},
 		{
 			"name": "170W ThinkPad Chargers",
 			"shortDescription": "Must be 170W - less powerful chargers won't work on my laptop",
 			"longDescription": "Rectangle-ended tip suitable for P50/P52 etc - second hand recommended. The link has many suitable ones that would all work.",
-			"category": "highPriority",
-			"icon": "IconPlug",
+			"category": "tech",
+			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct"
 		},
 		{
 			"name": "Wetsuit",
 			"shortDescription": "Large size - 3mm or 5mm",
 			"longDescription": "My wetsuit is about 25 years old, and is somewhat held together with prayers and luck. The one link is suggested - but any full arm, and full leg - Large size - wetsuit would be welcome. Preloved is encouraged.",
-			"category": "highPriority",
-			"icon": "IconSwimming",
+			"category": "outdoor",
+			"icon": "IconMountain",
 			"url": "https://www.decathlon.co.uk/p/mp/lomo/lomo-octane-5mm-wetsuit/_/R-p-c2b5a9fd-2820-4883-a9a4-593f4f2c4691?mc=c2b5a9fd-2820-4883-a9a4-593f4f2c4691_c251c251&c=grey"
 		},
 		{
@@ -61,7 +61,7 @@
 			"shortDescription": "I need about 6 more",
 			"longDescription": "Second hand/preloved welcome!",
 			"category": "tech",
-			"icon": "IconUsb",
+			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=USB-C+to+USB-A+cables&_sacat=0&_from=R40&rt=nc&_udhi=6"
 		},
 		{
@@ -69,7 +69,7 @@
 			"shortDescription": "I'd like to be able to hold more photos in my laptop",
 			"longDescription": "I have a 2TB HDD, and a 4TB disk would let me do more work and hold more photos of James! The one linked will fit my laptop.",
 			"category": "tech",
-			"icon": "IconDeviceFloppy",
+			"icon": "IconDevices",
 			"url": "https://www.ebuyer.com/2264757-crucial-bx500-4tb-2-5-inch-internal-ssd-ct4000bx500ssd1"
 		},
 		{
@@ -77,7 +77,7 @@
 			"shortDescription": "I can never have enough 3.5mm headphones with microphones.",
 			"longDescription": "Please not bluetooth ones. The ones linked are my favourite model, but all headphones gratefully recieved.",
 			"category": "tech",
-			"icon": "IconHeadphones",
+			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/itm/195579022728"
 		},
 		{
@@ -85,7 +85,7 @@
 			"longDescription": "I lost the 3m tape from my kayaking rescue kit",
 			"shortDescription": "3m of this tubular webbing from this climbing shop would be a great replacement.",
 			"category": "outdoor",
-			"icon": "IconLine",
+			"icon": "IconMountain",
 			"url": "https://www.dicksclimbing.com/products/beal-tubular-webbing-tape-26mm-per-metre"
 		},
 		{
@@ -93,7 +93,7 @@
 			"shortDescription": "I lost the kayaking-spec carabinerfrom my kayaking rescue kit",
 			"longDescription": "I used to use DMM Boa carabiners, but they broke repeatedly, and DMM told me they didn't like water. This is a water-friendly version of the DMM Boa carabiner, and is ideal for kayaking.",
 			"category": "outdoor",
-			"icon": "IconLink",
+			"icon": "IconMountain",
 			"url": "https://www.whetmanequipment.com/store/p22/hms_screwgate_karabiner.html#/"
 		},
 		{
@@ -116,8 +116,8 @@
 			"name": "AI credits",
 			"shortDescription": "",
 			"longDescription": "",
-			"category": "books",
-			"icon": "IconBook",
+			"category": "tech",
+			"icon": "IconRobot",
 			"url": "https://www.anthropic.com/pricing#anthropic-api"
 		},
 		{
@@ -139,7 +139,7 @@
 			"shortDescription": "We have a small stove ",
 			"longDescription": "As much as I'd love some massive pieces of tree, without a chainsaw and appropriate knowledge, any firewood would be best in stove size portions.",
 			"category": "support",
-			"icon": "IconHeart",
+			"icon": "IconTools",
 			"url": "https://pearsonfuels.co.uk/product-category/local-shop/kiln-dried-logs/"
 		},
 		{
@@ -155,18 +155,18 @@
 			"shortDescription": "For pumping up flat tires",
 			"longDescription": "I thought I had one, but I seem to have lost it. Preloved or reloved or whatever is welcome. Should work on 12v.",
 			"category": "tech",
-			"icon": "IconSteeringWheel",
+			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Air+Compressor+Tyre+Pump+12v&_from=R40&_sop=15&_fspt=1&rt=nc&LH_ItemCondition=4%7C3"
 		}
 	],
 	"categories": {
 		"food": {
 			"title": "Food & Drink",
-			"icon": "IconCookie",
+			"icon": "IconTools",
 			"color": "#FD7E14"
 		},
 		"home": {
-			"title": "Home & Furniture",
+			"title": "Home & Furniture", 
 			"icon": "IconHome",
 			"color": "#40C057"
 		},
@@ -177,7 +177,7 @@
 		},
 		"education": {
 			"title": "Courses & Learning",
-			"icon": "IconSchool",
+			"icon": "IconBook",
 			"color": "#7048E8"
 		},
 		"tech": {
@@ -189,6 +189,11 @@
 			"title": "Time & Support",
 			"icon": "IconHeart",
 			"color": "#E64980"
+		},
+		"books": {
+			"title": "Books & Reading",
+			"icon": "IconBook",
+			"color": "#7048E8"
 		}
 	},
 	"notes": {
