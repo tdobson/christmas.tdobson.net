@@ -1,8 +1,23 @@
-import { Title, Text, Stack, Card, Paper, Group, SimpleGrid } from '@mantine/core';
+import { Title, Text, Stack, Card, Paper, Group, SimpleGrid, Accordion } from '@mantine/core';
 import { IconGift, IconCalendar } from '@tabler/icons-react';
 import Link from 'next/link';
+import faqData from '../config/faq.json';
 
 export default function HomePage() {
+  const renderAnswer = (question: typeof faqData.questions[0]) => {
+    if ('answers' in question) {
+      return (
+        <Stack gap={4}>
+          {question.answers.map((answer) => (
+            <Text size="sm" key={answer.person}>
+              <strong>{answer.person}:</strong> {answer.requirements}
+            </Text>
+          ))}
+        </Stack>
+      );
+    }
+    return <Text size="sm">{question.answer}</Text>;
+  };
   const navigationItems = [
     {
       title: "James's List",
@@ -64,32 +79,18 @@ export default function HomePage() {
       <Card withBorder>
         <Stack gap="sm">
           <Title order={2}>Q&A</Title>
-          <Stack gap="xs">
-            <div>
-              <Text fw={500}>What's your address?</Text>
-              <Text size="sm">272 Strines Road, Marple, SK6 7GB</Text>
-            </div>
-            <div>
-              <Text fw={500}>What are you doing for New Year?</Text>
-              <Text size="sm">Going somewhere. Somewhere secret. Probably in the van. It's a secret because we don't even know yet.</Text>
-            </div>
-            <div>
-              <Text fw={500}>What are your dietary requirements?</Text>
-              <Stack gap={4}>
-                <Text size="sm"><strong>Jen:</strong> Coeliac - strictly no gluten/wheat/barley (even traces). Eats all meat and fish. Not a fan of sprouts.</Text>
-                <Text size="sm"><strong>Tim:</strong> Vegetarian, eats most things but not keen on meat substitutes.</Text>
-                <Text size="sm"><strong>James:</strong> Eats everything including gluten/wheat. Particularly loves clementines, satsumas, halloumi cheese and pasta.</Text>
-              </Stack>
-            </div>
-            <div>
-              <Text fw={500}>What are you likely to want to drink?</Text>
-              <Stack gap={4}>
-                <Text size="sm"><strong>Tim:</strong> Alcohol-free beer, particularly the blue-label ones from Aldi/Lidl (Perlenbacher or similar) as he'll likely be on driving duty</Text>
-                <Text size="sm"><strong>Jen:</strong> G&T, wine, port, etc.</Text>
-                <Text size="sm"><strong>James:</strong> Strictly water or cow's milk only</Text>
-              </Stack>
-            </div>
-          </Stack>
+          <Accordion>
+            {faqData.questions.map((question, index) => (
+              <Accordion.Item key={index} value={`question-${index}`}>
+                <Accordion.Control>
+                  <Text fw={500}>{question.question}</Text>
+                </Accordion.Control>
+                <Accordion.Panel>
+                  {renderAnswer(question)}
+                </Accordion.Panel>
+              </Accordion.Item>
+            ))}
+          </Accordion>
         </Stack>
       </Card>
 

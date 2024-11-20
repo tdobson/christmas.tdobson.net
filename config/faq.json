@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "question": "What's your address?",
+      "answer": "272 Strines Road, Marple, SK6 7GB"
+    },
+    {
+      "question": "What are you doing for New Year?",
+      "answer": "Going somewhere. Somewhere secret. Probably in the van. It's a secret because we don't even know yet."
+    },
+    {
+      "question": "What are your dietary requirements?",
+      "answers": [
+        {
+          "person": "Jen",
+          "requirements": "Coeliac - strictly no gluten/wheat/barley (even traces). Eats all meat and fish. Not a fan of sprouts."
+        },
+        {
+          "person": "Tim",
+          "requirements": "Vegetarian, eats most things but not keen on meat substitutes."
+        },
+        {
+          "person": "James",
+          "requirements": "Eats everything including gluten/wheat. Particularly loves clementines, satsumas, halloumi cheese and pasta."
+        }
+      ]
+    },
+    {
+      "question": "What are you likely to want to drink?",
+      "answers": [
+        {
+          "person": "Tim",
+          "requirements": "Alcohol-free beer, particularly the blue-label ones from Aldi/Lidl (Perlenbacher or similar) as he'll likely be on driving duty"
+        },
+        {
+          "person": "Jen",
+          "requirements": "G&T, wine, port, etc."
+        },
+        {
+          "person": "James",
+          "requirements": "Strictly water or cow's milk only"
+        }
+      ]
+    }
+  ]
+}
