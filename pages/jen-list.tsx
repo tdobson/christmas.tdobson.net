@@ -8,7 +8,7 @@ import {
   IconUsers,
   IconDevices,
   IconJacket,
-  IconDeviceTV,
+  IconDeviceTv,
   IconPlug,
   IconPlant,
   IconUsb
@@ -22,7 +22,7 @@ interface GiftData {
 }
 
 type IconName = 'IconStar' | 'IconHeartHandshake' | 'IconHome' | 'IconUsers' | 
-  'IconDevices' | 'IconJacket' | 'IconDeviceTV' | 'IconPlug' | 'IconPlant' | 'IconUsb';
+  'IconDevices' | 'IconJacket' | 'IconDeviceTv' | 'IconPlug' | 'IconPlant' | 'IconUsb';
 
 interface GiftItem {
   name: string;
