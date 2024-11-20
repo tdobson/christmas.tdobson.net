@@ -31,6 +31,22 @@
 			"category": "support",
 			"icon": "IconUsers",
 			"url": ""
+		},
+		{
+			"name": "9-inch silicone square baking tray",
+			"shortDescription": "For making brownies",
+			"longDescription": "To replace worn out brownie pan - silicone preferred for easy release",
+			"category": "home",
+			"icon": "IconHome",
+			"url": "https://www.amazon.co.uk/s?k=9+inch+silicone+square+baking+pan&crid=2NRXN8YBZW8OY&sprefix=9+inch+silicone+square+baking+pan%2Caps%2C142&ref=nb_sb_noss"
+		},
+		{
+			"name": "Non-stick roasting tins",
+			"shortDescription": "For making wonderful roasted things", 
+			"longDescription": "Looking for good quality, non-stick roasting tins to replace tired ones. Various sizes welcome.",
+			"category": "home",
+			"icon": "IconHome",
+			"url": "https://www.amazon.co.uk/s?k=non+stick+roasting+tin&crid=2PQGW8Y7X8J4Q&sprefix=non+stick+roasting+tin%2Caps%2C149&ref=nb_sb_noss_1"
 		}
 	],
 	"categories": {
