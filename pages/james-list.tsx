@@ -11,7 +11,7 @@ import {
   IconMath,
   IconDeviceSpeaker,
   IconShoe,
-  IconHook,
+  IconAnchor,
   IconLifebuoy,
   IconApple,
   IconBallFootball,
@@ -31,7 +31,7 @@ interface GiftData {
 }
 
 type IconName = 'IconStar' | 'IconGift' | 'IconBike' | 'IconSquare' | 'IconScissors' | 
-  'IconPhoto' | 'IconMath' | 'IconDeviceSpeaker' | 'IconShoe' | 'IconHook' | 
+  'IconPhoto' | 'IconMath' | 'IconDeviceSpeaker' | 'IconShoe' | 'IconAnchor' | 
   'IconLifebuoy' | 'IconApple' | 'IconBallFootball';
 
 interface GiftItem {
@@ -63,7 +63,7 @@ const iconComponents = {
   IconMath,
   IconDeviceSpeaker,
   IconShoe,
-  IconHook,
+  IconAnchor,
   IconLifebuoy,
   IconApple,
   IconBallFootball
