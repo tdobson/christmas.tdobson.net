@@ -4,7 +4,7 @@
 			"name": "Baby wearing coat",
 			"shortDescription": "So I can stay warm and dry (ish) whilst James is on my back",
 			"longDescription": "I've already purchased it for £85 so contributions are welcome",
-			"category": "highPriority",
+			"category": "clothing",
 			"icon": "IconJacket",
 			"url": ""
 		},
@@ -34,10 +34,10 @@
 		}
 	],
 	"categories": {
-		"highPriority": {
-			"title": "Priority Items",
-			"icon": "IconStar",
-			"color": "#FFD700"
+		"clothing": {
+			"title": "Clothing & Accessories",
+			"icon": "IconJacket",
+			"color": "#BE4BDB"
 		},
 		"wellbeing": {
 			"title": "Health & Wellbeing",
@@ -54,10 +54,5 @@
 			"icon": "IconUsers",
 			"color": "#7048E8"
 		},
-		"tech": {
-			"title": "Tech & Accessories",
-			"icon": "IconDevices",
-			"color": "#228BE6"
-		}
 	}
 }
