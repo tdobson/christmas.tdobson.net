@@ -1,5 +1,4 @@
 import React from 'react';
-import { Box } from '@mantine/core';
 import { Title } from '@mantine/core';
 import { Stack } from '@mantine/core';
 import { Card } from '@mantine/core';
@@ -97,7 +96,7 @@ export default function TimListPage() {
   }, {} as Record<string, GiftItem[]>);
 
   return (
-    <Box>
+    <>
       <Stack gap="md">
         <Title order={1}>Tim's Gift List</Title>
 
@@ -166,6 +165,6 @@ export default function TimListPage() {
         </Stack>
       </Card>
       </Stack>
-    </Box>
+    </>
   );
 }
