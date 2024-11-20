@@ -4,17 +4,7 @@ import { GiftGuidelines } from '../components/GiftGuidelines';
 import {
   IconStar,
   IconGift,
-  IconBike,
-  IconSquare,
-  IconScissors,
-  IconPhoto,
-  IconMath,
-  IconDeviceSpeaker,
-  IconShoe,
-  IconAnchor,
-  IconLifebuoy,
-  IconApple,
-  IconBallFootball,
+  IconDeviceTv,
   IconAlertCircle,
   IconBan
 } from '@tabler/icons-react';
@@ -30,9 +20,7 @@ interface GiftData {
   };
 }
 
-type IconName = 'IconStar' | 'IconGift' | 'IconBike' | 'IconSquare' | 'IconScissors' | 
-  'IconPhoto' | 'IconMath' | 'IconDeviceSpeaker' | 'IconShoe' | 'IconAnchor' | 
-  'IconLifebuoy' | 'IconApple' | 'IconBallFootball';
+type IconName = 'IconStar' | 'IconGift' | 'IconDeviceTv';
 
 interface GiftItem {
   name: string;
@@ -56,17 +44,7 @@ const giftData = giftDataImport as GiftData;
 const iconComponents = {
   IconStar,
   IconGift,
-  IconBike,
-  IconSquare,
-  IconScissors,
-  IconPhoto,
-  IconMath,
-  IconDeviceSpeaker,
-  IconShoe,
-  IconAnchor,
-  IconLifebuoy,
-  IconApple,
-  IconBallFootball
+  IconDeviceTv
 };
 
 export default function JamesListPage() {
