@@ -1,148 +1,148 @@
 {
-  "items": [
-    {
-      "name": "Teeny weenie balance bike",
-      "shortDescription": "Smallest available size - for height 65-75cm",
-      "longDescription": "James is 1 and a half around Christmas - and it'd be good if it was a size he could use immediately or in the next month or two. ",
-      "category": "active",
-      "icon": "IconSteeringWheel",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=balance+bike+small&_sacat=0&_from=R40&LH_ItemCondition=4&LH_BIN=1&LH_PrefLoc=1&rt=nc&Bike%2520Type=Balance%2520Bike&_dcat=177831"
-    },
-    {
-      "name": "Thicker foam/rubber play mat",
-      "shortDescription": "For safety under climbing areas",
-      "longDescription": "James has some cool indoor climbing frames. We want him to bounce a bit when the inevitable misshaps happen.",
-      "category": "safety",
-      "icon": "IconHome",
-      "url": "https://www.ebay.co.uk/itm/285545416815"
-    },
-    {
-      "name": "Kids food preparation knives",
-      "shortDescription": "So James can help",
-      "longDescription": "Really we want James to do all the cooking from the age of 2, so he needs to start now",
-      "category": "learning",
-      "icon": "IconTools",
-      "url": "https://amzn.eu/d/j7V4cXb"
-    },
-    {
-      "name": "BT6000 Video Baby Monitor",
-      "shortDescription": "James would like this so his parents are extra good at checking on him.",
-      "longDescription": "Ideally we'd get several monitors with monitor-chargers, so we can monitor him from different parts of the house.",
-      "category": "tech",
-      "icon": "IconDeviceTv",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor"
-    },
-    {
-      "name": "Animal photo posters for his room",
-      "shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
-      "longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older, and no abstract illustrations. Unsubtle is good.",
-      "category": "decor",
-      "icon": "IconPhoto",
-      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=dog+photo+poster"
-    },
-    {
-      "name": "Number floor tiles/mats",
-      "shortDescription": "We want to start recognising number shapes soon",
-      "longDescription": "We have lots of alphabet things - and are keen for some number ones.",
-      "category": "learning",
-      "icon": "IconBook",
-      "url": "https://www.ebay.co.uk/itm/256715646512"
-    },
-    {
-      "name": "Warm boots (Size 4-4.5)",
-      "shortDescription": "So he has warm feet this winter.",
-      "longDescription": "He's size Size 4-4.5. We're looking for cosy warm boots - not wellies, but cosy bootlets for chilly toes.",
-      "category": "clothing",
-      "icon": "IconJacket",
-      "url": "https://www.vinted.co.uk/items/5413463155-baby-bogs"
-    },
-    {
-      "name": "Edelrid Fraggle XXS Climbing harness",
-      "shortDescription": "XXS size please",
-      "longDescription": "It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
-      "category": "outdoor",
-      "icon": "IconMountain",
-      "url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/"
-    },
-    {
-      "name": "Small buoyancy aid for swimming",
-      "shortDescription": "Smallest size if possible",
-      "longDescription": "It's entirely possible that James use this for a while, but he'd like it so he can one day go near water and on boats.",
-      "category": "outdoor",
-      "icon": "IconSwimming",
-      "url": "https://www.watersportswarehouse.co.uk/products/gul-dartmouth-100n-lifejacket"
-    },
-    {
-      "name": "Oranges",
-      "shortDescription": "For stockings or generally",
-      "longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
-      "category": "food",
-      "icon": "IconMoodSmile",
-      "url": "https://en.wikipedia.org/wiki/Mandarin_orange"
-    },
-    {
-      "name": "Flyaway footballs",
-      "shortDescription": "James likes balls!",
-      "longDescription": "Balls of all sizes likely be enthusiastically hugged, and potentially attempts will be made to eat them.",
-      "category": "active",
-      "icon": "IconBabyCarriage",
-      "url": "https://www.ebay.co.uk/itm/116245063355"
-    }
-  ],
-  "categories": {
-    "active": {
-      "title": "Active Play",
-      "icon": "IconSteeringWheel", 
-      "color": "#228BE6"
-    },
-    "safety": {
-      "title": "Safety & Protection",
-      "icon": "IconHome",
-      "color": "#FA5252"
-    },
-    "learning": {
-      "title": "Learning & Development",
-      "icon": "IconBook",
-      "color": "#7048E8"
-    },
-    "tech": {
-      "title": "Technology",
-      "icon": "IconDeviceTv",
-      "color": "#1C7ED6"
-    },
-    "decor": {
-      "title": "Room Decoration",
-      "icon": "IconPhoto",
-      "color": "#40C057"
-    },
-    "clothing": {
-      "title": "Clothing & Footwear",
-      "icon": "IconJacket",
-      "color": "#BE4BDB"
-    },
-    "outdoor": {
-      "title": "Outdoor Adventure",
-      "icon": "IconMountain",
-      "color": "#228BE6"
-    },
-    "food": {
-      "title": "Food & Snacks",
-      "icon": "IconMoodSmile",
-      "color": "#FD7E14"
-    }
-  },
-  "doNotBuy": [
-    "Clothes (except specified boots)",
-    "Coats",
-    "Wellies", 
-    "Books",
-    "Videos/Media",
-    "Dummies",
-    "Duplo/Lego (have plenty)",
-    "Chocolate or sweets",
-    "Toy drums"
-  ],
-  "notes": {
-    "checkFirst": "Feel free to check with Tim and Jen if you have questions."
-  }
+	"items": [
+		{
+			"name": "Teeny weenie balance bike",
+			"shortDescription": "Smallest available size - for height 65-75cm",
+			"longDescription": "James is 1 and a half around Christmas - and it'd be good if it was a size he could use immediately or in the next month or two. ",
+			"category": "active",
+			"icon": "IconSteeringWheel",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=balance+bike+small&_sacat=0&_from=R40&LH_ItemCondition=4&LH_BIN=1&LH_PrefLoc=1&rt=nc&Bike%2520Type=Balance%2520Bike&_dcat=177831"
+		},
+		{
+			"name": "Thicker foam/rubber play mat",
+			"shortDescription": "For safety under climbing areas",
+			"longDescription": "James has some cool indoor climbing frames. We want him to bounce a bit when the inevitable misshaps happen.",
+			"category": "safety",
+			"icon": "IconHome",
+			"url": "https://www.ebay.co.uk/itm/285545416815"
+		},
+		{
+			"name": "Kids food preparation knives",
+			"shortDescription": "So James can help",
+			"longDescription": "Really we want James to do all the cooking from the age of 2, so he needs to start now",
+			"category": "learning",
+			"icon": "IconTools",
+			"url": "https://amzn.eu/d/j7V4cXb"
+		},
+		{
+			"name": "BT6000 Video Baby Monitor",
+			"shortDescription": "James would like this so his parents are extra good at checking on him.",
+			"longDescription": "Ideally we'd get several monitors with monitor-chargers, so we can monitor him from different parts of the house.",
+			"category": "tech",
+			"icon": "IconDeviceTv",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor"
+		},
+		{
+			"name": "Animal photo posters for his room",
+			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
+			"longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older, and no abstract illustrations. Unsubtle is good.",
+			"category": "decor",
+			"icon": "IconPhoto",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=dog+photo+poster"
+		},
+		{
+			"name": "Number floor tiles/mats",
+			"shortDescription": "We want to start recognising number shapes soon",
+			"longDescription": "We have lots of alphabet things - and are keen for some number ones.",
+			"category": "learning",
+			"icon": "IconBook",
+			"url": "https://www.ebay.co.uk/itm/256715646512"
+		},
+		{
+			"name": "Warm boots (Size 4-4.5)",
+			"shortDescription": "So he has warm feet this winter.",
+			"longDescription": "He's size Size 4-4.5. We're looking for cosy warm boots - not wellies, but cosy bootlets for chilly toes.",
+			"category": "clothing",
+			"icon": "IconJacket",
+			"url": "https://www.vinted.co.uk/items/5413463155-baby-bogs"
+		},
+		{
+			"name": "Edelrid Fraggle XXS Climbing harness",
+			"shortDescription": "XXS size please",
+			"longDescription": "It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
+			"category": "outdoor",
+			"icon": "IconMountain",
+			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/"
+		},
+		{
+			"name": "Small buoyancy aid for swimming",
+			"shortDescription": "Smallest size if possible",
+			"longDescription": "It's entirely possible that James use this for a while, but he'd like it so he can one day go near water and on boats.",
+			"category": "outdoor",
+			"icon": "IconSwimming",
+			"url": "https://www.watersportswarehouse.co.uk/products/gul-dartmouth-100n-lifejacket"
+		},
+		{
+			"name": "Oranges",
+			"shortDescription": "For stockings or generally",
+			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
+			"category": "food",
+			"icon": "IconMoodSmile",
+			"url": "https://en.wikipedia.org/wiki/Mandarin_orange"
+		},
+		{
+			"name": "Flyaway footballs",
+			"shortDescription": "James likes balls!",
+			"longDescription": "Balls of all sizes likely be enthusiastically hugged, and potentially attempts will be made to eat them.",
+			"category": "active",
+			"icon": "IconBabyCarriage",
+			"url": "https://www.ebay.co.uk/itm/116245063355"
+		}
+	],
+	"categories": {
+		"active": {
+			"title": "Active Play",
+			"icon": "IconSteeringWheel",
+			"color": "#228BE6"
+		},
+		"safety": {
+			"title": "Safety & Protection",
+			"icon": "IconHome",
+			"color": "#FA5252"
+		},
+		"learning": {
+			"title": "Learning & Development",
+			"icon": "IconBook",
+			"color": "#7048E8"
+		},
+		"tech": {
+			"title": "Technology",
+			"icon": "IconDeviceTv",
+			"color": "#1C7ED6"
+		},
+		"decor": {
+			"title": "Room Decoration",
+			"icon": "IconPhoto",
+			"color": "#40C057"
+		},
+		"clothing": {
+			"title": "Clothing & Footwear",
+			"icon": "IconJacket",
+			"color": "#BE4BDB"
+		},
+		"outdoor": {
+			"title": "Outdoor Adventure",
+			"icon": "IconMountain",
+			"color": "#228BE6"
+		},
+		"food": {
+			"title": "Food & Snacks",
+			"icon": "IconMoodSmile",
+			"color": "#FD7E14"
+		}
+	},
+	"doNotBuy": [
+		"Clothes (except specified boots)",
+		"Coats",
+		"Wellies",
+		"Books",
+		"Videos/Media",
+		"Dummies",
+		"Duplo/Lego (have plenty)",
+		"Chocolate or sweets",
+		"Toy drums"
+	],
+	"notes": {
+		"checkFirst": "Feel free to check with Tim and Jen if you have questions."
+	}
 }
