@@ -97,7 +97,7 @@ export default function TimListPage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>Tim's Gift List</Title>
+      <Title order={1}>Tim's Gift Ideas 🎁</Title>
 
       <GiftGuidelines />
 

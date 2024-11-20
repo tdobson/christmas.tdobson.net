@@ -68,7 +68,7 @@ export default function JenListPage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>Jen's Gift List</Title>
+      <Title order={1}>Jen's Gift Ideas 🎁</Title>
 
       <GiftGuidelines />
 

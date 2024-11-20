@@ -59,7 +59,7 @@ export default function JamesListPage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>James's Gift List</Title>
+      <Title order={1}>James's Gift Ideas 🎁</Title>
 
       <Alert
         icon={<IconAlertCircle size="1rem" />}
