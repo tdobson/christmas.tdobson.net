@@ -1,5 +1,5 @@
 import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
-import { IconCalendar, IconUsers, IconMusic, IconStar, IconBell } from '@tabler/icons-react';
+import { IconCalendar, IconUsers, IconMusic, IconStar, IconBell, IconTree } from '@tabler/icons-react';
 
 export default function SchedulePage() {
   // Add color constants for consistency
@@ -12,7 +12,9 @@ export default function SchedulePage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>Christmas 2024 Schedule</Title>
+      <Title order={1}>
+        <IconTree color="green" style={{ marginRight: '0.5rem' }} /> Schedule
+      </Title>
 
       <Card withBorder>
         <Timeline active={-1} bulletSize={32} color="blue">
