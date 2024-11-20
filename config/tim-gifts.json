@@ -5,21 +5,21 @@
 			"shortDescription": "For working in",
 			"longDescription": "Second hand is great",
 			"category": "highPriority",
-			"icon": "IconStar",
+			"icon": "IconChair",
 			"url": "https://www.ikea.com/gb/en/cat/poang-series-07472/"
 		},
 		{
 			"name": "Moorland Grit guidebook",
 			"shortDescription": "North-West Peak District",
 			"category": "highPriority",
-			"icon": "IconStar",
+			"icon": "IconMap",
 			"url": "https://www.bmcshop.co.uk/products/moorland-grit"
 		},
 		{
 			"name": "Chainsaw cutting course",
 			"shortDescription": "Qualifications needed",
 			"category": "highPriority",
-			"icon": "IconStar",
+			"icon": "IconCertificate",
 			"url": ""
 		},
 		{

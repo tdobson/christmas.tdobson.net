@@ -15,7 +15,7 @@ interface GiftData {
   categories: Record<string, Category>;
   items: GiftItem[];
 }
-type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook';
+type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconChair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconHardDrive' | 'IconHeadphones' | 'IconRope' | 'IconCarabiner' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconTire';
 
 interface GiftItem {
   name: string;
@@ -42,6 +42,24 @@ const iconComponents = {
   IconHeart,
   IconMountain,
   IconBook,
+  IconChair,
+  IconMap,
+  IconCertificate,
+  IconPlug,
+  IconSwimming,
+  IconUsb,
+  IconHardDrive,
+  IconHeadphones,
+  IconRope,
+  IconCarabiner,
+  IconJacket,
+  IconBook2,
+  IconRobot,
+  IconBabyCarriage,
+  IconPhoto,
+  IconWood,
+  IconMoodSmile,
+  IconTire,
 };
 
 export default function TimListPage() {
