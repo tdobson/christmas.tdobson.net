@@ -131,7 +131,7 @@
 		{
 			"name": "Sentimental items",
 			"shortDescription": "Photos or mementos of times we've shared together",
-			"longDescription": "I'd love photos of us doing things together, or items that help us remember shared experiences. Could be recent or from years ago - anything that captures our connection and shared memories. Digital photos welcome too!",
+			"longDescription": "I'd love photos of us doing things together, or items that help us remember shared experiences. Could be recent or from years ago - anything that might remind me of shared memories.",
 			"category": "support",
 			"icon": "IconHeart",
 			"url": ""
@@ -146,8 +146,8 @@
 		},
 		{
 			"name": "A stress-free Christmas",
-			"shortDescription": "",
-			"longDescription": "This is the dream",
+			"shortDescription": "Would be dreamy",
+			"longDescription": "We all can try",
 			"category": "support",
 			"icon": "IconHeart",
 			"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
