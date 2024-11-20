@@ -240,7 +240,7 @@ export function GiftList({ giftData }: GiftListProps) {
 							<Stack gap="xs">
 								<Text size="sm">{giftData.notes.bookNote}</Text>
 								{giftData.notes.wishlistUrl && (
-									<div style={{ display: 'inline-block' }}>
+									<div style={{ display: "inline-block" }}>
 										<Button
 											component="a"
 											href={giftData.notes.wishlistUrl}
