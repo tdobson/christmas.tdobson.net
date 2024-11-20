@@ -11,11 +11,10 @@ export function GiftGuidelines() {
 		>
 			<List>
 				<List.Item>
-					Please don't feel any obligation to give gifts - your presence in our
-					lives is the real gift!
+					Please don't feel any obligation to give gifts - your presence is valued above presents.
 				</List.Item>
 				<List.Item>
-					This list is merely a helpful guide - we'd love to be surprised with
+					This list is intended as a helpful guide - we'd love to be surprised with
 					unexpected and thoughtful gifts we couldn't have imagined
 				</List.Item>
 				<List.Item>Second-hand items are welcomed and encouraged</List.Item>

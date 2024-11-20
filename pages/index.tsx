@@ -64,7 +64,7 @@ export default function HomePage() {
 
       <Card withBorder>
         <Stack gap="sm">
-          <Title order={2}>Frequently Asked Questions</Title>
+          <Title order={2}>Q&A</Title>
           <Stack gap="xs">
             <div>
               <Text fw={500}>What's your address?</Text>
