@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "Money towards massages",
-			"shortDescription": "",
+			"shortDescription": "So I can go for a massage",
 			"longDescription": "",
 			"category": "wellbeing",
 			"icon": "IconHeartHandshake",
@@ -18,11 +18,11 @@
 		},
 		{
 			"name": "House plant pots",
-			"shortDescription": "",
-			"longDescription": "",
+			"shortDescription": "So I can put plants I already have, in pots in the house",
+			"longDescription": "I already have some pleasing plants, and one things preventing me from displaying them in my home is lack of plant pots. Perhaps you can help?",
 			"category": "home",
 			"icon": "IconPlant",
-			"url": ""
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=House+plant+pots&_sacat=0&_from=R40&_trksid=p4432023.m570.l1313"
 		},
 		{
 			"name": "Time with helpers for sorting/organizing",
