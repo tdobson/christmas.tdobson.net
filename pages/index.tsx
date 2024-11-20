@@ -3,8 +3,27 @@ import { IconGift, IconCalendar } from '@tabler/icons-react';
 import Link from 'next/link';
 import faqData from '../config/faq.json';
 
+interface Answer {
+  person: string;
+  requirements: string;
+}
+
+interface BaseQuestion {
+  question: string;
+}
+
+interface SimpleQuestion extends BaseQuestion {
+  answer: string;
+}
+
+interface ComplexQuestion extends BaseQuestion {
+  answers: Answer[];
+}
+
+type Question = SimpleQuestion | ComplexQuestion;
+
 export default function HomePage() {
-  const renderAnswer = (question: typeof faqData.questions[0]) => {
+  const renderAnswer = (question: Question) => {
     if ('answers' in question) {
       return (
         <Stack gap={4}>
