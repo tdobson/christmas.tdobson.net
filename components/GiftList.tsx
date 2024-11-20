@@ -107,7 +107,7 @@ const iconComponents = {
 	IconDevices,
 	IconHeartHandshake,
 	IconHome,
-	IconKnife,
+	IconTools,
 };
 
 interface GiftListProps {
