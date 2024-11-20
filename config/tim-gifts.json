@@ -122,14 +122,16 @@
 		},
 		{
 			"name": "Babysitting",
-			"shortDescription": "Even 30 minutes is appreciated",
+			"shortDescription": "Time to help look after James - even 30 minutes makes a difference",
+			"longDescription": "Having someone watch James, even for a short while, gives us a chance to do essential tasks or have a brief rest. This gift of time is incredibly valuable to us. No special skills needed - just patience and enthusiasm!",
 			"category": "support",
 			"icon": "IconHeart",
 			"url": ""
 		},
 		{
 			"name": "Sentimental items",
-			"shortDescription": "Photos or personal memories",
+			"shortDescription": "Photos or mementos of times we've shared together",
+			"longDescription": "I'd love photos of us doing things together, or items that help us remember shared experiences. Could be recent or from years ago - anything that captures our connection and shared memories. Digital photos welcome too!",
 			"category": "support",
 			"icon": "IconHeart",
 			"url": ""
