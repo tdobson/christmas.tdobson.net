@@ -15,9 +15,9 @@ export default function SchedulePage() {
       <Title order={1}>Christmas 2024 Schedule</Title>
 
       <Card withBorder>
-        <Timeline active={-1} bulletSize={24} color="blue">
+        <Timeline active={-1} bulletSize={32} color="blue">
           <Timeline.Item 
-            bullet={<IconCalendar size={12} color={colors.calendar} />} 
+            bullet={<IconCalendar size={16} color={colors.calendar} />} 
             title="December 21"
           >
             <Text size="sm">Potential visit window for Tim's family</Text>
@@ -38,7 +38,7 @@ export default function SchedulePage() {
           </Timeline.Item>
 
           <Timeline.Item 
-            bullet={<IconMusic size={12} color={colors.music} />} 
+            bullet={<IconMusic size={16} color={colors.music} />} 
             title="December 24 Evening"
           >
             <Text size="sm">Carols event in Old Glossop</Text>
@@ -46,7 +46,7 @@ export default function SchedulePage() {
           </Timeline.Item>
 
           <Timeline.Item 
-            bullet={<IconUsers size={12} color={colors.users} />} 
+            bullet={<IconUsers size={16} color={colors.users} />} 
             title="December 25"
           >
             <Text size="sm">Christmas Day with Jen's parents</Text>
