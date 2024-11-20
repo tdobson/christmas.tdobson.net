@@ -17,8 +17,8 @@
 			"url": "https://www.ebay.co.uk/itm/285545416815?_skw=Thicker+foam%2Frubber+play+mat+climbing&itmmeta=01JD5G7PJMBH5CVS68SNNA52SZ&hash=item427bd5486f:g:uXYAAOSwTwplRztb&itmprp=enc%3AAQAJAAABAHoV3kP08IDx%2BKZ9MfhVJKmYPMmxihoioFEN7hegt7R8A9qa9VwenYZ88EDj6SQ%2FC6C%2BWCNhcKx5EydCgKNpgJuQl8cGHiX11TjHR4oQgTRHdrXNAVtBRK%2F9kzvT9%2FJNeYg8MWaZrFa%2BTFanRUhG1xDbfhNsPILFcuaiKLPU6G8Vx1Cg3h3u4%2BbpQ0QkOuN18iXUr5rQMrUvwHZ5rz7V0s5yKK61wC%2BxtRoWppeb3yTUZjaKyvV4toy376ygztiskMPi%2F22pgKUoxNCDx3B5rWjWnydMwkiDoKfEYODUJqT%2BC31LYXwswCRTwCmqVR%2Fu1zniEBcYKsu7XYweg6ZwsSw%3D%7Ctkp%3ABk9SR7jpnrDpZA"
 		},
 		{
-			"name": "Kids' food preparation knives",
-			"shortDescription": "So James can do help",
+			"name": "Kids food preparation knives",
+			"shortDescription": "So James can help",
 			"longDescription": "Really we want James to do all the cooking from the age of 2, so he needs to start now",
 			"category": "priority",
 			"icon": "IconStar",
@@ -27,7 +27,7 @@
 		{
 			"name": "BT6000 Video Baby Monitor",
 			"shortDescription": "James would like this so his parents are extra good at checking on him.",
-			"longDescription": "Ideally we'd get several monitors.",
+			"longDescription": "Ideally we'd get several monitors with monitor-chargers, so we can monitor him from different parts of the house.",
 			"category": "priority",
 			"icon": "IconDeviceTv",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor&_sacat=0&_from=R40&LH_ItemCondition=3000&LH_BIN=1&_udlo=24&_sop=16&rt=nc&_udhi=60"
@@ -49,8 +49,9 @@
 			"url": "https://www.ebay.co.uk/itm/256715646512"
 		},
 		{
-			"name": "Warm boots",
-			"shortDescription": "Size 4-4.5",
+			"name": "Warm boots (Size 4-4.5)",
+			"shortDescription": "So he has warm feet this winter.",
+			"longDescription": "He's size Size 4-4.5. We're looking for cosy warm boots - not wellies, but cosy bootlets for chilly toes.",
 			"category": "other",
 			"icon": "IconGift",
 			"url": "https://www.vinted.co.uk/items/5413463155-baby-bogs"
@@ -65,7 +66,7 @@
 		},
 		{
 			"name": "Small buoyancy aid for swimming",
-			"shortDescription": "smallest size please",
+			"shortDescription": "Smallest size if possible",
 			"longDescription": "It's entirely possible that James use this for a while, but he'd like it so he can one day go near water and on boats.",
 			"category": "other",
 			"icon": "IconGift",
@@ -73,7 +74,7 @@
 		},
 		{
 			"name": "Oranges",
-			"shortDescription": "for stockings or generally",
+			"shortDescription": "For stockings or generally",
 			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
 			"category": "other",
 			"icon": "IconGift",
@@ -81,7 +82,8 @@
 		},
 		{
 			"name": "Flyaway footballs",
-			"shortDescription": "does not have to be new! All balls welcome",
+			"shortDescription": "James likes balls!",
+			"longDescription": "Balls of all sizes likely be enthusiastically hugged, and potentially attempts will be made to eat them.",
 			"category": "other",
 			"icon": "IconGift",
 			"url": "https://www.ebay.co.uk/itm/116245063355"

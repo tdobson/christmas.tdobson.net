@@ -10,15 +10,15 @@
 		},
 		{
 			"name": "Poang chair",
-			"shortDescription": "For working in",
-			"longDescription": "Second hand is great - I don't care about colour etc. I have one, and want two!",
+			"shortDescription": "These are my favourite design of chairs. I love sitting in them.",
+			"longDescription": "I have one, and want more. Ideally for every floor in the house. I don't care about colour etc - second hand is great.",
 			"category": "highPriority",
 			"icon": "IconArmchair",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=poang+chair&_sacat=0&_from=R40&_sop=15&_sadis=25&_stpos=SK67GB&_fspt=1&_blrs=recall_filtering&rt=nc&LH_All=1"
 		},
 		{
 			"name": "Moorland Grit guidebook",
-			"shortDescription": "North-West Peak District",
+			"shortDescription": "A climbing guidebook that I won't use",
 			"longDescription": "I don't think I will climb anything in it, but it's a guidebook of esoteric underclimbed, pieces of rock round Glossop. Rock probably best looked at rather than climbed, which is what makes the guidebook likely more fun than climbing them.",
 			"category": "highPriority",
 			"icon": "IconMap",
@@ -26,16 +26,24 @@
 		},
 		{
 			"name": "Chainsaw cutting course",
-			"shortDescription": "to gain proficiency in chopping up wood",
-			"longDescription": "Because it could be fun",
+			"shortDescription": "Because I'd like to learn to chop wood effectively",
+			"longDescription": "But I'd also like to keep all my fingers, and most of my face, so probs ideal to do it safeishly.",
 			"category": "highPriority",
 			"icon": "IconCertificate",
 			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5"
 		},
 		{
+			"name": "Stick (MMA) welding course",
+			"shortDescription": "Because I've never tried welding",
+			"longDescription": "It could be fun to know how to stick bits of metal together. It might become - to some degree - like learning to \"paint\" in metal.",
+			"category": "highPriority",
+			"icon": "IconCertificate",
+			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5"
+		},
+		{
 			"name": "170W ThinkPad Chargers",
 			"shortDescription": "Must be 170W - less powerful chargers won't work on my laptop",
-			"longDescription": "rectangle-ended tip suitable for P50/P52 etc - second hand recommended",
+			"longDescription": "Rectangle-ended tip suitable for P50/P52 etc - second hand recommended. The link has many suitable ones that would all work.",
 			"category": "highPriority",
 			"icon": "IconPlug",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct"
@@ -58,46 +66,48 @@
 		},
 		{
 			"name": "4TB 2.5\" Internal Hard Drive",
-			"shortDescription": "For laptop",
+			"shortDescription": "I'd like to be able to hold more photos in my laptop",
+			"longDescription": "I have a 2TB HDD, and a 4TB disk would let me do more work and hold more photos of James! The one linked will fit my laptop.",
 			"category": "tech",
 			"icon": "IconDeviceFloppy",
 			"url": "https://www.ebuyer.com/2264757-crucial-bx500-4tb-2-5-inch-internal-ssd-ct4000bx500ssd1"
 		},
 		{
 			"name": "Basic headphones",
-			"shortDescription": "I love these, and I never can have too many",
-			"longDescription": "But all 3.5mm mic-enabled headphones welcome. Please not bluetooth.",
+			"shortDescription": "I can never have enough 3.5mm headphones with microphones.",
+			"longDescription": "Please not bluetooth ones. The ones linked are my favourite model, but all headphones gratefully recieved.",
 			"category": "tech",
 			"icon": "IconHeadphones",
 			"url": "https://www.ebay.co.uk/itm/195579022728"
 		},
 		{
-			"name": "3m of tubuluar climbing webbing tap",
-			"longDescription": "for my kayaking rescue kit",
-			"shortDescription": "from a climbing shop",
+			"name": "3m of tubular climbing webbing tape",
+			"longDescription": "I lost the 3m tape from my kayaking rescue kit",
+			"shortDescription": "3m of this tubular webbing from this climbing shop would be a great replacement.",
 			"category": "outdoor",
 			"icon": "IconLine",
 			"url": "https://www.dicksclimbing.com/products/beal-tubular-webbing-tape-26mm-per-metre"
 		},
 		{
 			"name": "Whetman HMS screwgate carabiner",
-			"shortDescription": "Large kayaking-spec carabiner",
-			"longDescription": "This is a water-friendly version of the DMM Boa carabiner, and is ideal for kayaking.",
+			"shortDescription": "I lost the kayaking-spec carabinerfrom my kayaking rescue kit",
+			"longDescription": "I used to use DMM Boa carabiners, but they broke repeatedly, and DMM told me they didn't like water. This is a water-friendly version of the DMM Boa carabiner, and is ideal for kayaking.",
 			"category": "outdoor",
 			"icon": "IconLink",
 			"url": "https://www.whetmanequipment.com/store/p22/hms_screwgate_karabiner.html#/"
 		},
 		{
 			"name": "Technical Gore-tex waterproof jacket",
-			"shortDescription": "to replace my holy jacket",
-			"longDescription": "I've put a link to a ME Pro Shell in Large - but there are many other suitable jackets.",
+			"shortDescription": "To keep me warm and dry in the rain.",
+			"longDescription": "I have an old goretex ME jacket, but it's starting to become a bit like swiss cheese - something not known for waterproofness. I've put a link to a ME Pro Shell in Large - but there are many other suitable jackets.",
 			"category": "outdoor",
 			"icon": "IconMountain",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Mountain+Equipment+Pro+shell&_sacat=0&_from=R40&rt=nc&Chest%2520Size=L&_dcat=181358"
 		},
 		{
 			"name": "Wild Spirit by Helen Lloyd",
-			"shortDescription": "Book my friend wrote",
+			"shortDescription": "My friend wrote this book and I'd love to read it.",
+			"longDescription": "Unsolicited book recommendation: her other books are fantastic. Sadly I already own them.",
 			"category": "books",
 			"icon": "IconBook",
 			"url": "https://amzn.to/3YXBItR"
@@ -105,6 +115,7 @@
 		{
 			"name": "AI credits",
 			"shortDescription": "",
+			"longDescription": "",
 			"category": "books",
 			"icon": "IconBook",
 			"url": "https://www.anthropic.com/pricing#anthropic-api"
@@ -125,7 +136,8 @@
 		},
 		{
 			"name": "Chopped Firewood",
-			"shortDescription": "We have a small stove",
+			"shortDescription": "We have a small stove ",
+			"longDescription": "As much as I'd love some massive pieces of tree, without a chainsaw and appropriate knowledge, any firewood would be best in stove size portions.",
 			"category": "support",
 			"icon": "IconHeart",
 			"url": "https://pearsonfuels.co.uk/product-category/local-shop/kiln-dried-logs/"
