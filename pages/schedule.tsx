@@ -18,28 +18,28 @@ export default function SchedulePage() {
         <Timeline active={-1} bulletSize={32} color="blue">
           <Timeline.Item 
             bullet={<IconCalendar size={16} color={colors.calendar} />} 
-            title="December 21"
+            title="Saturday 21st December"
           >
             <Text size="sm">Potential visit window for Tim's family</Text>
           </Timeline.Item>
 
           <Timeline.Item 
             bullet={<IconCalendar size={12} color={colors.calendar} />} 
-            title="December 22"
+            title="Sunday 22nd December"
           >
             <Text size="sm">Visiting Judith and Adrian</Text>
           </Timeline.Item>
 
           <Timeline.Item 
             bullet={<IconCalendar size={12} color={colors.calendar} />} 
-            title="December 23"
+            title="Monday 23rd December"
           >
             <Text size="sm">James at nursery (maintaining routine)</Text>
           </Timeline.Item>
 
           <Timeline.Item 
             bullet={<IconMusic size={16} color={colors.music} />} 
-            title="December 24 Evening"
+            title="Tuesday 24th December Evening"
           >
             <Text size="sm">Carols event in Old Glossop</Text>
             <Text size="sm" c="dimmed">Jen's parents arrive (staying at nearby Airbnb)</Text>
@@ -47,14 +47,14 @@ export default function SchedulePage() {
 
           <Timeline.Item 
             bullet={<IconUsers size={16} color={colors.users} />} 
-            title="December 25"
+            title="Wednesday 25th December"
           >
             <Text size="sm">Christmas Day with Jen's parents</Text>
           </Timeline.Item>
 
           <Timeline.Item 
             bullet={<IconUsers size={12} color={colors.users} />} 
-            title="December 26"
+            title="Thursday 26th December"
           >
             <Text size="sm">Boxing Day</Text>
             <Text size="sm" c="dimmed">Sarah and Chris joining for dinner</Text>
@@ -62,7 +62,7 @@ export default function SchedulePage() {
 
           <Timeline.Item 
             bullet={<IconCalendar size={12} color={colors.calendar} />} 
-            title="December 27"
+            title="Friday 27th December"
           >
             <Text size="sm">Jen's parents depart</Text>
             <Text size="sm" c="dimmed">Potential afternoon visit window for Tim's family</Text>
@@ -70,7 +70,7 @@ export default function SchedulePage() {
 
           <Timeline.Item 
             bullet={<IconCalendar size={12} color={colors.calendar} />} 
-            title="December 28-30"
+            title="Saturday 28th-Monday 30th December"
           >
             <Text size="sm">Additional potential visit windows for Tim's family</Text>
           </Timeline.Item>
