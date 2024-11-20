@@ -35,7 +35,15 @@ export default function HomePage() {
         </Stack>
       );
     }
-    return <Text size="sm">{question.answer}</Text>;
+    return (
+      <Stack gap={4}>
+        {question.answer.split('\n').map((line, index) => (
+          <Text size="sm" key={index}>
+            {line}
+          </Text>
+        ))}
+      </Stack>
+    );
   };
   const navigationItems = [
     {
