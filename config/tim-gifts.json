@@ -1,6 +1,14 @@
 {
 	"items": [
 		{
+			"name": "Strong mature cheddar",
+			"shortDescription": "because I love cheese",
+			"longDescription": "All gift of cheddar cheese is welcome. no cheddar is too strong. Much more of a fan of cheddar than say, fancy french cheeses",
+			"category": "highPriority", 
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
 			"name": "Poang chair",
 			"shortDescription": "For working in",
 			"longDescription": "Second hand is great - I don't care about colour etc. I have one, and want two!",
