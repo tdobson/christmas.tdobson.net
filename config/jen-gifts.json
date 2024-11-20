@@ -2,25 +2,32 @@
 	"items": [
 		{
 			"name": "Baby wearing coat",
-			"shortDescription": "£85 - already purchased - contributions welcome",
+			"shortDescription": "So I can stay warm and dry (ish) whilst James is on my back",
+			"longDescription": "I've already purchased it for £85 so contributions are welcome",
 			"category": "highPriority",
 			"icon": "IconJacket",
 			"url": ""
 		},
 		{
 			"name": "Money towards massages",
+			"shortDescription": "",
+			"longDescription": "",
 			"category": "wellbeing",
 			"icon": "IconHeartHandshake",
 			"url": ""
 		},
 		{
 			"name": "House plant pots",
+			"shortDescription": "",
+			"longDescription": "",
 			"category": "home",
 			"icon": "IconPlant",
 			"url": ""
 		},
 		{
 			"name": "Time with helpers for sorting/organizing",
+			"shortDescription": "To help sort out things around the house",
+			"longDescription": "I'd benefit from helpful people to work with me on doing things round the house one day when James is at nursery and I'm off work. ",
 			"category": "support",
 			"icon": "IconUsers",
 			"url": ""
