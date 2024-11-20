@@ -63,8 +63,8 @@ export default function JamesListPage() {
 
       <Alert
         icon={<IconAlertCircle size="1rem" />}
-        title="Important Note"
-        color="red"
+        title="Can we help?"
+        color="orange"
       >
         {giftData.notes.checkFirst}
       </Alert>
@@ -88,7 +88,7 @@ export default function JamesListPage() {
                   {items.map((item) => {
                     const ItemIcon = iconComponents[item.icon as IconName];
                     return (
-                      <List.Item 
+                      <List.Item
                         key={item.name}
                         icon={<ItemIcon size="1rem" style={{ color: category.color }} />}
                       >
