@@ -38,7 +38,7 @@ export default function HomePage() {
     <Stack gap="md">
       <Title order={1}>Welcome to Christmas 2024 Planning</Title>
       <Text>Use this site to coordinate Christmas gifts and schedules for the holiday season.</Text>
-      
+
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
         {navigationItems.map((item) => (
           <Paper
@@ -65,7 +65,6 @@ export default function HomePage() {
       <Card withBorder>
         <Text>
           Navigate using the menu or the cards above to view gift lists and schedule information.
-          Please check with others before purchasing gifts to avoid duplicates.
         </Text>
       </Card>
     </Stack>
