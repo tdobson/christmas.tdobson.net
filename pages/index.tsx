@@ -74,6 +74,14 @@ export default function HomePage() {
               <Text fw={500}>What are you doing for New Year?</Text>
               <Text size="sm">Going somewhere. Somewhere secret. Probably in the van. It's a secret because we don't even know yet.</Text>
             </div>
+            <div>
+              <Text fw={500}>What are your dietary requirements?</Text>
+              <Stack gap={4}>
+                <Text size="sm"><strong>Jen:</strong> Coeliac - strictly no gluten/wheat/barley (even traces). Eats all meat and fish. Not a fan of sprouts.</Text>
+                <Text size="sm"><strong>Tim:</strong> Vegetarian, eats most things but not keen on meat substitutes.</Text>
+                <Text size="sm"><strong>James:</strong> Eats everything including gluten/wheat. Particularly loves clementines, satsumas, halloumi cheese and pasta.</Text>
+              </Stack>
+            </div>
           </Stack>
         </Stack>
       </Card>
