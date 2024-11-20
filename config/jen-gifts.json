@@ -1,0 +1,56 @@
+{
+	"items": [
+		{
+			"name": "Baby wearing coat",
+			"shortDescription": "£85 - already purchased - contributions welcome",
+			"category": "highPriority",
+			"icon": "IconJacket",
+			"url": ""
+		},
+		{
+			"name": "Money towards massages",
+			"category": "wellbeing",
+			"icon": "IconHeartHandshake",
+			"url": ""
+		},
+		{
+			"name": "House plant pots",
+			"category": "home",
+			"icon": "IconPlant",
+			"url": ""
+		},
+		{
+			"name": "Time with helpers for sorting/organizing",
+			"category": "support",
+			"icon": "IconUsers",
+			"url": ""
+		}
+	],
+	"categories": {
+		"highPriority": {
+			"title": "Priority Items",
+			"icon": "IconStar",
+			"color": "#FFD700"
+		},
+		"wellbeing": {
+			"title": "Health & Wellbeing",
+			"icon": "IconHeartHandshake",
+			"color": "#E64980"
+		},
+		"home": {
+			"title": "Home & Garden",
+			"icon": "IconHome",
+			"color": "#40C057"
+		},
+		"support": {
+			"title": "Support & Time",
+			"icon": "IconUsers",
+			"color": "#7048E8"
+		},
+		"tech": {
+			"title": "Tech & Accessories",
+			"icon": "IconDevices",
+			"color": "#228BE6"
+		}
+	}
+}

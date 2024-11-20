@@ -1,117 +1,135 @@
-import { Alert, Card, List, Stack, Text, Title } from "@mantine/core";
+import React from 'react';
+import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
+import { GiftGuidelines } from '../components/GiftGuidelines';
 import {
-	IconAlertCircle,
-	IconBan,
-	IconGift,
-	IconStar,
-} from "@tabler/icons-react";
-import React from "react";
+  IconStar,
+  IconGift,
+  IconDeviceTv,
+  IconAlertCircle,
+  IconBan
+} from '@tabler/icons-react';
+import giftDataImport from '../config/james-gifts.json';
+
+// Type definitions
+interface GiftData {
+  categories: Record<string, Category>;
+  items: GiftItem[];
+  doNotBuy: string[];
+  notes: {
+    checkFirst: string;
+  };
+}
+
+type IconName = 'IconStar' | 'IconGift' | 'IconDeviceTv';
+
+interface GiftItem {
+  name: string;
+  shortDescription?: string;
+  longDescription?: string;
+  category: string;
+  icon: IconName;
+  url: string;
+}
+
+interface Category {
+  title: string;
+  icon: IconName;
+  color: string;
+}
+
+// Convert imported data to typed data
+const giftData = giftDataImport as GiftData;
+
+// Icon mapping
+const iconComponents = {
+  IconStar,
+  IconGift,
+  IconDeviceTv
+};
 
 export default function JamesListPage() {
-	const priorityItems = [
-		"Teeny weenie balance bike (smallest available size - for height 85-95cm)",
-		"Thicker foam/rubber play mat for safety under climbing areas",
-		"Kids' food preparation knives",
-		"Animal posters for his room (especially dogs)",
-		"Number floor tiles/mats",
-		"Baby listener/monitor",
-	];
+  // Group items by category
+  const itemsByCategory = giftData.items.reduce((acc, item) => {
+    if (!acc[item.category]) {
+      acc[item.category] = [];
+    }
+    acc[item.category].push(item);
+    return acc;
+  }, {} as Record<string, GiftItem[]>);
 
-	const otherItems = [
-		"Warm boots (size 4-4.5)",
-		"Climbing harness (Edelrid model)",
-		"Small buoyancy aid for swimming",
-		"Orange(s) for Christmas stocking",
-		"Flyaway footballs",
-	];
+  return (
+    <Stack gap="md">
+      <Title order={1}>James's Gift Ideas 🎁</Title>
 
-	const doNotBuy = [
-		"Clothes (except specified boots)",
-		"Coats",
-		"Wellies",
-		"Books",
-		"Media",
-		"Dummies",
-		"Duplo/Lego (have plenty)",
-		"Chocolate/sweets",
-	];
+      <Alert
+        icon={<IconAlertCircle size="1rem" />}
+        title="Important Note"
+        color="red"
+      >
+        {giftData.notes.checkFirst}
+      </Alert>
 
-	return (
-		<Stack gap="md">
-			<Title order={1}>James's Christmas List</Title>
+      <GiftGuidelines />
 
-			<Alert
-				icon={<IconAlertCircle size="1rem" />}
-				title="Important Note"
-				color="red"
-			>
-				Please check with parents before purchasing to avoid duplicates
-			</Alert>
+      <Card withBorder>
+        <Stack gap="sm">
+          {Object.entries(giftData.categories).map(([categoryKey, category]) => {
+            const items = itemsByCategory[categoryKey] || [];
+            const IconComponent = iconComponents[category.icon as IconName];
 
-			<Alert
-				icon={<IconAlertCircle size="1rem" />}
-				title="Gift-Giving Guidelines"
-				color="blue"
-			>
-				<List>
-					<List.Item>Second-hand items are welcomed and encouraged</List.Item>
-					<List.Item>
-						Practical/useful items preferred over decorative
-					</List.Item>
-					<List.Item>
-						Help with tasks/time is often more valuable than physical items
-					</List.Item>
-					<List.Item>
-						Consider helping with research/planning when giving money towards
-						items
-					</List.Item>
-				</List>
-			</Alert>
+            return (
+              <React.Fragment key={categoryKey}>
+                <Title order={3}>{category.title}</Title>
+                <List
+                  spacing="xs"
+                  size="sm"
+                  center
+                >
+                  {items.map((item) => {
+                    const ItemIcon = iconComponents[item.icon as IconName];
+                    return (
+                      <List.Item 
+                        key={item.name}
+                        icon={<ItemIcon size="1rem" style={{ color: category.color }} />}
+                      >
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noopener noreferrer">
+                            {item.name}
+                          </a>
+                        ) : (
+                          item.name
+                        )}
+                        {item.shortDescription && ` - ${item.shortDescription}`}
+                        {item.longDescription && (
+                          <Text size="xs" c="dimmed">
+                            {item.longDescription}
+                          </Text>
+                        )}
+                      </List.Item>
+                    );
+                  })}
+                </List>
+              </React.Fragment>
+            );
+          })}
+        </Stack>
+      </Card>
 
-			<Card withBorder>
-				<Stack gap="sm">
-					<Title order={2}>Priority Items</Title>
-					<List
-						spacing="xs"
-						size="sm"
-						center
-						icon={<IconBan size="1rem" style={{ color: "#FA5252" }} />}
-					>
-						{priorityItems.map((item) => (
-							<List.Item key={item}>{item}</List.Item>
-						))}
-					</List>
-				</Stack>
-			</Card>
-
-			<Card withBorder>
-				<Stack gap="sm">
-					<Title order={2}>Other Items</Title>
-					<List
-						spacing="xs"
-						size="sm"
-						center
-						icon={<IconGift size="1rem" style={{ color: "#40C057" }} />}
-					>
-						{otherItems.map((item) => (
-							<List.Item key={item}>{item}</List.Item>
-						))}
-					</List>
-				</Stack>
-			</Card>
-
-			<Card withBorder>
-				<Stack gap="sm">
-					<Title order={2} c="red">
-						Please Do Not Buy
-					</Title>
-					<List>
-						{doNotBuy.map((item) => (
-							<List.Item key={item}>{item}</List.Item>
-						))}
-					</List>
-				</Stack>
-			</Card>
-		</Stack>
-	);
+      <Card withBorder>
+        <Stack gap="sm">
+          <Title order={2} c="red">Please Do Not Buy</Title>
+          <List
+            spacing="xs"
+            size="sm"
+            center
+            icon={<IconBan size="1rem" style={{ color: "#FA5252" }} />}
+          >
+            {giftData.doNotBuy.map((item) => (
+              <List.Item key={item}>{item}</List.Item>
+            ))}
+          </List>
+        </Stack>
+      </Card>
+    </Stack>
+  );
 }

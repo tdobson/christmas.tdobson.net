@@ -37,8 +37,8 @@ export default function HomePage() {
   return (
     <Stack gap="md">
       <Title order={1}>Welcome to Christmas 2024 Planning</Title>
-      <Text>Use this site to coordinate Christmas gifts and schedules for the holiday season.</Text>
-      
+      <Text>We're using this site to coordinate Christmas gifts and schedules.</Text>
+
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
         {navigationItems.map((item) => (
           <Paper
@@ -63,9 +63,40 @@ export default function HomePage() {
       </SimpleGrid>
 
       <Card withBorder>
+        <Stack gap="sm">
+          <Title order={2}>Q&A</Title>
+          <Stack gap="xs">
+            <div>
+              <Text fw={500}>What's your address?</Text>
+              <Text size="sm">272 Strines Road, Marple, SK6 7GB</Text>
+            </div>
+            <div>
+              <Text fw={500}>What are you doing for New Year?</Text>
+              <Text size="sm">Going somewhere. Somewhere secret. Probably in the van. It's a secret because we don't even know yet.</Text>
+            </div>
+            <div>
+              <Text fw={500}>What are your dietary requirements?</Text>
+              <Stack gap={4}>
+                <Text size="sm"><strong>Jen:</strong> Coeliac - strictly no gluten/wheat/barley (even traces). Eats all meat and fish. Not a fan of sprouts.</Text>
+                <Text size="sm"><strong>Tim:</strong> Vegetarian, eats most things but not keen on meat substitutes.</Text>
+                <Text size="sm"><strong>James:</strong> Eats everything including gluten/wheat. Particularly loves clementines, satsumas, halloumi cheese and pasta.</Text>
+              </Stack>
+            </div>
+            <div>
+              <Text fw={500}>What are you likely to want to drink?</Text>
+              <Stack gap={4}>
+                <Text size="sm"><strong>Tim:</strong> Alcohol-free beer, particularly the blue-label ones from Aldi/Lidl (Perlenbacher or similar) as he'll likely be on driving duty</Text>
+                <Text size="sm"><strong>Jen:</strong> G&T, wine, port, etc.</Text>
+                <Text size="sm"><strong>James:</strong> Strictly water or cow's milk only</Text>
+              </Stack>
+            </div>
+          </Stack>
+        </Stack>
+      </Card>
+
+      <Card withBorder>
         <Text>
           Navigate using the menu or the cards above to view gift lists and schedule information.
-          Please check with others before purchasing gifts to avoid duplicates.
         </Text>
       </Card>
     </Stack>

@@ -1,27 +1,22 @@
 import React from 'react';
-import { Title } from '@mantine/core';
-import { Stack } from '@mantine/core';
-import { Card } from '@mantine/core';
-import { Text } from '@mantine/core';
-import { List } from '@mantine/core';
-import { Alert } from '@mantine/core';
+import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
+import { GiftGuidelines } from '../components/GiftGuidelines';
 import {
-  IconAlertCircle,
   IconTools,
   IconHeart,
   IconMountain,
   IconBook,
   IconStar,
-  IconChair,
+  IconArmchair,
   IconMap,
   IconCertificate,
   IconPlug,
   IconSwimming,
   IconUsb,
-  IconHardDrive,
+  IconDeviceFloppy,
   IconHeadphones,
-  IconRope,
-  IconCarabiner,
+  IconLine,
+  IconLink,
   IconJacket,
   IconBook2,
   IconRobot,
@@ -29,7 +24,8 @@ import {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconTire
+  IconSteeringWheel,
+  IconAlertCircle
 } from '@tabler/icons-react';
 import giftDataImport from '../config/tim-gifts.json';
 
@@ -37,8 +33,12 @@ import giftDataImport from '../config/tim-gifts.json';
 interface GiftData {
   categories: Record<string, Category>;
   items: GiftItem[];
+  notes: {
+    bookNote: string;
+    wishlistUrl: string;
+  };
 }
-type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconChair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconHardDrive' | 'IconHeadphones' | 'IconRope' | 'IconCarabiner' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconTire';
+type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconArmchair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconDeviceFloppy' | 'IconHeadphones' | 'IconLine' | 'IconLink' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconSteeringWheel';
 
 interface GiftItem {
   name: string;
@@ -65,16 +65,16 @@ const iconComponents = {
   IconHeart,
   IconMountain,
   IconBook,
-  IconChair,
+  IconArmchair,
   IconMap,
   IconCertificate,
   IconPlug,
   IconSwimming,
   IconUsb,
-  IconHardDrive,
+  IconDeviceFloppy,
   IconHeadphones,
-  IconRope,
-  IconCarabiner,
+  IconLine,
+  IconLink,
   IconJacket,
   IconBook2,
   IconRobot,
@@ -82,7 +82,7 @@ const iconComponents = {
   IconPhoto,
   IconWood,
   IconMoodSmile,
-  IconTire,
+  IconSteeringWheel,
 };
 
 export default function TimListPage() {
@@ -96,22 +96,10 @@ export default function TimListPage() {
   }, {} as Record<string, GiftItem[]>);
 
   return (
-    <>
-      <Stack gap="md">
-        <Title order={1}>Tim's Gift List</Title>
+    <Stack gap="md">
+      <Title order={1}>Tim's Gift Ideas 🎁</Title>
 
-        <Alert
-        icon={<IconAlertCircle size="1rem" />}
-        title="Gift-Giving Guidelines"
-        color="blue"
-      >
-        <List>
-          <List.Item>Second-hand items are welcomed and encouraged</List.Item>
-          <List.Item>Practical/useful items preferred over decorative</List.Item>
-          <List.Item>Help with tasks/time is often more valuable than physical items</List.Item>
-          <List.Item>Consider helping with research/planning when giving money towards items</List.Item>
-        </List>
-      </Alert>
+      <GiftGuidelines />
 
       <Card withBorder>
         <Stack gap="sm">
@@ -122,7 +110,11 @@ export default function TimListPage() {
             return (
               <React.Fragment key={categoryKey}>
                 <Title order={3}>{category.title}</Title>
-                <List spacing="xs" size="sm" center>
+                <List
+                  spacing="xs"
+                  size="sm"
+                  center
+                >
                   {items.map((item) => {
                     const ItemIcon = iconComponents[item.icon as IconName];
                     return (
@@ -143,8 +135,9 @@ export default function TimListPage() {
                           {item.longDescription}
                         </Text>
                       )}
-                    </List.Item>
-                  ))}
+                      </List.Item>
+                    );
+                  })}
                 </List>
               </React.Fragment>
             );
@@ -155,16 +148,15 @@ export default function TimListPage() {
             title="Note"
             color="blue"
           >
-            <Text size="sm">Currently have plenty of books - prefer other gifts unless specifically listed</Text>
+            <Text size="sm">{giftData.notes.bookNote}</Text>
             <Text size="sm">
-              Amazon wishlist: <a href="https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301" target="_blank" rel="noopener noreferrer">
-                https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301
+              Amazon wishlist: <a href={giftData.notes.wishlistUrl} target="_blank" rel="noopener noreferrer">
+                {giftData.notes.wishlistUrl}
               </a>
             </Text>
           </Alert>
         </Stack>
       </Card>
-      </Stack>
-    </>
+    </Stack>
   );
 }

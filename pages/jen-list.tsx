@@ -1,40 +1,118 @@
-import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
-import { IconAlertCircle } from '@tabler/icons-react';
+import React from 'react';
+import { Title, Stack, Card, Text, List } from '@mantine/core';
+import { GiftGuidelines } from '../components/GiftGuidelines';
+import {
+  IconStar,
+  IconHeartHandshake,
+  IconHome,
+  IconUsers,
+  IconDevices,
+  IconJacket,
+  IconDeviceTv,
+  IconPlug,
+  IconPlant,
+  IconUsb
+} from '@tabler/icons-react';
+import giftDataImport from '../config/jen-gifts.json';
+
+// Type definitions
+interface GiftData {
+  categories: Record<string, Category>;
+  items: GiftItem[];
+}
+
+type IconName = 'IconStar' | 'IconHeartHandshake' | 'IconHome' | 'IconUsers' | 
+  'IconDevices' | 'IconJacket' | 'IconDeviceTv' | 'IconPlug' | 'IconPlant' | 'IconUsb';
+
+interface GiftItem {
+  name: string;
+  shortDescription?: string;
+  longDescription?: string;
+  category: string;
+  icon: IconName;
+  url: string;
+}
+
+interface Category {
+  title: string;
+  icon: IconName;
+  color: string;
+}
+
+// Convert imported data to typed data
+const giftData = giftDataImport as GiftData;
+
+// Icon mapping
+const iconComponents = {
+  IconStar,
+  IconHeartHandshake,
+  IconHome,
+  IconUsers,
+  IconDevices,
+  IconJacket,
+  IconDeviceTv,
+  IconPlug,
+  IconPlant,
+  IconUsb
+};
 
 export default function JenListPage() {
+  // Group items by category
+  const itemsByCategory = giftData.items.reduce((acc, item) => {
+    if (!acc[item.category]) {
+      acc[item.category] = [];
+    }
+    acc[item.category].push(item);
+    return acc;
+  }, {} as Record<string, GiftItem[]>);
+
   return (
     <Stack gap="md">
-      <Title order={1}>Jen's Gift List</Title>
+      <Title order={1}>Jen's Gift Ideas 🎁</Title>
 
-      <Alert
-        icon={<IconAlertCircle size="1rem" />}
-        title="Gift-Giving Guidelines"
-        color="blue"
-      >
-        <List>
-          <List.Item>Second-hand items are welcomed and encouraged</List.Item>
-          <List.Item>Practical/useful items preferred over decorative</List.Item>
-          <List.Item>Help with tasks/time is often more valuable than physical items</List.Item>
-          <List.Item>Consider helping with research/planning when giving money towards items</List.Item>
-        </List>
-      </Alert>
+      <GiftGuidelines />
 
       <Card withBorder>
         <Stack gap="sm">
-          <Title order={3}>Priority Items</Title>
-          <List>
-            <List.Item>Baby wearing coat (£85)</List.Item>
-            <List.Item>Additional baby monitor screens/equipment</List.Item>
-            <List.Item>Additional chargers for current monitor (Specific model: BT6000)</List.Item>
-          </List>
-          
-          <Title order={3}>Other Ideas</Title>
-          <List>
-            <List.Item>Money towards massages</List.Item>
-            <List.Item>House plants and pots</List.Item>
-            <List.Item>Time with helpers for sorting/organizing</List.Item>
-            <List.Item>Additional USB-C cables and chargers</List.Item>
-          </List>
+          {Object.entries(giftData.categories).map(([categoryKey, category]) => {
+            const items = itemsByCategory[categoryKey] || [];
+            const IconComponent = iconComponents[category.icon as IconName];
+
+            return (
+              <React.Fragment key={categoryKey}>
+                <Title order={3}>{category.title}</Title>
+                <List
+                  spacing="xs"
+                  size="sm"
+                  center
+                >
+                  {items.map((item) => {
+                    const ItemIcon = iconComponents[item.icon as IconName];
+                    return (
+                      <List.Item 
+                        key={item.name}
+                        icon={<ItemIcon size="1rem" style={{ color: category.color }} />}
+                      >
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noopener noreferrer">
+                            {item.name}
+                          </a>
+                        ) : (
+                          item.name
+                        )}
+                        {item.shortDescription && ` - ${item.shortDescription}`}
+                        {item.longDescription && (
+                          <Text size="xs" c="dimmed">
+                            {item.longDescription}
+                          </Text>
+                        )}
+                      </List.Item>
+                    );
+                  })}
+                </List>
+              </React.Fragment>
+            );
+          })}
         </Stack>
       </Card>
     </Stack>

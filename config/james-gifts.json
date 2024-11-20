@@ -1,0 +1,105 @@
+{
+	"items": [
+		{
+			"name": "Teeny weenie balance bike",
+			"shortDescription": "Smallest available size - for height 85-95cm",
+			"category": "priority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "Thicker foam/rubber play mat",
+			"shortDescription": "For safety under climbing areas",
+			"category": "priority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "Kids' food preparation knives",
+			"category": "priority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "BT6000 Video Baby Monitor",
+			"shortDescription": "James would like this so his parents are extra good at checking on him.",
+			"category": "priority",
+			"icon": "IconDeviceTv",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor&_sacat=0&_from=R40&LH_ItemCondition=3000&LH_BIN=1&_udlo=24&_sop=16&rt=nc&_udhi=60"
+		},
+		{
+			"name": "Animal posters for his room",
+			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
+			"category": "priority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "Number floor tiles/mats",
+			"category": "priority",
+			"icon": "IconStar",
+			"url": ""
+		},
+		{
+			"name": "Warm boots",
+			"shortDescription": "Size 4-4.5",
+			"category": "other",
+			"icon": "IconGift",
+			"url": ""
+		},
+		{
+			"name": "Edelrid Fraggle XXS Climbing harness",
+			"shortDescription": "XXS size please",
+			"longDescription": "It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
+			"category": "other",
+			"icon": "IconGift",
+			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/"
+		},
+		{
+			"name": "Small buoyancy aid for swimming",
+			"category": "other",
+			"icon": "IconGift",
+			"url": ""
+		},
+		{
+			"name": "Oranges",
+			"shortDescription": "for stockings or generally",
+			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
+			"category": "other",
+			"icon": "IconGift",
+			"url": ""
+		},
+		{
+			"name": "Flyaway footballs",
+			"shortDescription": "does not have to be new! All balls welcome",
+			"category": "other",
+			"icon": "IconGift",
+			"url": "https://www.ebay.co.uk/itm/116245063355"
+		}
+	],
+	"categories": {
+		"priority": {
+			"title": "Priority Items",
+			"icon": "IconStar",
+			"color": "#FA5252"
+		},
+		"other": {
+			"title": "Other Items",
+			"icon": "IconGift",
+			"color": "#40C057"
+		}
+	},
+	"doNotBuy": [
+		"Clothes (except specified boots)",
+		"Coats",
+		"Wellies",
+		"Books",
+		"Videos/Media",
+		"Dummies",
+		"Duplo/Lego (have plenty)",
+		"Chocolate or sweets"
+	],
+	"notes": {
+		"checkFirst": "Feel free to check with Tim and Jen if we can help."
+	}
+}

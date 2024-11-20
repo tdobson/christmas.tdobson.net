@@ -3,84 +3,91 @@
 		{
 			"name": "Poang chair",
 			"shortDescription": "For working in",
-			"longDescription": "Second hand is great",
+			"longDescription": "Second hand is great - I don't care about colour etc. I have one, and want two!",
 			"category": "highPriority",
-			"icon": "IconChair",
-			"url": "https://www.ikea.com/gb/en/cat/poang-series-07472/"
+			"icon": "IconArmchair",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=poang+chair&_sacat=0&_from=R40&_sop=15&_sadis=25&_stpos=SK67GB&_fspt=1&_blrs=recall_filtering&rt=nc&LH_All=1"
 		},
 		{
 			"name": "Moorland Grit guidebook",
 			"shortDescription": "North-West Peak District",
+			"longDescription": "I don't think I will climb anything in it, but it's a guidebook of esoteric underclimbed, pieces of rock round Glossop. Rock probably best looked at rather than climbed, which is what makes the guidebook likely more fun than climbing them.",
 			"category": "highPriority",
 			"icon": "IconMap",
-			"url": "https://www.bmcshop.co.uk/products/moorland-grit"
+			"url": "https://www.amazon.co.uk/Moorland-Grit-bouldering-North-West-District/dp/1909461571"
 		},
 		{
 			"name": "Chainsaw cutting course",
 			"shortDescription": "Qualifications needed",
+			"longDescription": "This could be fun",
 			"category": "highPriority",
 			"icon": "IconCertificate",
 			"url": ""
 		},
 		{
 			"name": "170W ThinkPad Chargers",
-			"shortDescription": "Second hand from eBay is suggested. More is better than fewer - so if I end up with more than expected - that's fine with me!",
+			"shortDescription": "Second hand from eBay is suggested",
+			"longDescription": "rectangle-ended tip suitable for P50/P52 etc",
 			"category": "highPriority",
-			"icon": "IconStar",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+thinkpad+charger+p51&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=170w+thinkpad+charger+p50&_osacat=0&_sop=15"
+			"icon": "IconPlug",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct"
 		},
 		{
 			"name": "Wetsuit",
 			"shortDescription": "Large size - 3mm or 5mm",
+			"longDescription": "My wetsuit is about 25 years old, and is somewhat held together with prayers and luck. The one link is suggested - but any full arm, and full leg - Large size - wetsuit would be welcome. Preloved is encouraged.",
 			"category": "highPriority",
-			"icon": "IconStar",
-			"url": ""
+			"icon": "IconSwimming",
+			"url": "https://www.decathlon.co.uk/p/mp/lomo/lomo-octane-5mm-wetsuit/_/R-p-c2b5a9fd-2820-4883-a9a4-593f4f2c4691?mc=c2b5a9fd-2820-4883-a9a4-593f4f2c4691_c251c251&c=grey"
 		},
 		{
 			"name": "USB-C to USB-A cables",
-			"shortDescription": "6 wanted in total",
+			"shortDescription": "I need about 6 more",
+			"longDescription": "Second hand/preloved welcome!",
 			"category": "tech",
 			"icon": "IconTools",
-			"url": ""
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=USB-C+to+USB-A+cables&_sacat=0&_from=R40&rt=nc&_udhi=6"
 		},
 		{
 			"name": "5TB 2.5\" Internal Hard Drive",
 			"shortDescription": "For laptop",
 			"category": "tech",
-			"icon": "IconTools",
+			"icon": "IconDeviceFloppy",
 			"url": ""
 		},
 		{
 			"name": "Basic headphones",
-			"shortDescription": "Always useful to have extras",
+			"shortDescription": "I love these, and I never can have too many",
+			"longDescription": "But all 3.5mm mic-enabled headphones welcome. Please not bluetooth.",
 			"category": "tech",
 			"icon": "IconTools",
-			"url": ""
+			"url": "https://www.ebay.co.uk/itm/195579022728"
 		},
 		{
-			"name": "3m tape sling",
+			"name": "3m of rated climbing tape",
 			"shortDescription": "From climbing shop",
 			"category": "outdoor",
-			"icon": "IconMountain",
+			"icon": "IconLine",
 			"url": ""
 		},
 		{
-			"name": "Whetman HMS screwgate karabiner",
-			"shortDescription": "",
+			"name": "Whetman HMS screwgate carabiner",
+			"shortDescription": "Large kayaking-spec carabiner",
+			"longDescription": "This is a water-friendly version of the DMM Boa carabiner, and is ideal for kayaking.",
 			"category": "outdoor",
-			"icon": "IconMountain",
-			"url": ""
+			"icon": "IconLink",
+			"url": "https://www.whetmanequipment.com/store/p22/hms_screwgate_karabiner.html#/"
 		},
 		{
 			"name": "Technical Gore-tex waterproof jacket",
 			"shortDescription": "",
 			"category": "outdoor",
 			"icon": "IconMountain",
-			"url": ""
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Mountain+Equipment+Pro+shell&_sacat=0&_from=R40&rt=nc&Chest%2520Size=L&_dcat=181358"
 		},
 		{
 			"name": "Wild Spirit by Helen Lloyd",
-			"shortDescription": "Book",
+			"shortDescription": "Book my friend wrote",
 			"category": "books",
 			"icon": "IconBook",
 			"url": "https://amzn.to/3YXBItR"
@@ -90,7 +97,7 @@
 			"shortDescription": "",
 			"category": "books",
 			"icon": "IconBook",
-			"url": ""
+			"url": "https://www.anthropic.com/pricing#anthropic-api"
 		},
 		{
 			"name": "Babysitting",
@@ -107,25 +114,27 @@
 			"url": ""
 		},
 		{
-			"name": "Firewood",
-			"shortDescription": "",
+			"name": "Chopped Firewood",
+			"shortDescription": "We have a small stove",
 			"category": "support",
 			"icon": "IconHeart",
-			"url": ""
+			"url": "https://pearsonfuels.co.uk/product-category/local-shop/kiln-dried-logs/"
 		},
 		{
 			"name": "A stress-free Christmas",
 			"shortDescription": "",
+			"longDescription": "This is the dream",
 			"category": "support",
 			"icon": "IconHeart",
-			"url": ""
+			"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 		},
 		{
 			"name": "Tire compressor",
 			"shortDescription": "For pumping up flat tires",
+			"longDescription": "I thought I had one, but I seem to have lost it. Preloved or reloved or whatever is welcome. Should work on 12v.",
 			"category": "tech",
-			"icon": "IconTools",
-			"url": ""
+			"icon": "IconSteeringWheel",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Air+Compressor+Tyre+Pump+12v&_from=R40&_sop=15&_fspt=1&rt=nc&LH_ItemCondition=4%7C3"
 		}
 	],
 	"categories": {
@@ -154,5 +163,9 @@
 			"icon": "IconHeart",
 			"color": "#E64980"
 		}
+	},
+	"notes": {
+		"bookNote": "Currently have plenty of books - prefer other gifts unless specifically listed",
+		"wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301"
 	}
 }
