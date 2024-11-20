@@ -62,7 +62,9 @@
 			"url": ""
 		},
 		{
-			"name": "Orange(s) for Christmas stocking",
+			"name": "Oranges",
+			"shortDescription": "for stockings or generally",
+			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
 			"category": "other",
 			"icon": "IconGift",
 			"url": ""
@@ -92,12 +94,12 @@
 		"Coats",
 		"Wellies",
 		"Books",
-		"Media",
+		"Videos/Media",
 		"Dummies",
 		"Duplo/Lego (have plenty)",
-		"Chocolate/sweets"
+		"Chocolate or sweets"
 	],
 	"notes": {
-		"checkFirst": "Please check with parents before purchasing to avoid duplicates"
+		"checkFirst": "Feel free to check with Tim and Jen if we can help."
 	}
 }
