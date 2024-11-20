@@ -82,6 +82,14 @@ export default function HomePage() {
                 <Text size="sm"><strong>James:</strong> Eats everything including gluten/wheat. Particularly loves clementines, satsumas, halloumi cheese and pasta.</Text>
               </Stack>
             </div>
+            <div>
+              <Text fw={500}>What are you likely to want to drink?</Text>
+              <Stack gap={4}>
+                <Text size="sm"><strong>Tim:</strong> Alcohol-free beer, particularly the blue-label ones from Aldi/Lidl (Perlenbacher or similar) as he'll likely be on driving duty</Text>
+                <Text size="sm"><strong>Jen:</strong> G&T, wine, port, etc.</Text>
+                <Text size="sm"><strong>James:</strong> Strictly water or cow's milk only</Text>
+              </Stack>
+            </div>
           </Stack>
         </Stack>
       </Card>
