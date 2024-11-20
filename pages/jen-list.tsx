@@ -50,7 +50,7 @@ const iconComponents = {
   IconUsers,
   IconDevices,
   IconJacket,
-  IconDeviceTV,
+  IconDeviceTv,
   IconPlug,
   IconPlant,
   IconUsb
