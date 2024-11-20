@@ -21,8 +21,15 @@
 			"url": ""
 		},
 		{
+			"name": "BT6000 Video Baby Monitor",
+			"shortDescription": "James would like this so his parents are extra good at checking on him.",
+			"category": "priority",
+			"icon": "IconDeviceTv",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor&_sacat=0&_from=R40&LH_ItemCondition=3000&LH_BIN=1&_udlo=24&_sop=16&rt=nc&_udhi=60"
+		},
+		{
 			"name": "Animal posters for his room",
-			"shortDescription": "Especially dogs",
+			"shortDescription": "James loves  dogs",
 			"category": "priority",
 			"icon": "IconPhoto",
 			"url": ""
