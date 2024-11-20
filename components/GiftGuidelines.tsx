@@ -10,12 +10,23 @@ export function GiftGuidelines() {
 			color="blue"
 		>
 			<List>
-				<List.Item>Please don't feel any obligation to give gifts - your presence in our lives is the real gift!</List.Item>
-				<List.Item>This list is merely a helpful guide - we'd love to be surprised with unexpected and thoughtful gifts we couldn't have imagined</List.Item>
+				<List.Item>
+					Please don't feel any obligation to give gifts - your presence in our
+					lives is the real gift!
+				</List.Item>
+				<List.Item>
+					This list is merely a helpful guide - we'd love to be surprised with
+					unexpected and thoughtful gifts we couldn't have imagined
+				</List.Item>
 				<List.Item>Second-hand items are welcomed and encouraged</List.Item>
 				<List.Item>Practical/useful items preferred over decorative</List.Item>
-				<List.Item>Help with tasks/time is often more valuable than physical items</List.Item>
-				<List.Item>Consider helping with research/planning when giving money towards items</List.Item>
+				<List.Item>
+					Help with tasks/time is often more valuable than physical items
+				</List.Item>
+				<List.Item>
+					Consider helping with research/planning when giving money towards
+					items
+				</List.Item>
 			</List>
 		</Alert>
 	);
