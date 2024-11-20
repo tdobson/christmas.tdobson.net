@@ -9,9 +9,10 @@ export default function JenListPage() {
   return (
     <Stack gap="md">
       <Title order={1}>Jen's Gift Ideas 🎁</Title>
-      <ShareGiftList />
       <GiftGuidelines />
       <GiftList giftData={giftData as GiftData} />
+        <ShareGiftList />
+
     </Stack>
   );
 }

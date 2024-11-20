@@ -9,9 +9,10 @@ export default function JamesListPage() {
   return (
     <Stack gap="md">
       <Title order={1}>James's Gift Ideas 🧸</Title>
-      <ShareGiftList />
       <GiftGuidelines />
       <GiftList giftData={giftData as GiftData} />
+        <ShareGiftList />
+
     </Stack>
   );
 }
