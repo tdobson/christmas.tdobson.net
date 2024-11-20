@@ -79,16 +79,16 @@ export default function SchedulePage() {
 
       <Card withBorder>
         <Stack gap="sm">
-          <Title order={2}>Important Notes</Title>
+          <Title order={2}>We want to see you!</Title>
           <List
             spacing="xs"
             size="sm"
             center
             icon={<IconStar size="1rem" style={{ color: colors.star }} />}
           >
-            <List.Item>Keeping gatherings smaller this year for James's comfort</List.Item>
-            <List.Item>Focusing on quality time in smaller groups</List.Item>
-            <List.Item>Maintaining James's routine where possible</List.Item>
+            <List.Item>We want to see our family in family-group-sized groups - this is partly to help James have quality time with everyone, and partly to help Tim not get overwhelmed.</List.Item>
+            <List.Item>We're focusing on quality time in smaller groups - obviously not all things are perfect, and we know that some people may have important and fun commitments that are hard to tesselate with, and that's ok.</List.Item>
+            <List.Item>We can come to you, or you can come to us - just let us know when works for you</List.Item>
           </List>
         </Stack>
       </Card>
