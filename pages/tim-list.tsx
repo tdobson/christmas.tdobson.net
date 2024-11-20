@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Stack, Card, Text, List } from '@mantine/core';
+import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
 import { GiftGuidelines } from '../components/GiftGuidelines';
 import {
   IconTools,

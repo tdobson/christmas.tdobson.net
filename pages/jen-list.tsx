@@ -1,3 +1,4 @@
+import React from 'react';
 import { Title, Stack, Card, Text, List } from '@mantine/core';
 import { GiftGuidelines } from '../components/GiftGuidelines';
 
