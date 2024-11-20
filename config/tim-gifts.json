@@ -26,11 +26,11 @@
 		},
 		{
 			"name": "Chainsaw cutting course",
-			"shortDescription": "Qualifications needed",
-			"longDescription": "This could be fun",
+			"shortDescription": "to gain proficiency in chopping up wood",
+			"longDescription": "Because it could be fun",
 			"category": "highPriority",
 			"icon": "IconCertificate",
-			"url": ""
+			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5"
 		},
 		{
 			"name": "170W ThinkPad Chargers",
@@ -72,11 +72,12 @@
 			"url": "https://www.ebay.co.uk/itm/195579022728"
 		},
 		{
-			"name": "3m of rated climbing tape",
-			"shortDescription": "From climbing shop",
+			"name": "3m of tubuluar climbing webbing tap",
+			"longDescription": "for my kayaking rescue kit",
+			"shortDescription": "from a climbing shop",
 			"category": "outdoor",
 			"icon": "IconLine",
-			"url": ""
+			"url": "https://www.dicksclimbing.com/products/beal-tubular-webbing-tape-26mm-per-metre"
 		},
 		{
 			"name": "Whetman HMS screwgate carabiner",
@@ -88,7 +89,8 @@
 		},
 		{
 			"name": "Technical Gore-tex waterproof jacket",
-			"shortDescription": "",
+			"shortDescription": "to replace my holy jacket",
+			"longDescription": "I've put a link to a ME Pro Shell in Large - but there are many other suitable jackets.",
 			"category": "outdoor",
 			"icon": "IconMountain",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Mountain+Equipment+Pro+shell&_sacat=0&_from=R40&rt=nc&Chest%2520Size=L&_dcat=181358"
