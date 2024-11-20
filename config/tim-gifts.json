@@ -165,6 +165,14 @@
 			"category": "tech",
 			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Air+Compressor+Tyre+Pump+12v&_from=R40&_sop=15&_fspt=1&rt=nc&LH_ItemCondition=4%7C3"
+		},
+		{
+			"name": "Allen Key Set",
+			"shortDescription": "From very small to quite large sizes",
+			"longDescription": "Need a comprehensive set for furniture assembly, bike maintenance, and general fiddly things. Metric and imperial welcome. Looking for a range from tiny (1.5mm) up to larger sizes (10mm+). Second hand welcome!",
+			"category": "home",
+			"icon": "IconTools", 
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=allen+key+set&_sacat=0&_from=R40&_sop=15&LH_BIN=1&_udhi=30"
 		}
 	],
 	"categories": {
