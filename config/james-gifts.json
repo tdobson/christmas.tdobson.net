@@ -29,7 +29,7 @@
 		},
 		{
 			"name": "Animal posters for his room",
-			"shortDescription": "James loves  dogs",
+			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
 			"category": "priority",
 			"icon": "IconPhoto",
 			"url": ""
@@ -41,12 +41,6 @@
 			"url": ""
 		},
 		{
-			"name": "Baby listener/monitor",
-			"category": "priority",
-			"icon": "IconDeviceSpeaker",
-			"url": ""
-		},
-		{
 			"name": "Warm boots",
 			"shortDescription": "Size 4-4.5",
 			"category": "other",
@@ -54,11 +48,11 @@
 			"url": ""
 		},
 		{
-			"name": "Climbing harness",
-			"shortDescription": "Edelrid model",
+			"name": "Edelrid Fraggle XXS Climbing harness",
+			"shortDescription": "XXS size please",
 			"category": "other",
 			"icon": "IconAnchor",
-			"url": ""
+			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/"
 		},
 		{
 			"name": "Small buoyancy aid for swimming",
@@ -74,9 +68,10 @@
 		},
 		{
 			"name": "Flyaway footballs",
+			"shortDescription": "does not have to be new! All balls welcome",
 			"category": "other",
 			"icon": "IconBallFootball",
-			"url": ""
+			"url": "https://www.ebay.co.uk/itm/116245063355"
 		}
 	],
 	"categories": {
