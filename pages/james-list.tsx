@@ -6,15 +6,15 @@ import {
   IconGift,
   IconBike,
   IconSquare,
-  IconKnife,
-  IconPoster,
+  IconScissors,
+  IconPhoto,
   IconMath,
   IconDeviceSpeaker,
   IconShoe,
-  IconHarness,
+  IconHook,
   IconLifebuoy,
-  IconFruit,
-  IconBall,
+  IconApple,
+  IconBallFootball,
   IconAlertCircle,
   IconBan
 } from '@tabler/icons-react';
@@ -30,9 +30,9 @@ interface GiftData {
   };
 }
 
-type IconName = 'IconStar' | 'IconGift' | 'IconBike' | 'IconSquare' | 'IconKnife' | 
-  'IconPoster' | 'IconMath' | 'IconDeviceSpeaker' | 'IconShoe' | 'IconHarness' | 
-  'IconLifebuoy' | 'IconFruit' | 'IconBall';
+type IconName = 'IconStar' | 'IconGift' | 'IconBike' | 'IconSquare' | 'IconScissors' | 
+  'IconPhoto' | 'IconMath' | 'IconDeviceSpeaker' | 'IconShoe' | 'IconHook' | 
+  'IconLifebuoy' | 'IconApple' | 'IconBallFootball';
 
 interface GiftItem {
   name: string;
@@ -58,15 +58,15 @@ const iconComponents = {
   IconGift,
   IconBike,
   IconSquare,
-  IconKnife,
-  IconPoster,
+  IconScissors,
+  IconPhoto,
   IconMath,
   IconDeviceSpeaker,
   IconShoe,
-  IconHarness,
+  IconHook,
   IconLifebuoy,
-  IconFruit,
-  IconBall
+  IconApple,
+  IconBallFootball
 };
 
 export default function JamesListPage() {

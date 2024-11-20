@@ -17,14 +17,14 @@
 		{
 			"name": "Kids' food preparation knives",
 			"category": "priority",
-			"icon": "IconKnife",
+			"icon": "IconScissors",
 			"url": ""
 		},
 		{
 			"name": "Animal posters for his room",
 			"shortDescription": "Especially dogs",
 			"category": "priority",
-			"icon": "IconPoster",
+			"icon": "IconPhoto",
 			"url": ""
 		},
 		{
@@ -50,7 +50,7 @@
 			"name": "Climbing harness",
 			"shortDescription": "Edelrid model",
 			"category": "other",
-			"icon": "IconHarness",
+			"icon": "IconHook",
 			"url": ""
 		},
 		{
@@ -62,13 +62,13 @@
 		{
 			"name": "Orange(s) for Christmas stocking",
 			"category": "other",
-			"icon": "IconFruit",
+			"icon": "IconApple",
 			"url": ""
 		},
 		{
 			"name": "Flyaway footballs",
 			"category": "other",
-			"icon": "IconBall",
+			"icon": "IconBallFootball",
 			"url": ""
 		}
 	],
