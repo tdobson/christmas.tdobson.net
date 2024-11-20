@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <MantineProvider theme={theme}>
       <Head>
-        <title>Christmas 2024 Planning</title>
+        <title>Tim, Jen and James's Christmas 2024 Planning</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
