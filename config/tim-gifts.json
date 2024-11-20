@@ -24,16 +24,16 @@
 		},
 		{
 			"name": "170W ThinkPad Chargers",
-			"shortDescription": "Second hand from eBay is suggested. More is better than fewer - so if I end up with more than expected - that's fine with me!",
+			"shortDescription": "Second hand from eBay is suggested",
 			"category": "highPriority",
-			"icon": "IconStar",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+thinkpad+charger+p51&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=170w+thinkpad+charger+p50&_osacat=0&_sop=15"
+			"icon": "IconPlug",
+			"url": ""
 		},
 		{
 			"name": "Wetsuit",
 			"shortDescription": "Large size - 3mm or 5mm",
 			"category": "highPriority",
-			"icon": "IconStar",
+			"icon": "IconSwimming",
 			"url": ""
 		},
 		{

@@ -120,10 +120,14 @@ export default function TimListPage() {
                   spacing="xs"
                   size="sm"
                   center
-                  icon={<IconComponent size="1rem" style={{ color: category.color }} />}
                 >
-                  {items.map((item) => (
-                    <List.Item key={item.name}>
+                  {items.map((item) => {
+                    const ItemIcon = iconComponents[item.icon as IconName];
+                    return (
+                      <List.Item 
+                        key={item.name}
+                        icon={<ItemIcon size="1rem" style={{ color: category.color }} />}
+                      >
                       {item.url ? (
                         <a href={item.url} target="_blank" rel="noopener noreferrer">
                           {item.name}
@@ -137,8 +141,9 @@ export default function TimListPage() {
                           {item.longDescription}
                         </Text>
                       )}
-                    </List.Item>
-                  ))}
+                      </List.Item>
+                    );
+                  })}
                 </List>
               </React.Fragment>
             );
