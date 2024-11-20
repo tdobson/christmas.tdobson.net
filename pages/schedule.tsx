@@ -16,60 +16,60 @@ export default function SchedulePage() {
 
       <Card withBorder>
         <Timeline active={-1} bulletSize={32} color="blue">
-          <Timeline.Item 
-            bullet={<IconCalendar size={16} color={colors.calendar} />} 
+          <Timeline.Item
+            bullet={<IconCalendar size={16} color={colors.calendar} />}
             title="Saturday 21st December"
           >
             <Text size="sm">Potential visit window for Tim's family</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconCalendar size={12} color={colors.calendar} />} 
+          <Timeline.Item
+            bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Sunday 22nd December"
           >
             <Text size="sm">Visiting Judith and Adrian</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconCalendar size={12} color={colors.calendar} />} 
+          <Timeline.Item
+            bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Monday 23rd December"
           >
             <Text size="sm">James at nursery (maintaining routine)</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconMusic size={16} color={colors.music} />} 
+          <Timeline.Item
+            bullet={<IconMusic size={16} color={colors.music} />}
             title="Tuesday 24th December Evening"
           >
             <Text size="sm">Carols event in Old Glossop</Text>
             <Text size="sm" c="dimmed">Jen's parents arrive (staying at nearby Airbnb)</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconUsers size={16} color={colors.users} />} 
+          <Timeline.Item
+            bullet={<IconUsers size={16} color={colors.users} />}
             title="Wednesday 25th December"
           >
-            <Text size="sm">Christmas Day with Jen's parents</Text>
+            <Text size="sm">Christmas Day with Jen's parents in Strines</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconUsers size={12} color={colors.users} />} 
+          <Timeline.Item
+            bullet={<IconUsers size={12} color={colors.users} />}
             title="Thursday 26th December"
           >
-            <Text size="sm">Boxing Day</Text>
-            <Text size="sm" c="dimmed">Sarah and Chris joining for dinner</Text>
+            <Text size="sm">Boxing Day in Strines</Text>
+            <Text size="sm" c="dimmed">Jen's sister Sarah with Chris hopefully joining for dinner</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconCalendar size={12} color={colors.calendar} />} 
+          <Timeline.Item
+            bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Friday 27th December"
           >
-            <Text size="sm">Jen's parents depart</Text>
+            <Text size="sm">Jen's parents depart Strines</Text>
             <Text size="sm" c="dimmed">Potential afternoon visit window for Tim's family</Text>
           </Timeline.Item>
 
-          <Timeline.Item 
-            bullet={<IconCalendar size={12} color={colors.calendar} />} 
+          <Timeline.Item
+            bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Saturday 28th-Monday 30th December"
           >
             <Text size="sm">Additional potential visit windows for Tim's family</Text>

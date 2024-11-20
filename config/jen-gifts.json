@@ -2,22 +2,9 @@
 	"items": [
 		{
 			"name": "Baby wearing coat",
-			"shortDescription": "£85",
+			"shortDescription": "£85 - already purchased - contributions welcome",
 			"category": "highPriority",
 			"icon": "IconJacket",
-			"url": ""
-		},
-		{
-			"name": "Additional baby monitor screens/equipment",
-			"category": "highPriority",
-			"icon": "IconDeviceTv",
-			"url": ""
-		},
-		{
-			"name": "Additional chargers for current monitor",
-			"shortDescription": "Specific model: BT6000",
-			"category": "highPriority",
-			"icon": "IconPlug",
 			"url": ""
 		},
 		{
@@ -27,7 +14,7 @@
 			"url": ""
 		},
 		{
-			"name": "House plants and pots",
+			"name": "House plant pots",
 			"category": "home",
 			"icon": "IconPlant",
 			"url": ""
@@ -36,12 +23,6 @@
 			"name": "Time with helpers for sorting/organizing",
 			"category": "support",
 			"icon": "IconUsers",
-			"url": ""
-		},
-		{
-			"name": "Additional USB-C cables and chargers",
-			"category": "tech",
-			"icon": "IconUsb",
 			"url": ""
 		}
 	],
