@@ -8,7 +8,7 @@ import type { GiftData } from '../components/GiftList';
 export default function JenListPage() {
   return (
     <Stack gap="md">
-      <Title order={1}>Jen's Gift Ideas 🎁</Title>
+      <Title order={1} style={{ whiteSpace: 'nowrap' }}>Jen's Gift Ideas 🎁</Title>
       <GiftGuidelines />
       <GiftList giftData={giftData as GiftData} />
         <ShareGiftList />
