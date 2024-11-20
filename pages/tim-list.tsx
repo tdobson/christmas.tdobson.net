@@ -33,6 +33,10 @@ import giftDataImport from '../config/tim-gifts.json';
 interface GiftData {
   categories: Record<string, Category>;
   items: GiftItem[];
+  notes: {
+    bookNote: string;
+    wishlistUrl: string;
+  };
 }
 type IconName = 'IconStar' | 'IconTools' | 'IconHeart' | 'IconMountain' | 'IconBook' | 'IconArmchair' | 'IconMap' | 'IconCertificate' | 'IconPlug' | 'IconSwimming' | 'IconUsb' | 'IconDeviceFloppy' | 'IconHeadphones' | 'IconLine' | 'IconLink' | 'IconJacket' | 'IconBook2' | 'IconRobot' | 'IconBabyCarriage' | 'IconPhoto' | 'IconWood' | 'IconMoodSmile' | 'IconSteeringWheel';
 
@@ -144,10 +148,10 @@ export default function TimListPage() {
             title="Note"
             color="blue"
           >
-            <Text size="sm">Currently have plenty of books - prefer other gifts unless specifically listed</Text>
+            <Text size="sm">{giftData.notes.bookNote}</Text>
             <Text size="sm">
-              Amazon wishlist: <a href="https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301" target="_blank" rel="noopener noreferrer">
-                https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301
+              Amazon wishlist: <a href={giftData.notes.wishlistUrl} target="_blank" rel="noopener noreferrer">
+                {giftData.notes.wishlistUrl}
               </a>
             </Text>
           </Alert>
