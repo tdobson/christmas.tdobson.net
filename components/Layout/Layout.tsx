@@ -27,9 +27,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
       padding="md"
     >
       <AppShell.Header>
-        <Group h="100%" px="md">
+        <Group h="100%" px={{ base: 'md', sm: 'xl' }} align="center">
           <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-          <h1>Christmas 2024</h1>
+          <h1 style={{ margin: 0 }}>Christmas 2024</h1>
         </Group>
       </AppShell.Header>
 
