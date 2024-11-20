@@ -39,7 +39,7 @@ export default function SchedulePage() {
 
           <Timeline.Item
             bullet={<IconMusic size={16} color={colors.music} />}
-            title="Tuesday 24th December Evening"
+            title="Tuesday 24th December"
           >
             <Text size="sm">Carols event in Old Glossop</Text>
             <Text size="sm" c="dimmed">Jen's parents arrive (staying at nearby Airbnb)</Text>
