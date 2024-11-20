@@ -86,9 +86,9 @@ export default function SchedulePage() {
             center
             icon={<IconStar size="1rem" style={{ color: colors.star }} />}
           >
-            <List.Item>We want to see our family in family-group-sized groups - this is partly to help James have quality time with everyone, and partly to help Tim not get overwhelmed.</List.Item>
-            <List.Item>We're focusing on quality time in smaller groups - obviously not all things are perfect, and we know that some people may have important and fun commitments that are hard to tesselate with, and that's ok.</List.Item>
-            <List.Item>We can come to you, or you can come to us - just let us know when works for you</List.Item>
+            <List.Item>We prefer smaller family groups to help James connect and keep things calm</List.Item>
+            <List.Item>We understand schedules might be tricky - we'll do our best to make things work</List.Item>
+            <List.Item>Happy to host or visit - let us know your preference</List.Item>
           </List>
         </Stack>
       </Card>
