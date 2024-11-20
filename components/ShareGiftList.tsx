@@ -10,7 +10,6 @@ export function ShareGiftList() {
         </Text>
         <Text size="sm" c="dimmed">
           We'd love to see your gift list! It helps us if we're suffering from imagination failure.
-          Get in touch with us:
         </Text>
         <Group>
           <Button
