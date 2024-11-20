@@ -43,6 +43,8 @@ import {
 } from "@tabler/icons-react";
 import React from "react";
 
+export type { GiftData, Category, GiftItem, IconName };
+
 // Type definitions
 interface Category {
 	title: string;
