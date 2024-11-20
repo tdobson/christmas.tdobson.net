@@ -113,11 +113,6 @@ export default function HomePage() {
         </Stack>
       </Card>
 
-      <Card withBorder>
-        <Text>
-          Navigate using the menu or the cards above to view gift lists and schedule information.
-        </Text>
-      </Card>
     </Stack>
   );
 }
