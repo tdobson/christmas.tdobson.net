@@ -6,8 +6,10 @@ import { useRouter } from 'next/router';
 
 const colors = {
   home: '#228BE6',    // blue
-  gift: '#40C057',    // green
-  calendar: '#E64980' // pink
+  jamesList: '#228BE6', // blue (from index.tsx)
+  timList: '#40C057',   // green (from index.tsx)
+  jenList: '#BE4BDB',   // grape (from index.tsx)
+  schedule: '#E64980'  // pink
 };
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -16,10 +18,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   const links = [
     { icon: IconHome, label: 'Home', href: '/', color: colors.home },
-    { icon: IconGift, label: 'James List', href: '/james-list', color: colors.gift },
-    { icon: IconGift, label: 'Tim List', href: '/tim-list', color: colors.gift },
-    { icon: IconGift, label: 'Jen List', href: '/jen-list', color: colors.gift },
-    { icon: IconCalendar, label: 'Schedule', href: '/schedule', color: colors.calendar },
+    { icon: IconGift, label: 'James List', href: '/james-list', color: colors.jamesList },
+    { icon: IconGift, label: 'Tim List', href: '/tim-list', color: colors.timList },
+    { icon: IconGift, label: 'Jen List', href: '/jen-list', color: colors.jenList },
+    { icon: IconCalendar, label: 'Schedule', href: '/schedule', color: colors.schedule },
   ];
 
   return (
