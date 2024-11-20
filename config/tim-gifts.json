@@ -47,7 +47,7 @@
 			"name": "5TB 2.5\" Internal Hard Drive",
 			"shortDescription": "For laptop",
 			"category": "tech",
-			"icon": "IconTools",
+			"icon": "IconDeviceFloppy",
 			"url": ""
 		},
 		{
@@ -61,14 +61,14 @@
 			"name": "3m tape sling",
 			"shortDescription": "From climbing shop",
 			"category": "outdoor",
-			"icon": "IconMountain",
+			"icon": "IconLine",
 			"url": ""
 		},
 		{
 			"name": "Whetman HMS screwgate karabiner",
 			"shortDescription": "",
 			"category": "outdoor",
-			"icon": "IconMountain",
+			"icon": "IconLink",
 			"url": ""
 		},
 		{
@@ -122,9 +122,9 @@
 		},
 		{
 			"name": "Tire compressor",
-			"shortDescription": "For pumping up flat tires",
+			"shortDescription": "For pumping up flat tires", 
 			"category": "tech",
-			"icon": "IconTools",
+			"icon": "IconWheel",
 			"url": ""
 		}
 	],
