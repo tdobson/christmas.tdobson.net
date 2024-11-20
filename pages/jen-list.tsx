@@ -1,23 +1,12 @@
-import { Title, Stack, Card, Text, List, Alert } from '@mantine/core';
-import { IconAlertCircle } from '@tabler/icons-react';
+import { Title, Stack, Card, Text, List } from '@mantine/core';
+import { GiftGuidelines } from '../components/GiftGuidelines';
 
 export default function JenListPage() {
   return (
     <Stack gap="md">
       <Title order={1}>Jen's Gift List</Title>
 
-      <Alert
-        icon={<IconAlertCircle size="1rem" />}
-        title="Gift-Giving Guidelines"
-        color="blue"
-      >
-        <List>
-          <List.Item>Second-hand items are welcomed and encouraged</List.Item>
-          <List.Item>Practical/useful items preferred over decorative</List.Item>
-          <List.Item>Help with tasks/time is often more valuable than physical items</List.Item>
-          <List.Item>Consider helping with research/planning when giving money towards items</List.Item>
-        </List>
-      </Alert>
+      <GiftGuidelines />
 
       <Card withBorder>
         <Stack gap="sm">
