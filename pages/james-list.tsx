@@ -1,12 +1,12 @@
-import React from 'react';
 import { Alert, Card, List, Stack, Text, Title } from "@mantine/core";
-import { GiftGuidelines } from '../components/GiftGuidelines';
 import {
 	IconAlertCircle,
 	IconBan,
 	IconGift,
 	IconStar,
 } from "@tabler/icons-react";
+import React from "react";
+import { GiftGuidelines } from "../components/GiftGuidelines";
 
 export default function JamesListPage() {
 	const priorityItems = [
