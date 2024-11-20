@@ -52,7 +52,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             styles={(theme) => ({
               root: {
                 '&[data-active]': {
-                  backgroundColor: theme.fn.rgba(link.color, 0.1),
+                  backgroundColor: `${link.color}19`, // Using hex opacity (19 = ~10% opacity)
                 },
               },
               label: {
