@@ -49,11 +49,11 @@
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=USB-C+to+USB-A+cables&_sacat=0&_from=R40&rt=nc&_udhi=6"
 		},
 		{
-			"name": "5TB 2.5\" Internal Hard Drive",
+			"name": "4TB 2.5\" Internal Hard Drive",
 			"shortDescription": "For laptop",
 			"category": "tech",
 			"icon": "IconDeviceFloppy",
-			"url": ""
+			"url": "https://www.ebuyer.com/2264757-crucial-bx500-4tb-2-5-inch-internal-ssd-ct4000bx500ssd1"
 		},
 		{
 			"name": "Basic headphones",
@@ -166,6 +166,6 @@
 	},
 	"notes": {
 		"bookNote": "Currently have plenty of books - prefer other gifts unless specifically listed",
-		"wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301"
+		"wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301?type=wishlist&filter=unpurchased&sort=priority&viewType=list"
 	}
 }
