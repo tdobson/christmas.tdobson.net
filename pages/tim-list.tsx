@@ -6,7 +6,25 @@ import {
   IconHeart,
   IconMountain,
   IconBook,
-  IconStar
+  IconStar,
+  IconChair,
+  IconMap,
+  IconCertificate,
+  IconPlug,
+  IconSwimming,
+  IconUsb,
+  IconHardDrive,
+  IconHeadphones,
+  IconRope,
+  IconCarabiner,
+  IconJacket,
+  IconBook2,
+  IconRobot,
+  IconBabyCarriage,
+  IconPhoto,
+  IconWood,
+  IconMoodSmile,
+  IconTire
 } from '@tabler/icons-react';
 import giftDataImport from '../config/tim-gifts.json';
 
