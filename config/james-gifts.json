@@ -3,9 +3,10 @@
 		{
 			"name": "Teeny weenie balance bike",
 			"shortDescription": "Smallest available size - for height 85-95cm",
+			"longDescription": "James is 1 and a half around Christmas - and it'd be good if it was a size he could use immediately or in the next month or two. ",
 			"category": "priority",
 			"icon": "IconStar",
-			"url": ""
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=balance+bike+small&_sacat=0&_from=R40&LH_ItemCondition=4&LH_BIN=1&LH_PrefLoc=1&rt=nc&Bike%2520Type=Balance%2520Bike&_dcat=177831"
 		},
 		{
 			"name": "Thicker foam/rubber play mat",
@@ -23,6 +24,7 @@
 		{
 			"name": "BT6000 Video Baby Monitor",
 			"shortDescription": "James would like this so his parents are extra good at checking on him.",
+			"longDescription": "Ideally we'd get several monitors.",
 			"category": "priority",
 			"icon": "IconDeviceTv",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor&_sacat=0&_from=R40&LH_ItemCondition=3000&LH_BIN=1&_udlo=24&_sop=16&rt=nc&_udhi=60"
@@ -30,6 +32,7 @@
 		{
 			"name": "Animal posters for his room",
 			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
+			"longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older",
 			"category": "priority",
 			"icon": "IconStar",
 			"url": ""
@@ -57,9 +60,11 @@
 		},
 		{
 			"name": "Small buoyancy aid for swimming",
+			"shortDescription": "smallest size please",
+			"longDescription": "It's entirely possible that James use this for a while, but he'd like it so he can one day go near water and on boats.",
 			"category": "other",
 			"icon": "IconGift",
-			"url": ""
+			"url": "https://www.watersportswarehouse.co.uk/products/gul-dartmouth-100n-lifejacket?variant=18822483411017"
 		},
 		{
 			"name": "Oranges",
@@ -67,7 +72,7 @@
 			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
 			"category": "other",
 			"icon": "IconGift",
-			"url": ""
+			"url": "https://en.wikipedia.org/wiki/Mandarin_orange"
 		},
 		{
 			"name": "Flyaway footballs",
