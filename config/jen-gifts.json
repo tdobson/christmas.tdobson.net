@@ -1,75 +1,75 @@
 {
-  "items": [
-    {
-      "name": "Baby wearing coat",
-      "shortDescription": "£85",
-      "category": "highPriority",
-      "icon": "IconJacket",
-      "url": ""
-    },
-    {
-      "name": "Additional baby monitor screens/equipment",
-      "category": "highPriority",
-      "icon": "IconDeviceTV",
-      "url": ""
-    },
-    {
-      "name": "Additional chargers for current monitor",
-      "shortDescription": "Specific model: BT6000",
-      "category": "highPriority",
-      "icon": "IconPlug",
-      "url": ""
-    },
-    {
-      "name": "Money towards massages",
-      "category": "wellbeing",
-      "icon": "IconHeartHandshake",
-      "url": ""
-    },
-    {
-      "name": "House plants and pots",
-      "category": "home",
-      "icon": "IconPlant",
-      "url": ""
-    },
-    {
-      "name": "Time with helpers for sorting/organizing",
-      "category": "support",
-      "icon": "IconUsers",
-      "url": ""
-    },
-    {
-      "name": "Additional USB-C cables and chargers",
-      "category": "tech",
-      "icon": "IconUsb",
-      "url": ""
-    }
-  ],
-  "categories": {
-    "highPriority": {
-      "title": "Priority Items",
-      "icon": "IconStar",
-      "color": "#FFD700"
-    },
-    "wellbeing": {
-      "title": "Health & Wellbeing",
-      "icon": "IconHeartHandshake",
-      "color": "#E64980"
-    },
-    "home": {
-      "title": "Home & Garden",
-      "icon": "IconHome",
-      "color": "#40C057"
-    },
-    "support": {
-      "title": "Support & Time",
-      "icon": "IconUsers",
-      "color": "#7048E8"
-    },
-    "tech": {
-      "title": "Tech & Accessories",
-      "icon": "IconDevices",
-      "color": "#228BE6"
-    }
-  }
+	"items": [
+		{
+			"name": "Baby wearing coat",
+			"shortDescription": "£85",
+			"category": "highPriority",
+			"icon": "IconJacket",
+			"url": ""
+		},
+		{
+			"name": "Additional baby monitor screens/equipment",
+			"category": "highPriority",
+			"icon": "IconDeviceTV",
+			"url": ""
+		},
+		{
+			"name": "Additional chargers for current monitor",
+			"shortDescription": "Specific model: BT6000",
+			"category": "highPriority",
+			"icon": "IconPlug",
+			"url": ""
+		},
+		{
+			"name": "Money towards massages",
+			"category": "wellbeing",
+			"icon": "IconHeartHandshake",
+			"url": ""
+		},
+		{
+			"name": "House plants and pots",
+			"category": "home",
+			"icon": "IconPlant",
+			"url": ""
+		},
+		{
+			"name": "Time with helpers for sorting/organizing",
+			"category": "support",
+			"icon": "IconUsers",
+			"url": ""
+		},
+		{
+			"name": "Additional USB-C cables and chargers",
+			"category": "tech",
+			"icon": "IconUsb",
+			"url": ""
+		}
+	],
+	"categories": {
+		"highPriority": {
+			"title": "Priority Items",
+			"icon": "IconStar",
+			"color": "#FFD700"
+		},
+		"wellbeing": {
+			"title": "Health & Wellbeing",
+			"icon": "IconHeartHandshake",
+			"color": "#E64980"
+		},
+		"home": {
+			"title": "Home & Garden",
+			"icon": "IconHome",
+			"color": "#40C057"
+		},
+		"support": {
+			"title": "Support & Time",
+			"icon": "IconUsers",
+			"color": "#7048E8"
+		},
+		"tech": {
+			"title": "Tech & Accessories",
+			"icon": "IconDevices",
+			"color": "#228BE6"
+		}
+	}
 }
