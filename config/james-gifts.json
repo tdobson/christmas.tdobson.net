@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"name": "Teeny weenie balance bike",
-			"shortDescription": "Smallest available size - for height 85-95cm",
+			"shortDescription": "Smallest available size - for height 65-75cm",
 			"longDescription": "James is 1 and a half around Christmas - and it'd be good if it was a size he could use immediately or in the next month or two. ",
 			"category": "priority",
 			"icon": "IconStar",
@@ -11,15 +11,18 @@
 		{
 			"name": "Thicker foam/rubber play mat",
 			"shortDescription": "For safety under climbing areas",
+			"longDescription": "James has some cool indoor climbing frames. We want him to bounce a bit when the inevitable misshaps happen.",
 			"category": "priority",
 			"icon": "IconStar",
-			"url": ""
+			"url": "https://www.ebay.co.uk/itm/285545416815?_skw=Thicker+foam%2Frubber+play+mat+climbing&itmmeta=01JD5G7PJMBH5CVS68SNNA52SZ&hash=item427bd5486f:g:uXYAAOSwTwplRztb&itmprp=enc%3AAQAJAAABAHoV3kP08IDx%2BKZ9MfhVJKmYPMmxihoioFEN7hegt7R8A9qa9VwenYZ88EDj6SQ%2FC6C%2BWCNhcKx5EydCgKNpgJuQl8cGHiX11TjHR4oQgTRHdrXNAVtBRK%2F9kzvT9%2FJNeYg8MWaZrFa%2BTFanRUhG1xDbfhNsPILFcuaiKLPU6G8Vx1Cg3h3u4%2BbpQ0QkOuN18iXUr5rQMrUvwHZ5rz7V0s5yKK61wC%2BxtRoWppeb3yTUZjaKyvV4toy376ygztiskMPi%2F22pgKUoxNCDx3B5rWjWnydMwkiDoKfEYODUJqT%2BC31LYXwswCRTwCmqVR%2Fu1zniEBcYKsu7XYweg6ZwsSw%3D%7Ctkp%3ABk9SR7jpnrDpZA"
 		},
 		{
 			"name": "Kids' food preparation knives",
+			"shortDescription": "So James can do help",
+			"longDescription": "Really we want James to do all the cooking from the age of 2, so he needs to start now",
 			"category": "priority",
 			"icon": "IconStar",
-			"url": ""
+			"url": "https://amzn.eu/d/j7V4cXb"
 		},
 		{
 			"name": "BT6000 Video Baby Monitor",
@@ -30,25 +33,27 @@
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000%20baby%20monitor&_sacat=0&_from=R40&LH_ItemCondition=3000&LH_BIN=1&_udlo=24&_sop=16&rt=nc&_udhi=60"
 		},
 		{
-			"name": "Animal posters for his room",
+			"name": "Animal photo posters for his room",
 			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
-			"longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older",
+			"longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older, and no abstract illustrations. Unsubtle is good.",
 			"category": "priority",
 			"icon": "IconStar",
-			"url": ""
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=dog+photo+poster&_sacat=0&_from=R40&LH_ItemCondition=3&LH_PrefLoc=1&_sop=15&_pgn=2&imm=1"
 		},
 		{
 			"name": "Number floor tiles/mats",
+			"shortDescription": "We want to start recognising number shapes soon",
+			"longDescription": "We have lots of alphabet things - and are keen for some number ones.",
 			"category": "priority",
 			"icon": "IconStar",
-			"url": ""
+			"url": "https://www.ebay.co.uk/itm/256715646512"
 		},
 		{
 			"name": "Warm boots",
 			"shortDescription": "Size 4-4.5",
 			"category": "other",
 			"icon": "IconGift",
-			"url": ""
+			"url": "https://www.vinted.co.uk/items/5413463155-baby-bogs"
 		},
 		{
 			"name": "Edelrid Fraggle XXS Climbing harness",
