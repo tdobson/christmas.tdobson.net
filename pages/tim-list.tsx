@@ -97,10 +97,11 @@ export default function TimListPage() {
   }, {} as Record<string, GiftItem[]>);
 
   return (
-    <Stack gap="md">
-      <Title order={1}>Tim's Gift List</Title>
+    <Box>
+      <Stack gap="md">
+        <Title order={1}>Tim's Gift List</Title>
 
-      <Alert
+        <Alert
         icon={<IconAlertCircle size="1rem" />}
         title="Gift-Giving Guidelines"
         color="blue"
@@ -164,6 +165,7 @@ export default function TimListPage() {
           </Alert>
         </Stack>
       </Card>
-    </Stack>
+      </Stack>
+    </Box>
   );
 }
