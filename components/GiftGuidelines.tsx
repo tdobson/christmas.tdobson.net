@@ -1,13 +1,21 @@
 import { Alert, List } from "@mantine/core";
 import { IconAlertCircle } from "@tabler/icons-react";
-import React from "react";
+import { useGuidelines } from "../contexts/GuidelinesContext";
 
 export function GiftGuidelines() {
+	const { isGuidelinesDismissed, dismissGuidelines } = useGuidelines();
+
+	if (isGuidelinesDismissed) {
+		return null;
+	}
+
 	return (
 		<Alert
 			icon={<IconAlertCircle size="1rem" />}
 			title="Gift-Giving Guidelines"
 			color="blue"
+			withCloseButton
+			onClose={dismissGuidelines}
 		>
 			<List>
 				<List.Item>
