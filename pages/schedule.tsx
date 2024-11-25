@@ -58,7 +58,7 @@ export default function SchedulePage() {
             title="Thursday 26th December"
           >
             <Text size="sm">Boxing Day in Strines</Text>
-            <Text size="sm" c="dimmed">Jen's sister Sarah with Chris hopefully joining for dinner</Text>
+            <Text size="sm" c="dimmed">Sarah and Chris joining for dinner and staying overnight (living room floor/sofa)</Text>
           </Timeline.Item>
 
           <Timeline.Item
