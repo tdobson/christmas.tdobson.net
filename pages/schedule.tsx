@@ -41,7 +41,8 @@ export default function SchedulePage() {
             bullet={<IconMusic size={16} color={colors.music} />}
             title="Tuesday 24th December"
           >
-            <Text size="sm">Carols event in Old Glossop</Text>
+            <Text size="sm">Carols Round the Christmas Tree in Old Glossop (6:00pm - 7:00pm)</Text>
+            <Text size="sm" c="dimmed">Mulled wine and mince pies served, with interval 6:20pm - 6:35pm</Text>
             <Text size="sm" c="dimmed">Jen's parents arrive (staying at nearby Airbnb)</Text>
           </Timeline.Item>
 
