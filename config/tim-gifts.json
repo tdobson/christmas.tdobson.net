@@ -41,6 +41,15 @@
 			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5"
 		},
 		{
+			"name": "Kayak Rolling Course",
+			"shortDescription": "90-minute session to develop whitewater kayak roll technique",
+			"longDescription": "A private session in a heated pool with an instructor to develop and improve kayak rolling technique. This fundamental skill would help me be more confident in whitewater. Sessions are 90 minutes long and include instruction and boat use if needed.",
+			"category": "education", 
+			"icon": "IconSwimming",
+			"url": "https://www.roho.co.uk/develop-your-kayak-roll-with-us",
+			"price": 45
+		},
+		{
 			"name": "170W ThinkPad Chargers",
 			"shortDescription": "Must be 170W - less powerful chargers won't work on my laptop",
 			"longDescription": "Rectangle-ended tip suitable for P50/P52 etc - second hand recommended. The link has many suitable ones that would all work.",
