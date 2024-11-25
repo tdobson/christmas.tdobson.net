@@ -58,11 +58,13 @@
 		},
 		{
 			"name": "Edelrid Fraggle XXS Climbing harness",
-			"shortDescription": "XXS size please",
-			"longDescription": "It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
+			"shortDescription": "XXS size please - ALREADY BOUGHT (£60) - contributions welcome",
+			"longDescription": "This has been purchased for £60 - contributions towards the cost are welcome! It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
 			"category": "outdoor",
 			"icon": "IconMountain",
-			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/"
+			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/",
+			"purchased": true,
+			"price": 60
 		},
 		{
 			"name": "Small buoyancy aid for swimming",
