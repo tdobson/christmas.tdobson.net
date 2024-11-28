@@ -54,7 +54,9 @@
 			"longDescription": "An engaging pop-up book exploring caves, mines, and underground spaces. While books are generally on our 'do not buy' list, this specific book about underground adventures is a welcome exception!",
 			"category": "learning",
 			"icon": "IconBook",
-			"url": "https://amzn.to/3Z2GMgU"
+			"url": "https://amzn.to/3Z2GMgU",
+			"purchased": true,
+			"price": 15
 		},
 		{
 			"name": "Warm boots (Size 4-4.5)",
