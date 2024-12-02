@@ -52,7 +52,8 @@
 			"category": "education",
 			"icon": "IconSwimming",
 			"url": "https://www.roho.co.uk/develop-your-kayak-roll-with-us",
-			"price": 45
+			"price": 45,
+			"priceIndicator": "££"
 		},
 		{
 			"name": "170W ThinkPad Chargers",
@@ -60,7 +61,8 @@
 			"longDescription": "Rectangle-ended tip suitable for P50/P52 etc - second hand recommended. The link has many suitable ones that would all work.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct"
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "Wetsuit",
@@ -68,7 +70,8 @@
 			"longDescription": "My wetsuit is about 25 years old, and is somewhat held together with prayers and luck. The one link is suggested - but any full arm, and full leg - Large size - wetsuit would be welcome. Preloved is encouraged.",
 			"category": "outdoor",
 			"icon": "IconMountain",
-			"url": "https://www.decathlon.co.uk/p/mp/lomo/lomo-octane-5mm-wetsuit/_/R-p-c2b5a9fd-2820-4883-a9a4-593f4f2c4691?mc=c2b5a9fd-2820-4883-a9a4-593f4f2c4691_c251c251&c=grey"
+			"url": "https://www.decathlon.co.uk/p/mp/lomo/lomo-octane-5mm-wetsuit/_/R-p-c2b5a9fd-2820-4883-a9a4-593f4f2c4691?mc=c2b5a9fd-2820-4883-a9a4-593f4f2c4691_c251c251&c=grey",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "USB-C to USB-A cables",
@@ -76,7 +79,8 @@
 			"longDescription": "Second hand/preloved welcome!",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=USB-C+to+USB-A+cables&_sacat=0&_from=R40&rt=nc&_udhi=6"
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=USB-C+to+USB-A+cables&_sacat=0&_from=R40&rt=nc&_udhi=6",
+			"priceIndicator": "£"
 		},
 		{
 			"name": "4TB 2.5\" Internal Hard Drive",
@@ -84,7 +88,8 @@
 			"longDescription": "I have a 2TB HDD, and a 4TB disk would let me do more work and hold more photos of James! The one linked will fit my laptop.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebuyer.com/2264757-crucial-bx500-4tb-2-5-inch-internal-ssd-ct4000bx500ssd1"
+			"url": "https://www.ebuyer.com/2264757-crucial-bx500-4tb-2-5-inch-internal-ssd-ct4000bx500ssd1",
+			"priceIndicator": "£££"
 		},
 		{
 			"name": "Basic headphones",
@@ -92,7 +97,8 @@
 			"longDescription": "Please not bluetooth ones. The ones linked are my favourite model, but all headphones gratefully recieved.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/itm/195579022728"
+			"url": "https://www.ebay.co.uk/itm/195579022728",
+			"priceIndicator": "£"
 		},
 		{
 			"name": "Laser Printer",
@@ -100,7 +106,8 @@
 			"longDescription": "Our current inkjet printer drinks ink like there's no tomorrow and produces poor quality prints. A used laser printer (Samsung, Xerox, or similar) would be much more reliable and cost-effective. Color would be nice but monochrome is fine too. Used and in working condition is preferred.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=used%20laser%20printer%20samsung&_sacat=0&LH_ItemCondition=4&LH_PrefLoc=1&rt=nc&_udlo=30&_udhi=150"
+			"url": "https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=used%20laser%20printer%20samsung&_sacat=0&LH_ItemCondition=4&LH_PrefLoc=1&rt=nc&_udlo=30&_udhi=150",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "3m of tubular climbing webbing tape",
@@ -108,7 +115,8 @@
 			"shortDescription": "3m of this tubular webbing from this climbing shop would be a great replacement.",
 			"category": "outdoor",
 			"icon": "IconMountain",
-			"url": "https://www.dicksclimbing.com/products/beal-tubular-webbing-tape-26mm-per-metre"
+			"url": "https://www.dicksclimbing.com/products/beal-tubular-webbing-tape-26mm-per-metre",
+			"priceIndicator": "£"
 		},
 		{
 			"name": "Whetman HMS screwgate carabiner",
@@ -132,7 +140,8 @@
 			"longDescription": "Unsolicited book recommendation: her other books are fantastic. Sadly I already own them.",
 			"category": "books",
 			"icon": "IconBook",
-			"url": "https://amzn.to/3YXBItR"
+			"url": "https://amzn.to/3YXBItR",
+			"priceIndicator": "£"
 		},
 		{
 			"name": "AI credits",
@@ -140,7 +149,8 @@
 			"longDescription": "I find myself finding Anthropic's Claude API extremely helpful and taking up some of my money. It helps me do things faster, better than ever before and I'm finding it extremely helpful. I sometimes spend about $2 per day on it, and it easily is delivering £10 of value to me each time. Money towards it would be warmly welcomed.",
 			"category": "tech",
 			"icon": "IconRobot",
-			"url": "https://www.anthropic.com/pricing#anthropic-api"
+			"url": "https://www.anthropic.com/pricing#anthropic-api",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "Babysitting",
@@ -148,7 +158,8 @@
 			"longDescription": "Having someone watch James, even for a short while, gives us a chance to do essential tasks or have a brief rest. This gift of time is incredibly valuable to us. No special skills needed - just patience and enthusiasm!",
 			"category": "support",
 			"icon": "IconHeart",
-			"url": ""
+			"url": "",
+			"priceIndicator": "FREE"
 		},
 		{
 			"name": "Sentimental items",
@@ -188,7 +199,8 @@
 			"longDescription": "I thought I had one, but I seem to have lost it. Preloved or reloved or whatever is welcome. Should work on 12v.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Air+Compressor+Tyre+Pump+12v&_from=R40&_sop=15&_fspt=1&rt=nc&LH_ItemCondition=4%7C3"
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=Air+Compressor+Tyre+Pump+12v&_from=R40&_sop=15&_fspt=1&rt=nc&LH_ItemCondition=4%7C3",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "Mercedes Sprinter Tow Loop",
@@ -196,7 +208,8 @@
 			"longDescription": "A towing eye that screws into the front of the van. Better to have it and not need it than need it and not have it!",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/itm/365074795124"
+			"url": "https://www.ebay.co.uk/itm/365074795124",
+			"priceIndicator": "£"
 		},
 		{
 			"name": "Allen Key Set",
@@ -212,7 +225,8 @@
 			"longDescription": "Yes, this is partly a joke gift. But also, there's something about the cheap Lidl/Aldi penne that just works better than fancy pasta. I will genuinely eat and enjoy this. Multiple bags welcome!",
 			"category": "food",
 			"icon": "IconTools",
-			"url": ""
+			"url": "",
+			"priceIndicator": "£"
 		}
 	],
 	"categories": {
