@@ -66,14 +66,15 @@ export default function SchedulePage() {
             title="Friday 27th December"
           >
             <Text size="sm">Jen's parents depart Strines</Text>
-            <Text size="sm" c="dimmed">Potential afternoon visit window for Tim's family</Text>
+            <Text size="sm" c="dimmed">Available for visitors from lunchtime onwards</Text>
           </Timeline.Item>
 
           <Timeline.Item
             bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Saturday 28th-Monday 30th December"
           >
-            <Text size="sm">Additional potential visit windows for Tim's family</Text>
+            <Text size="sm">Available all day Saturday 28th for visitors</Text>
+            <Text size="sm" c="dimmed">Sunday 29th-Monday 30th - additional potential visit windows</Text>
           </Timeline.Item>
         </Timeline>
       </Card>
