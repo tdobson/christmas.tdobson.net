@@ -6,7 +6,8 @@
 			"longDescription": "All gift of cheddar cheese is welcome. No cheddar is too strong. Much more of a fan of cheddar than, say, fancy french cheeses",
 			"category": "food",
 			"icon": "IconTools",
-			"url": "https://www.barbers.co.uk/collections/all"
+			"url": "https://www.barbers.co.uk/collections/all",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "Poang chair",
@@ -14,7 +15,8 @@
 			"longDescription": "I have one, and want more. Ideally for every floor in the house. I don't care about colour etc - second hand is great.",
 			"category": "home",
 			"icon": "IconArmchair",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=poang+chair&_sacat=0&_from=R40&_sop=15&_sadis=25&_stpos=SK67GB&_fspt=1&_blrs=recall_filtering&rt=nc&LH_All=1"
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=poang+chair&_sacat=0&_from=R40&_sop=15&_sadis=25&_stpos=SK67GB&_fspt=1&_blrs=recall_filtering&rt=nc&LH_All=1",
+			"priceIndicator": "£££"
 		},
 		{
 			"name": "Moorland Grit guidebook",
