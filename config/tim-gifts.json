@@ -24,7 +24,8 @@
 			"longDescription": "I don't think I will climb anything in it, but it's a guidebook of esoteric underclimbed, pieces of rock round Glossop. Rock probably best looked at rather than climbed, which is what makes the guidebook likely more fun than climbing them.",
 			"category": "outdoor",
 			"icon": "IconMap",
-			"url": "https://www.amazon.co.uk/Moorland-Grit-bouldering-North-West-District/dp/1909461571"
+			"url": "https://www.amazon.co.uk/Moorland-Grit-bouldering-North-West-District/dp/1909461571",
+			"priceIndicator": "££"
 		},
 		{
 			"name": "Chainsaw cutting course",
@@ -32,7 +33,8 @@
 			"longDescription": "But I'd also like to keep all my fingers, and most of my face, so probs ideal to do it safeishly.",
 			"category": "education",
 			"icon": "IconTools",
-			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5"
+			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5",
+			"priceIndicator": "£££"
 		},
 		{
 			"name": "Stick (MMA) welding course",
@@ -40,7 +42,8 @@
 			"longDescription": "It could be fun to know how to stick bits of metal together. It might become - to some degree - like learning to \"paint\" in metal.",
 			"category": "education",
 			"icon": "IconTools",
-			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5"
+			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5",
+			"priceIndicator": "£££"
 		},
 		{
 			"name": "Kayak Rolling Course",
