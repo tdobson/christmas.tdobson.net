@@ -157,7 +157,7 @@
 			"name": "Chopped Firewood",
 			"shortDescription": "We have a small stove ",
 			"longDescription": "As much as I'd love some massive pieces of tree, without a chainsaw and appropriate knowledge, any firewood would be best in stove size portions.",
-			"category": "support",
+			"category": "home",
 			"icon": "IconTools",
 			"url": "https://pearsonfuels.co.uk/product-category/local-shop/kiln-dried-logs/"
 		},
@@ -236,15 +236,15 @@
 			"icon": "IconDevices",
 			"color": "#1C7ED6"
 		},
-		"support": {
-			"title": "Time & Support",
-			"icon": "IconHeart",
-			"color": "#E64980"
-		},
 		"books": {
 			"title": "Books & Reading",
 			"icon": "IconBook",
 			"color": "#7048E8"
+		},
+		"support": {
+			"title": "Time & Support",
+			"icon": "IconHeart",
+			"color": "#E64980"
 		}
 	},
 	"notes": {
