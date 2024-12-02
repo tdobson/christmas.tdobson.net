@@ -66,7 +66,7 @@ export default function SchedulePage() {
             title="Friday 27th December"
           >
             <Text size="sm">Jen's parents depart Strines</Text>
-            <Text size="sm" c="dimmed">Available for visitors from lunchtime onwards</Text>
+            <Text size="sm" c="dimmed">Available for Tim's family and other visitors from lunchtime onwards</Text>
           </Timeline.Item>
 
           <Timeline.Item
