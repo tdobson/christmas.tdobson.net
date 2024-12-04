@@ -47,6 +47,14 @@
 			"category": "home",
 			"icon": "IconHome",
 			"url": "https://amzn.to/3AGIFrr"
+		},
+		{
+			"name": "Krupnik Plum Vodka (500ml)",
+			"shortDescription": "My preferred liquor with a pleasing taste",
+			"longDescription": "Available from Food Plus (£12.89) or Polish shops. 30% ABV, 500ml bottles. The more bottles the better! A refined recipe combining delicate sweetness of plums with a gentle alcohol warmth.",
+			"category": "wellbeing",
+			"icon": "IconGlass",
+			"url": "https://uk.foodplus.eu/en_GB/p/Krupnik-Plum-Vodka-Alc.30-500ml/23647"
 		}
 	],
 	"categories": {
