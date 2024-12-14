@@ -23,7 +23,18 @@ export default function SchedulePage() {
             bullet={<IconCalendar size={16} color={colors.calendar} />}
             title="Saturday 21st December"
           >
-            <Text size="sm">Potential visit window for Tim's family</Text>
+            <Stack gap="xs">
+              <Text size="sm" fw={500}>Morning</Text>
+              <List size="sm" spacing="xs" withPadding>
+                <List.Item>Hosting stay and play at Strines Road (09:30-12:00)</List.Item>
+                <List.Item>Christmas Sainsbury's delivery expected</List.Item>
+              </List>
+              
+              <Text size="sm" fw={500}>Evening (18:00-22:00)</Text>
+              <List size="sm" spacing="xs" withPadding>
+                <List.Item>Family visiting</List.Item>
+              </List>
+            </Stack>
           </Timeline.Item>
 
           <Timeline.Item
@@ -47,7 +58,7 @@ export default function SchedulePage() {
             <Stack gap="xs">
               <Text size="sm" fw={500}>Afternoon</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Guests to check into hotel first</List.Item>
+                <List.Item>Tony and Liz to check into hotel first</List.Item>
                 <List.Item>Afternoon tea service with cake and sandwiches</List.Item>
               </List>
               
@@ -74,28 +85,29 @@ export default function SchedulePage() {
             <Stack gap="xs">
               <Text size="sm" fw={500}>Church Options</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Super local option available</List.Item>
-                <List.Item>St. Martin's (near guest hotel)</List.Item>
-                <List.Item>Midnight mass alternative</List.Item>
-                <List.Item>Station parking available</List.Item>
+                <List.Item>Tony and Liz might go to church in Strines or Marple Bridge</List.Item>
+              </List>
+
+              <Text size="sm" fw={500}>Morning</Text>
+              <List size="sm" spacing="xs" withPadding>
+                <List.Item>Tony and Liz having breakfast at hotel</List.Item>
               </List>
 
               <Text size="sm" fw={500}>Main Meal</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Non-traditional Christmas lunch</List.Item>
-                <List.Item>Considering pie as main dish</List.Item>
+                <List.Item>Non-traditional Christmas lunch (possibly pie)</List.Item>
               </List>
 
-              <Text size="sm" fw={500}>Evening</Text>
+              <Text size="sm" fw={500}>Afternoon Activities</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Macaroni and cheese for tea</List.Item>
-                <List.Item>Keeping evening simple and manageable</List.Item>
+                <List.Item>Potential walk in New Mills on the Millennium Walkway</List.Item>
               </List>
 
               <Text size="sm" fw={500}>Present Opening</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Split across multiple sessions for James</List.Item>
-                <List.Item>Selected presents to be opened today</List.Item>
+                <List.Item>Main present opening session for James</List.Item>
+                <List.Item>Some presents saved for Boxing Day with Sarah and Chris</List.Item>
+                <List.Item>Remaining James's presents to be spread across several days</List.Item>
               </List>
             </Stack>
           </Timeline.Item>
@@ -107,12 +119,13 @@ export default function SchedulePage() {
             <Stack gap="xs">
               <Text size="sm" fw={500}>Morning</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Parents having breakfast at hotel</List.Item>
+                <List.Item>Tony and Liz having breakfast at hotel</List.Item>
               </List>
 
               <Text size="sm" fw={500}>Early Afternoon (2:00pm - 4:00pm)</Text>
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Sarah and Chris arriving from York</List.Item>
+                <List.Item>Main present opening session with everyone</List.Item>
                 <List.Item>Afternoon nibbles provided</List.Item>
               </List>
 
