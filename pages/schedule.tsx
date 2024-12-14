@@ -72,7 +72,6 @@ export default function SchedulePage() {
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Pre-prepared flan</List.Item>
                 <List.Item>Potatoes</List.Item>
-                <List.Item>All cooking done in advance</List.Item>
               </List>
             </Stack>
           </Timeline.Item>
