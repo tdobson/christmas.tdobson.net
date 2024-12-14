@@ -18,9 +18,9 @@ export default function SchedulePage() {
       <Title order={1}>🎄 Schedule</Title>
 
       <Card withBorder>
-        <Timeline active={-1} bulletSize={32} color="blue">
+        <Timeline active={-1} bulletSize={24} color="blue">
           <Timeline.Item
-            bullet={<IconCalendar size={16} color={colors.calendar} />}
+            bullet={<IconCalendar size={20} color={colors.calendar} />}
             title="Saturday 21st December"
           >
             <Stack gap="xs">
@@ -37,7 +37,7 @@ export default function SchedulePage() {
           </Timeline.Item>
 
           <Timeline.Item
-            bullet={<IconCalendar size={12} color={colors.calendar} />}
+            bullet={<IconCalendar size={20} color={colors.calendar} />}
             title="Sunday 22nd December"
           >
             <Text size="sm">Tim, Jen and James spending the day at Old Cross with Judith and Adrian (arriving 10:30am)</Text>
@@ -77,7 +77,7 @@ export default function SchedulePage() {
           </Timeline.Item>
 
           <Timeline.Item
-            bullet={<IconUsers size={16} color={colors.users} />}
+            bullet={<IconUsers size={20} color={colors.users} />}
             title="Wednesday 25th December - Christmas Day"
           >
             <Stack gap="xs">
