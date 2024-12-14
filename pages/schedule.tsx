@@ -40,7 +40,7 @@ export default function SchedulePage() {
             bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Sunday 22nd December"
           >
-            <Text size="sm">Tim, Jen and James visiting Old Cross at 10:30am to see Judith and Adrian, eating together</Text>
+            <Text size="sm">Tim, Jen and James spending the day at Old Cross with Judith and Adrian (arriving 10:30am)</Text>
           </Timeline.Item>
 
           <Timeline.Item
