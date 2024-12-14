@@ -58,7 +58,7 @@ export default function SchedulePage() {
               <Text size="sm" fw={500}>Afternoon</Text>
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Tony and Liz to check into hotel first</List.Item>
-                <List.Item>Afternoon tea service with cake and sandwiches</List.Item>
+                <List.Item>Afternoon tea at Strines Road with cake and sandwiches</List.Item>
               </List>
               
               <Text size="sm" fw={500}>Evening - Old Cross Visit (6:00pm - 7:00pm)</Text>
@@ -68,7 +68,7 @@ export default function SchedulePage() {
                 <List.Item>Mulled wine and mince pies served (interval 6:20pm - 6:35pm)</List.Item>
               </List>
 
-              <Text size="sm" fw={500}>Evening Meal</Text>
+              <Text size="sm" fw={500}>Evening Meal (8:20pm)</Text>
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Pre-prepared flan</List.Item>
                 <List.Item>Potatoes</List.Item>
@@ -105,7 +105,7 @@ export default function SchedulePage() {
               <Text size="sm" fw={500}>Present Opening</Text>
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Main present opening session for James</List.Item>
-                <List.Item>Some presents saved for Boxing Day with Sarah and Chris</List.Item>
+                <List.Item>Adult presents will be opened on Boxing Day</List.Item>
                 <List.Item>Remaining James's presents to be spread across several days</List.Item>
               </List>
             </Stack>
