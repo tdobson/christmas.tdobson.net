@@ -27,12 +27,11 @@ export default function SchedulePage() {
               <Text size="sm" fw={500}>Morning</Text>
               <List size="sm" spacing="xs" withPadding>
                 <List.Item>Hosting stay and play at Strines Road (09:30-12:00)</List.Item>
-                <List.Item>Christmas Sainsbury's delivery expected</List.Item>
               </List>
               
               <Text size="sm" fw={500}>Evening (18:00-22:00)</Text>
               <List size="sm" spacing="xs" withPadding>
-                <List.Item>Family visiting</List.Item>
+                <List.Item>Christmas Sainsbury's delivery expected</List.Item>
               </List>
             </Stack>
           </Timeline.Item>
@@ -41,7 +40,7 @@ export default function SchedulePage() {
             bullet={<IconCalendar size={12} color={colors.calendar} />}
             title="Sunday 22nd December"
           >
-            <Text size="sm">Visiting Judith and Adrian</Text>
+            <Text size="sm">Tim, Jen and James visiting Old Cross at 10:30am to see Judith and Adrian, eating together</Text>
           </Timeline.Item>
 
           <Timeline.Item
