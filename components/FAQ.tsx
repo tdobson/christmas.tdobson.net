@@ -1,5 +1,6 @@
+import React from 'react';
 import { Title, Stack, Card, Text, Accordion } from '@mantine/core';
-import faqData from '../config/faq.json';
+import faqData from '../config/faq.json' assert { type: "json" };
 
 interface Answer {
   person: string;

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Title, Text, Stack, Paper, Group, SimpleGrid } from '@mantine/core';
 import { IconGift, IconCalendar } from '@tabler/icons-react';
 import Link from 'next/link';

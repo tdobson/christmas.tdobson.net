@@ -1,3 +1,4 @@
+import React from 'react';
 import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
 import { FAQ } from '../components/FAQ';
 import { IconCalendar, IconUsers, IconMusic, IconStar, IconBell } from '@tabler/icons-react';
