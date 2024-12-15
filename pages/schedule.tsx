@@ -1,4 +1,5 @@
 import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
+import { FAQ } from '../components/FAQ';
 import { IconCalendar, IconUsers, IconMusic, IconStar, IconBell } from '@tabler/icons-react';
 
 export default function SchedulePage() {
@@ -170,6 +171,7 @@ export default function SchedulePage() {
           </List>
         </Stack>
       </Card>
+      <FAQ />
     </Stack>
   );
 }

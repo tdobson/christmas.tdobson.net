@@ -1,50 +1,9 @@
-import { Title, Text, Stack, Card, Paper, Group, SimpleGrid, Accordion } from '@mantine/core';
+import { Title, Text, Stack, Paper, Group, SimpleGrid } from '@mantine/core';
 import { IconGift, IconCalendar } from '@tabler/icons-react';
 import Link from 'next/link';
-import faqData from '../config/faq.json';
-
-interface Answer {
-  person: string;
-  requirements: string;
-}
-
-interface BaseQuestion {
-  question: string;
-}
-
-interface SimpleQuestion extends BaseQuestion {
-  answer: string;
-}
-
-interface ComplexQuestion extends BaseQuestion {
-  answers: Answer[];
-}
-
-type Question = SimpleQuestion | ComplexQuestion;
+import { FAQ } from '../components/FAQ';
 
 export default function HomePage() {
-  const renderAnswer = (question: Question) => {
-    if ('answers' in question) {
-      return (
-        <Stack gap={4}>
-          {question.answers.map((answer) => (
-            <Text size="sm" key={answer.person}>
-              <strong>{answer.person}:</strong> {answer.requirements}
-            </Text>
-          ))}
-        </Stack>
-      );
-    }
-    return (
-      <Stack gap={4}>
-        {question.answer.split('\n').map((line, index) => (
-          <Text size="sm" key={index}>
-            {line}
-          </Text>
-        ))}
-      </Stack>
-    );
-  };
   const navigationItems = [
     {
       title: "James's List",
@@ -103,23 +62,7 @@ export default function HomePage() {
         ))}
       </SimpleGrid>
 
-      <Card withBorder>
-        <Stack gap="sm">
-          <Title order={2}>Q&A</Title>
-          <Accordion>
-            {faqData.questions.map((question, index) => (
-              <Accordion.Item key={index} value={`question-${index}`}>
-                <Accordion.Control>
-                  <Text fw={500}>{question.question}</Text>
-                </Accordion.Control>
-                <Accordion.Panel>
-                  {renderAnswer(question)}
-                </Accordion.Panel>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        </Stack>
-      </Card>
+      <FAQ />
 
     </Stack>
   );
