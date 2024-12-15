@@ -1,0 +1,143 @@
+{
+  "events": [
+    {
+      "date": "Saturday 21st December",
+      "icon": "calendar",
+      "sections": [
+        {
+          "title": "Morning",
+          "items": [
+            "Hosting stay and play at Strines Road (09:30-12:00)"
+          ]
+        },
+        {
+          "title": "Evening (18:00-22:00)",
+          "items": [
+            "Christmas Sainsbury's delivery expected"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Sunday 22nd December",
+      "icon": "calendar",
+      "description": "Tim, Jen and James spending the day at Old Cross with Judith and Adrian (arriving 10:30am)"
+    },
+    {
+      "date": "Monday 23rd December",
+      "icon": "calendar",
+      "description": "James at nursery (maintaining routine)"
+    },
+    {
+      "date": "Tuesday 24th December - Arrival Day",
+      "icon": "calendar",
+      "sections": [
+        {
+          "title": "Afternoon",
+          "items": [
+            "Tony and Liz to check into hotel first",
+            "Afternoon tea at Strines Road with cake and sandwiches"
+          ]
+        },
+        {
+          "title": "Evening - Old Cross Visit (6:00pm - 7:00pm)",
+          "items": [
+            "Taking two cars for easier transfers",
+            "James to have pasta meal during visit",
+            "Mulled wine and mince pies served (interval 6:20pm - 6:35pm)"
+          ]
+        },
+        {
+          "title": "Evening Meal (8:20pm)",
+          "items": [
+            "Pre-prepared flan",
+            "Potatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Wednesday 25th December - Christmas Day",
+      "icon": "users",
+      "sections": [
+        {
+          "title": "Church Options",
+          "items": [
+            "Tony and Liz might go to church in Strines or Marple Bridge"
+          ]
+        },
+        {
+          "title": "Morning",
+          "items": [
+            "Tony and Liz having breakfast at hotel"
+          ]
+        },
+        {
+          "title": "Main Meal",
+          "items": [
+            "Non-traditional Christmas lunch (possibly pie)"
+          ]
+        },
+        {
+          "title": "Afternoon Activities",
+          "items": [
+            "Potential walk in New Mills on the Millennium Walkway"
+          ]
+        },
+        {
+          "title": "Present Opening",
+          "items": [
+            "Main present opening session for James",
+            "Adult presents will be opened on Boxing Day",
+            "Remaining James's presents to be spread across several days"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Thursday 26th December - Boxing Day",
+      "icon": "users",
+      "sections": [
+        {
+          "title": "Morning",
+          "items": [
+            "Tony and Liz having breakfast at hotel"
+          ]
+        },
+        {
+          "title": "Early Afternoon (2:00pm - 4:00pm)",
+          "items": [
+            "Sarah and Chris arriving from York",
+            "Main present opening session with everyone",
+            "Afternoon nibbles provided"
+          ]
+        },
+        {
+          "title": "Evening (5:30pm)",
+          "items": [
+            "Traditional Christmas dinner",
+            "Present opening coordinated with Sarah's arrival"
+          ]
+        }
+      ],
+      "note": "Sarah and Chris staying overnight (living room floor/sofa)"
+    },
+    {
+      "date": "Friday 27th December",
+      "icon": "calendar",
+      "description": "Jen's parents depart Strines",
+      "note": "Available for Tim's family and other visitors from lunchtime onwards"
+    },
+    {
+      "date": "Saturday 28th-Monday 30th December",
+      "icon": "calendar",
+      "description": "Available all day Saturday 28th for visitors",
+      "note": "Sunday 29th-Monday 30th - additional potential visit windows"
+    }
+  ],
+  "visitingNotes": [
+    "We prefer smaller family groups to help James connect and keep things calm",
+    "We understand schedules might be tricky - we'll do our best to make things work",
+    "Happy to host or visit - let us know your preference"
+  ]
+}
