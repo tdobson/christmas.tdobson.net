@@ -2,7 +2,7 @@
 	"events": [
 		{
 			"date": "Saturday 21st December",
-			"isoDate": "2023-12-21",
+			"isoDate": "2024-12-21",
 			"icon": "calendar",
 			"sections": [
 				{
@@ -17,19 +17,19 @@
 		},
 		{
 			"date": "Sunday 22nd December",
-			"isoDate": "2023-12-22",
+			"isoDate": "2024-12-22",
 			"icon": "calendar",
 			"description": "Tim, Jen and James spending the day at Old Cross with Judith and Adrian (arriving 10:30am)"
 		},
 		{
 			"date": "Monday 23rd December",
-			"isoDate": "2023-12-23",
+			"isoDate": "2024-12-23",
 			"icon": "calendar",
 			"description": "James at nursery (maintaining routine)"
 		},
 		{
 			"date": "Tuesday 24th December - Arrival Day",
-			"isoDate": "2023-12-24",
+			"isoDate": "2024-12-24",
 			"icon": "calendar",
 			"sections": [
 				{
@@ -55,7 +55,7 @@
 		},
 		{
 			"date": "Wednesday 25th December - Christmas Day",
-			"isoDate": "2023-12-25",
+			"isoDate": "2024-12-25",
 			"icon": "users",
 			"sections": [
 				{
@@ -88,7 +88,7 @@
 		},
 		{
 			"date": "Thursday 26th December - Boxing Day",
-			"isoDate": "2023-12-26",
+			"isoDate": "2024-12-26",
 			"icon": "users",
 			"sections": [
 				{
@@ -115,27 +115,27 @@
 		},
 		{
 			"date": "Friday 27th December",
-			"isoDate": "2023-12-27",
+			"isoDate": "2024-12-27",
 			"icon": "calendar",
 			"description": "Jen's parents depart Strines",
 			"note": "Available for Tim's family and other visitors from lunchtime onwards"
 		},
 		{
 			"date": "Saturday 28th-Sunday 29th December",
-			"isoDate": "2023-12-29",
+			"isoDate": "2024-12-29",
 			"icon": "calendar",
 			"description": "Available all day Saturday 28th for visitors",
 			"note": "Sunday 29th - additional potential visit window"
 		},
 		{
 			"date": "Monday 30th December - Wednesday 1st January",
-			"isoDate": "2024-01-01",
+			"isoDate": "2025-01-01",
 			"icon": "calendar",
 			"description": "Away at Bullpot Farm"
 		},
 		{
 			"date": "Thursday 2nd January",
-			"isoDate": "2024-01-02",
+			"isoDate": "2025-01-02",
 			"icon": "calendar",
 			"sections": [
 				{
@@ -147,7 +147,7 @@
 		},
 		{
 			"date": "Friday 3rd January",
-			"isoDate": "2024-01-03",
+			"isoDate": "2025-01-03",
 			"icon": "calendar",
 			"sections": [
 				{
@@ -158,7 +158,7 @@
 		},
 		{
 			"date": "Saturday 4th January",
-			"isoDate": "2024-01-04",
+			"isoDate": "2025-01-04",
 			"icon": "calendar",
 			"description": "Spending the day with Clare, Craig, Anna and Martha"
 		}
