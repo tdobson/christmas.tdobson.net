@@ -1,5 +1,6 @@
 import React from 'react';
 import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
+import { parseISO, startOfDay, isAfter, isSameDay } from 'date-fns';
 import { FAQ } from '../components/FAQ';
 import { IconCalendar, IconUsers, IconStar } from '@tabler/icons-react';
 import scheduleData from '../config/schedule.json';
@@ -9,6 +10,12 @@ export default function SchedulePage() {
     calendar: '#228BE6',   // blue
     users: '#40C057',      // green
     star: '#FCC419',       // yellow
+  };
+
+  const isEventCurrent = (isoDate: string) => {
+    const eventDate = parseISO(isoDate);
+    const today = startOfDay(new Date());
+    return isAfter(eventDate, today) || isSameDay(eventDate, today);
   };
 
   const getIcon = (iconName: string, size: number) => {
@@ -28,7 +35,9 @@ export default function SchedulePage() {
 
       <Card withBorder>
         <Timeline active={-1} bulletSize={24} color="blue">
-          {scheduleData.events.map((event, index) => (
+          {scheduleData.events
+            .filter(event => isEventCurrent(event.isoDate))
+            .map((event, index) => (
             <Timeline.Item
               key={index}
               bullet={getIcon(event.icon, 20)}
