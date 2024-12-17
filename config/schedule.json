@@ -115,7 +115,7 @@
 		},
 		{
 			"date": "Saturday 28th-Sunday 29th December",
-			"icon": "calendar", 
+			"icon": "calendar",
 			"description": "Available all day Saturday 28th for visitors",
 			"note": "Sunday 29th - additional potential visit window"
 		},
@@ -141,10 +141,7 @@
 			"sections": [
 				{
 					"title": "Day",
-					"items": [
-						"James at nursery",
-						"Jen at work"
-					]
+					"items": ["James at nursery", "Jen at work"]
 				}
 			]
 		},
