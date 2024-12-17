@@ -10,6 +10,10 @@
 					"items": ["Hosting stay and play at Strines Road (09:30-12:00)"]
 				},
 				{
+					"title": "Afternoon",
+					"items": ["Available for Tim's family to visit"]
+				},
+				{
 					"title": "Evening (18:00-22:00)",
 					"items": ["Christmas Sainsbury's delivery expected"]
 				}
@@ -28,10 +32,14 @@
 			"description": "James at nursery (maintaining routine)"
 		},
 		{
-			"date": "Tuesday 24th December - Arrival Day",
-			"isoDate": "2024-12-24",
+			"date": "Tuesday 24th December",
+			"isoDate": "2024-12-24", 
 			"icon": "calendar",
 			"sections": [
+				{
+					"title": "Morning",
+					"items": ["Available for Tim's family to visit"]
+				},
 				{
 					"title": "Afternoon",
 					"items": [
