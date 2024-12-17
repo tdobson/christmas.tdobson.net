@@ -127,6 +127,12 @@
 		{
 			"date": "Thursday 2nd January",
 			"icon": "calendar",
+			"sections": [
+				{
+					"title": "Morning",
+					"items": ["Hosting stay and play at Strines Road (09:30-11:00)"]
+				}
+			],
 			"description": "Jen back at work"
 		},
 		{
