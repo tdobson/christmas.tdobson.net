@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
+import { Title, Stack, Card, Text, Timeline, List, rem } from '@mantine/core';
 import { parseISO, startOfDay, isAfter, isSameDay } from 'date-fns';
 import { FAQ } from '../components/FAQ';
 import { IconCalendar, IconUsers, IconStar } from '@tabler/icons-react';
