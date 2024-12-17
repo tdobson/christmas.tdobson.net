@@ -85,7 +85,9 @@ export default function SchedulePage() {
               )}
             </Timeline.Item>
           ))}
-        </Timeline>
+            </Timeline>
+          );
+        })()}
       </Card>
 
       <Card withBorder>
