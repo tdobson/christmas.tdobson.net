@@ -34,10 +34,28 @@ export default function SchedulePage() {
       <Title order={1}>🎄 Schedule</Title>
 
       <Card withBorder>
-        <Timeline active={-1} bulletSize={24} color="blue">
-          {scheduleData.events
-            .filter(event => isEventCurrent(event.isoDate))
-            .map((event, index) => (
+        {/* Debug logging for date filtering */}
+        {console.log('Current date:', startOfDay(new Date()))}
+        {(() => {
+          const currentEvents = scheduleData.events.filter(event => {
+            const eventDate = parseISO(event.isoDate);
+            const today = startOfDay(new Date());
+            const isCurrentEvent = isAfter(eventDate, today) || isSameDay(eventDate, today);
+            
+            console.log({
+              event: event.date,
+              isoDate: event.isoDate,
+              eventDate,
+              today,
+              isCurrentEvent
+            });
+            
+            return isCurrentEvent;
+          });
+          console.log('Total current events:', currentEvents.length);
+          return (
+            <Timeline active={-1} bulletSize={24} color="blue">
+              {currentEvents.map((event, index) => (
             <Timeline.Item
               key={index}
               bullet={getIcon(event.icon, 20)}
