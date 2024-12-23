@@ -132,8 +132,16 @@
 			"date": "Saturday 28th-Sunday 29th December",
 			"isoDate": "2024-12-29",
 			"icon": "calendar",
-			"description": "Available all day Saturday 28th for visitors",
-			"note": "Sunday 29th - additional potential visit window"
+			"sections": [
+				{
+					"title": "Saturday 28th",
+					"items": ["Available all day for visitors"]
+				},
+				{
+					"title": "Sunday 29th",
+					"items": ["Visiting Ralf's family in Glossop (14:00-18:00)"]
+				}
+			]
 		},
 		{
 			"date": "Monday 30th December - Wednesday 1st January",
