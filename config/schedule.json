@@ -129,19 +129,16 @@
 			"note": "Available for Tim's family and other visitors from lunchtime onwards"
 		},
 		{
-			"date": "Saturday 28th-Sunday 29th December",
+			"date": "Saturday 28th December",
+			"isoDate": "2024-12-28",
+			"icon": "calendar",
+			"description": "Available all day for visitors"
+		},
+		{
+			"date": "Sunday 29th December",
 			"isoDate": "2024-12-29",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Saturday 28th",
-					"items": ["Available all day for visitors"]
-				},
-				{
-					"title": "Sunday 29th",
-					"items": ["Visiting Ralf's family in Glossop (14:00-18:00)"]
-				}
-			]
+			"description": "Visiting Ralf's family in Glossop (14:00-18:00)"
 		},
 		{
 			"date": "Monday 30th December - Wednesday 1st January",
