@@ -56,8 +56,8 @@
 					]
 				},
 				{
-					"title": "Evening Meal (8:20pm)",
-					"items": ["Pre-prepared flan", "Potatoes"]
+					"title": "Evening Meal (8:20pm)", 
+					"items": ["Veggie tagine", "Potatoes"]
 				}
 			]
 		},
@@ -131,8 +131,8 @@
 		{
 			"date": "Saturday 28th December",
 			"isoDate": "2024-12-28",
-			"icon": "calendar",
-			"description": "Available all day for visitors"
+			"icon": "calendar", 
+			"description": "Fay and family visiting at Strines Road (11:00-18:00)"
 		},
 		{
 			"date": "Sunday 29th December",
