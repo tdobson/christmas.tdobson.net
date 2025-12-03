@@ -123,7 +123,7 @@
 			"sections": [
 				{
 					"title": "Day",
-					"items": ["Tim: Working from Home", "Jen's parents staying - visitors welcome!"]
+					"items": ["Jen's parents staying - visitors welcome!"]
 				},
 				{
 					"title": "Late Morning",
@@ -135,13 +135,13 @@
 			"date": "Tuesday 30th December",
 			"isoDate": "2025-12-30",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, Jen's parents staying - visitors welcome!"
+			"description": "Jen's parents staying - visitors welcome!"
 		},
 		{
 			"date": "Wednesday 31st December - New Year's Eve",
 			"isoDate": "2025-12-31",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, Jen: Working Day, Jen's parents staying - visitors welcome!"
+			"description": "Jen: Working Day, Jen's parents staying - visitors welcome!"
 		},
 		{
 			"date": "Thursday 1st January - New Year's Day",
