@@ -29,7 +29,7 @@ export default function HomePage() {
     },
     {
       title: "Schedule",
-      description: "Christmas 2024 timeline",
+      description: "Christmas 2025 timeline",
       href: "/schedule",
       icon: IconCalendar,
       color: "red",
