@@ -153,17 +153,7 @@
 			"url": "https://www.ebay.co.uk/itm/195579022728",
 			"priceIndicator": "£"
 		},
-		{
-			"name": "Laser Printer",
-			"shortDescription": "We now have one - thank you!",
-			"longDescription": "This has been acquired - no longer needed.",
-			"category": "tech",
-			"icon": "IconDevices",
-			"url": "",
-			"priceIndicator": "££",
-			"purchased": true
-		},
-		{
+				{
 			"name": "Technical Gore-tex waterproof jacket",
 			"shortDescription": "To keep me warm and dry in the rain.",
 			"longDescription": "I have an old goretex ME jacket, but it's starting to become a bit like swiss cheese - something not known for waterproofness. I've put a link to a ME Pro Shell in Large - but there are many other suitable jackets.",

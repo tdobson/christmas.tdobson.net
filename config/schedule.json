@@ -16,8 +16,7 @@
 				{
 					"title": "Evening",
 					"items": [
-						"17:00-23:00 — Giggletrip J and T",
-						"18:30-22:30 — A Bagshawe Christmas / Extra-Welcoming Giggletrip (Caving Crew)"
+						"17:00-23:00 — A Bagshawe Christmas / Giggletrip (Caving Crew) - Tim and Jen on caving trip, Judith has James"
 					]
 				}
 			]
@@ -26,16 +25,7 @@
 			"date": "Wednesday 17th December",
 			"isoDate": "2025-12-17",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "James: Nursery", "Jen: TOIL"]
-				},
-				{
-					"title": "Afternoon",
-					"items": ["15:00-15:50 — Rolling Meeting on Product Development (Zoom)"]
-				}
-			]
+			"description": "Tim: Working from Home, James: Nursery, Jen: TOIL"
 		},
 		{
 			"date": "Thursday 18th December",
@@ -83,16 +73,7 @@
 			"date": "Monday 22nd December",
 			"isoDate": "2025-12-22",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "Jen and James hanging out all day"]
-				},
-				{
-					"title": "Late Morning",
-					"items": ["11:00-11:50 — Tim-Graham meeting"]
-				}
-			]
+			"description": "Tim: Working from Home, Jen and James hanging out all day"
 		},
 		{
 			"date": "Tuesday 23rd December",
@@ -201,19 +182,8 @@
 					"items": ["Tim: Working from Home"]
 				},
 				{
-					"title": "Late Morning",
-					"items": ["11:00-11:50 — Tim-Graham meeting"]
-				},
-				{
 					"title": "Afternoon",
 					"items": ["13:25-13:55 — James: Swimming lesson at Life Leisure Hazel Grove"]
-				},
-				{
-					"title": "Evening",
-					"items": [
-						"19:15-20:00 — Jen: Clubbercise",
-						"20:45-22:35 — Monday Night Super Fun Time"
-					]
 				}
 			]
 		},
@@ -229,10 +199,6 @@
 				{
 					"title": "Morning",
 					"items": ["09:30-10:00 — Jen: Chiropractor"]
-				},
-				{
-					"title": "Evening",
-					"items": ["18:30-22:30 — Holme Bank Chert Mine (Caving Crew trip)"]
 				}
 			]
 		}

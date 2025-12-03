@@ -35,7 +35,7 @@
 		{
 			"name": "Little table with two chairs",
 			"shortDescription": "A small table and chairs set for James",
-			"longDescription": "A little table with two chairs - made of solid oak preferred. Second hand in good condition is perfect!",
+			"longDescription": "A little table with two chairs - wood preferred. Second hand in good condition is perfect!",
 			"category": "active",
 			"icon": "IconArmchair",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=kids+table+chairs+oak",
@@ -49,6 +49,62 @@
 			"icon": "IconMoodSmile",
 			"url": "",
 			"priceIndicator": "£"
+		},
+		{
+			"name": "Baby dolly",
+			"shortDescription": "A doll for James to care for",
+			"longDescription": "James would love a baby doll to look after. Second hand in good condition is absolutely fine!",
+			"category": "active",
+			"icon": "IconHeart",
+			"url": "",
+			"priceIndicator": "£"
+		},
+		{
+			"name": "Dolly toys - potty and bed",
+			"shortDescription": "Accessories for looking after the dolly",
+			"longDescription": "Toys for the baby dolly - things like a potty and a bed for the dolly to sleep in. Second hand is fine!",
+			"category": "active",
+			"icon": "IconHeart",
+			"url": "",
+			"priceIndicator": "£"
+		},
+		{
+			"name": "Contribution towards neoprene caving undersuit",
+			"shortDescription": "£28 total - contributions welcome",
+			"longDescription": "A neoprene caving undersuit for James for staying warm underground. Total cost £28 - any contributions towards this would be appreciated!",
+			"category": "outdoor",
+			"icon": "IconJacket",
+			"url": "",
+			"price": 28,
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Play mat",
+			"shortDescription": "A soft play mat for James",
+			"longDescription": "A play mat for James to play on. Second hand in good condition is fine!",
+			"category": "active",
+			"icon": "IconSteeringWheel",
+			"url": "",
+			"priceIndicator": "£"
+		},
+		{
+			"name": "Magnetic tiles (Magna-Tiles)",
+			"shortDescription": "Building tiles that stick together",
+			"longDescription": "Magnetic building tiles like Magna-Tiles for creative play. Great for building and learning!",
+			"category": "learning",
+			"icon": "IconBox",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Contributions towards swimming lessons",
+			"shortDescription": "Currently £27 per month",
+			"longDescription": "James is learning to swim! Swimming lessons cost £27 per month - any contributions towards this would be appreciated.",
+			"category": "active",
+			"icon": "IconSwimming",
+			"url": "",
+			"price": 27,
+			"priceIndicator": "££"
 		}
 	],
 	"categories": {
@@ -57,30 +113,10 @@
 			"icon": "IconSteeringWheel",
 			"color": "#228BE6"
 		},
-		"safety": {
-			"title": "Safety & Protection",
-			"icon": "IconHome",
-			"color": "#FA5252"
-		},
 		"learning": {
 			"title": "Learning & Development",
 			"icon": "IconBook",
 			"color": "#7048E8"
-		},
-		"tech": {
-			"title": "Technology",
-			"icon": "IconDeviceTv",
-			"color": "#1C7ED6"
-		},
-		"decor": {
-			"title": "Room Decoration",
-			"icon": "IconPhoto",
-			"color": "#40C057"
-		},
-		"clothing": {
-			"title": "Clothing & Footwear",
-			"icon": "IconJacket",
-			"color": "#BE4BDB"
 		},
 		"outdoor": {
 			"title": "Outdoor Adventure",
