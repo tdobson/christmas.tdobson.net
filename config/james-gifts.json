@@ -17,12 +17,12 @@
 			"url": "https://www.watersportswarehouse.co.uk/products/gul-dartmouth-100n-lifejacket"
 		},
 		{
-			"name": "Oranges",
+			"name": "Grapes or plums",
 			"shortDescription": "For stockings or generally",
-			"longDescription": "James loves clementines and satsumas and can get into them by himself. He would love gifts of orange!",
+			"longDescription": "James loves grapes and plums! Perfect for stockings or as a healthy snack gift.",
 			"category": "food",
 			"icon": "IconMoodSmile",
-			"url": "https://en.wikipedia.org/wiki/Mandarin_orange"
+			"url": ""
 		},
 		{
 			"name": "The Great British Colouring Book",
@@ -33,13 +33,13 @@
 			"url": "https://cartoonmuseum.shop/products/book-the-great-british-colouring-book"
 		},
 		{
-			"name": "Cheap, robust remote control car",
-			"shortDescription": "Want to make me smile on Christmas day?",
-			"longDescription": "Not just when I open the present but for the rest of the day too! Find a cheap remote control car (second hand is absolutely fine) and make sure it has batteries or is charged and you're good to go. Simple fun for everyone.",
+			"name": "Little table with two chairs",
+			"shortDescription": "A small table and chairs set for James",
+			"longDescription": "A little table with two chairs - made of solid oak preferred. Second hand in good condition is perfect!",
 			"category": "active",
-			"icon": "IconSteeringWheel",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=remote+control+car+kids",
-			"priceIndicator": "£"
+			"icon": "IconArmchair",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=kids+table+chairs+oak",
+			"priceIndicator": "££"
 		}
 	],
 	"categories": {
