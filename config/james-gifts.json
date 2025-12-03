@@ -3,7 +3,7 @@
 		{
 			"name": "Story books",
 			"shortDescription": "James loves being read to!",
-			"longDescription": "James really enjoys story books. Please buy books that he would enjoy being read, or that you would enjoy reading to him. They don't need to be educational - fun is absolutely fine! Picture books, silly stories, adventure tales - all welcome.",
+			"longDescription": "James really enjoys story books. Please buy books that he would enjoy being read, or that you would enjoy reading to him. They don't need to be educational - fun is absolutely fine! Picture books, silly stories, adventure tales - all welcome. We already have loads, so perhaps check with us before you buy!",
 			"category": "learning",
 			"icon": "IconBook",
 			"url": ""
@@ -40,6 +40,15 @@
 			"icon": "IconArmchair",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=kids+table+chairs+oak",
 			"priceIndicator": "££"
+		},
+		{
+			"name": "Fun eggcups",
+			"shortDescription": "Must not be breakable - must bounce if dropped!",
+			"longDescription": "James loves his chick eggcups! Looking for fun, colourful eggcups that are unbreakable - they must bounce if dropped. No ceramic or glass please!",
+			"category": "food",
+			"icon": "IconMoodSmile",
+			"url": "",
+			"priceIndicator": "£"
 		}
 	],
 	"categories": {
