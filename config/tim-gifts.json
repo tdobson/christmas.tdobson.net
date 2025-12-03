@@ -1,6 +1,42 @@
 {
 	"items": [
 		{
+			"name": "Descent magazine subscription",
+			"shortDescription": "The UK's premier caving magazine",
+			"longDescription": "A subscription to Descent magazine would be wonderful - it's the main magazine covering caving, cave exploration, and underground adventures in the UK and beyond.",
+			"category": "outdoor",
+			"icon": "IconMap",
+			"url": "https://wildplaces.co.uk/descent",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Old Descent magazines",
+			"shortDescription": "Any issues from the last 15 years",
+			"longDescription": "I'd love to read back issues of Descent magazine from roughly 2010 onwards. Any copies you have lying around or can find second-hand would be really interesting to read.",
+			"category": "outdoor",
+			"icon": "IconMap",
+			"url": "https://www.facebook.com/groups/cavinggearexchangeuk",
+			"priceIndicator": "£"
+		},
+		{
+			"name": "Spare caving light",
+			"shortDescription": "A backup light for underground adventures",
+			"longDescription": "You can never have too many caving lights! A spare headtorch or helmet-mounted light suitable for caving would be very useful as a backup. Check the Caving Gear Exchange UK Facebook group for second-hand options.",
+			"category": "outdoor",
+			"icon": "IconBulb",
+			"url": "https://www.facebook.com/groups/cavinggearexchangeuk",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Heated socks",
+			"shortDescription": "More heated socks please!",
+			"longDescription": "I love heated socks for keeping warm - can never have too many pairs. Link to follow.",
+			"category": "outdoor",
+			"icon": "IconSock",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
 			"name": "Strong mature cheddar",
 			"shortDescription": "Because I love cheese",
 			"longDescription": "All gift of cheddar cheese is welcome. No cheddar is too strong. Much more of a fan of cheddar than, say, fancy french cheeses",
@@ -19,40 +55,66 @@
 			"priceIndicator": "££"
 		},
 		{
-			"name": "Chainsaw cutting course",
-			"shortDescription": "Because I'd like to learn to chop wood effectively",
-			"longDescription": "But I'd also like to keep all my fingers, and most of my face, so probs ideal to do it safeishly.",
-			"category": "education",
-			"icon": "IconTools",
-			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5",
-			"priceIndicator": "£££"
-		},
-		{
-			"name": "Stick (MMA) welding course",
-			"shortDescription": "Because I've never tried welding",
-			"longDescription": "It could be fun to know how to stick bits of metal together. It might become - to some degree - like learning to \"paint\" in metal.",
-			"category": "education",
-			"icon": "IconTools",
-			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5",
-			"priceIndicator": "£££"
-		},
-		{
-			"name": "Kayak Rolling Course",
-			"shortDescription": "90-minute session to develop whitewater kayak roll technique",
-			"longDescription": "A private session in a heated pool with an instructor to develop and improve kayak rolling technique. This fundamental skill would help me be more confident in whitewater. Sessions are 90 minutes long and include instruction and boat use if needed.",
-			"category": "education",
-			"icon": "IconSwimming",
-			"url": "https://www.roho.co.uk/develop-your-kayak-roll-with-us",
-			"price": 45,
-			"priceIndicator": "££"
-		},
-		{
 			"name": "170W ThinkPad Chargers",
 			"shortDescription": "Must be 170W - less powerful chargers won't work on my laptop",
 			"longDescription": "Rectangle-ended tip suitable for P50/P52 etc - second hand recommended. The link has many suitable ones that would all work.",
 			"category": "tech",
 			"icon": "IconDevices",
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=170w+p50+charger&_sacat=0&_from=R40&_sop=15&_blrs=spell_auto_correct",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "New laptop keyboard",
+			"shortDescription": "Replacement keyboard for my ThinkPad",
+			"longDescription": "A replacement keyboard for my laptop. Link to follow.",
+			"category": "tech",
+			"icon": "IconKeyboard",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Laptop RAM",
+			"shortDescription": "More memory for my laptop",
+			"longDescription": "Additional RAM to upgrade my laptop. Link to follow.",
+			"category": "tech",
+			"icon": "IconDevices",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Replacement van lights",
+			"shortDescription": "New lights for the van",
+			"longDescription": "Replacement lights for my van. Link to follow.",
+			"category": "tech",
+			"icon": "IconBulb",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Contributions towards van bodywork",
+			"shortDescription": "Help fix up the van",
+			"longDescription": "My van needs some bodywork repairs. Any contributions towards getting this done would be very welcome!",
+			"category": "tech",
+			"icon": "IconCar",
+			"url": "",
+			"priceIndicator": "£££"
+		},
+		{
+			"name": "Detailed field first aid kit",
+			"shortDescription": "For Tim and Jen - PLEASE CONSULT BEFORE BUYING",
+			"longDescription": "We'd like a detailed, well-stocked field first aid kit with specific items. Please consult with Tim or Jen before buying this - don't randomly buy a £2 first aid kit! We have particular requirements. Link to follow.",
+			"category": "outdoor",
+			"icon": "IconFirstAidKit",
+			"url": "",
+			"priceIndicator": "££"
+		},
+		{
+			"name": "Walkie talkies",
+			"shortDescription": "For outdoor adventures and communication",
+			"longDescription": "Walkie talkies for outdoor use. Link to follow.",
+			"category": "outdoor",
+			"icon": "IconDevices",
+			"url": "",
 			"priceIndicator": "££"
 		},
 		{
@@ -84,12 +146,13 @@
 		},
 		{
 			"name": "Laser Printer",
-			"shortDescription": "A used laser printer to replace our ink-drinking inkjet",
-			"longDescription": "Our current inkjet printer drinks ink like there's no tomorrow and produces poor quality prints. A used laser printer (Samsung, Xerox, or similar) would be much more reliable and cost-effective. Color would be nice but monochrome is fine too. Used and in working condition is preferred.",
+			"shortDescription": "We now have one - thank you!",
+			"longDescription": "This has been acquired - no longer needed.",
 			"category": "tech",
 			"icon": "IconDevices",
-			"url": "https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=used%20laser%20printer%20samsung&_sacat=0&LH_ItemCondition=4&LH_PrefLoc=1&rt=nc&_udlo=30&_udhi=150",
-			"priceIndicator": "££"
+			"url": "",
+			"priceIndicator": "££",
+			"purchased": true
 		},
 		{
 			"name": "Technical Gore-tex waterproof jacket",
@@ -209,5 +272,38 @@
 	"notes": {
 		"bookNote": "Currently have plenty of books - prefer other gifts unless specifically listed",
 		"wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301?type=wishlist&filter=unpurchased&sort=priority&viewType=list"
-	}
+	},
+	"archivedItems": [
+		{
+			"name": "Chainsaw cutting course",
+			"shortDescription": "Because I'd like to learn to chop wood effectively",
+			"longDescription": "But I'd also like to keep all my fingers, and most of my face, so probs ideal to do it safeishly.",
+			"category": "education",
+			"icon": "IconTools",
+			"url": "https://www.google.com/search?q=Chainsaw+training+course+manchester+OR+derbyshire+OR+high+peak&client=firefox-b-e&uact=5",
+			"priceIndicator": "£££",
+			"_note": "Archived - maybe one day"
+		},
+		{
+			"name": "Stick (MMA) welding course",
+			"shortDescription": "Because I've never tried welding",
+			"longDescription": "It could be fun to know how to stick bits of metal together. It might become - to some degree - like learning to \"paint\" in metal.",
+			"category": "education",
+			"icon": "IconTools",
+			"url": "https://www.google.com/search?q=MMA+welding+course++manchester+OR+derbyshire+OR+Peak+District&client=firefox-b-e&uact=5",
+			"priceIndicator": "£££",
+			"_note": "Archived - maybe one day"
+		},
+		{
+			"name": "Kayak Rolling Course",
+			"shortDescription": "90-minute session to develop whitewater kayak roll technique",
+			"longDescription": "A private session in a heated pool with an instructor to develop and improve kayak rolling technique. This fundamental skill would help me be more confident in whitewater. Sessions are 90 minutes long and include instruction and boat use if needed.",
+			"category": "education",
+			"icon": "IconSwimming",
+			"url": "https://www.roho.co.uk/develop-your-kayak-roll-with-us",
+			"price": 45,
+			"priceIndicator": "££",
+			"_note": "Archived - maybe one day"
+		}
+	]
 }

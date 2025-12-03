@@ -1,46 +1,12 @@
 {
 	"items": [
 		{
-			"name": "Kids food preparation knives",
-			"shortDescription": "So James can help",
-			"longDescription": "Really we want James to do all the cooking from the age of 2, so he needs to start now",
+			"name": "Story books",
+			"shortDescription": "James loves being read to!",
+			"longDescription": "James really enjoys story books. Please buy books that he would enjoy being read, or that you would enjoy reading to him. They don't need to be educational - fun is absolutely fine! Picture books, silly stories, adventure tales - all welcome.",
 			"category": "learning",
-			"icon": "IconTools",
-			"url": "https://amzn.eu/d/j7V4cXb"
-		},
-		{
-			"name": "BT6000 Video Baby Monitor",
-			"shortDescription": "James would like this so his parents are extra good at checking on him.",
-			"longDescription": "Ideally we'd get several monitors with monitor-chargers, so we can monitor him from different parts of the house.",
-			"category": "tech",
-			"icon": "IconDeviceTv",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=BT6000+baby+monitor&_sop=16&LH_BIN=1&_udlo=20&_udhi=59&rt=nc&LH_PrefLoc=1"
-		},
-		{
-			"name": "Animal photo posters for his room",
-			"shortDescription": "James loves dogs and ducks - common often seen animals would be welcome",
-			"longDescription": "Please no detailed posters about duckbilled platypuses or komodo dragons til he's older, and no abstract illustrations. Unsubtle is good.",
-			"category": "decor",
-			"icon": "IconPhoto",
-			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=dog+photo+poster"
-		},
-		{
-			"name": "Warm boots (Size 4-4.5)",
-			"shortDescription": "So he has warm feet this winter.",
-			"longDescription": "He's size Size 4-4.5. We're looking for cosy warm boots - not wellies, but cosy bootlets for chilly toes.",
-			"category": "clothing",
-			"icon": "IconJacket",
-			"url": "https://www.vinted.co.uk/items/5413463155-baby-bogs"
-		},
-		{
-			"name": "Edelrid Fraggle XXS Climbing harness",
-			"shortDescription": "XXS size please - ALREADY BOUGHT (£60) - contributions welcome",
-			"longDescription": "This has been purchased for £60 - contributions towards the cost are welcome! It's entirely possible that James won't fit into this for some months, but he'd like it so he can one day go near heights in caves and near cliffs.",
-			"category": "outdoor",
-			"icon": "IconMountain",
-			"url": "https://www.inglesport.com/product/edelrid-fraggle-kids-full-body-climbing-harness/",
-			"purchased": true,
-			"price": 60
+			"icon": "IconBook",
+			"url": ""
 		},
 		{
 			"name": "Small buoyancy aid for swimming",
@@ -65,6 +31,15 @@
 			"category": "learning",
 			"icon": "IconBook",
 			"url": "https://cartoonmuseum.shop/products/book-the-great-british-colouring-book"
+		},
+		{
+			"name": "Cheap, robust remote control car",
+			"shortDescription": "Want to make me smile on Christmas day?",
+			"longDescription": "Not just when I open the present but for the rest of the day too! Find a cheap remote control car (second hand is absolutely fine) and make sure it has batteries or is charged and you're good to go. Simple fun for everyone.",
+			"category": "active",
+			"icon": "IconSteeringWheel",
+			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=remote+control+car+kids",
+			"priceIndicator": "£"
 		}
 	],
 	"categories": {
@@ -110,13 +85,12 @@
 		}
 	},
 	"doNotBuy": [
-		"Clothes (except specified boots)",
+		"Clothes",
 		"Coats",
 		"Wellies",
-		"Books",
 		"Videos/Media",
 		"Dummies",
-		"Duplo/Lego (have plenty)",
+		"Lego (have plenty)",
 		"Chocolate or sweets",
 		"Toy drums"
 	],

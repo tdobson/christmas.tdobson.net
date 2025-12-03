@@ -5,6 +5,15 @@ import { FAQ } from '../components/FAQ';
 import { IconCalendar, IconUsers, IconStar } from '@tabler/icons-react';
 import scheduleData from '../config/schedule.json';
 
+interface ScheduleEvent {
+  date: string;
+  isoDate: string;
+  icon: string;
+  description?: string;
+  sections?: { title: string; items: string[] }[];
+  note?: string;
+}
+
 export default function SchedulePage() {
   const colors = {
     calendar: '#228BE6',   // blue
@@ -35,7 +44,7 @@ export default function SchedulePage() {
 
       <Card withBorder>
         {(() => {
-          const currentEvents = scheduleData.events.filter(event => {
+          const currentEvents = (scheduleData.events as ScheduleEvent[]).filter(event => {
             const eventDate = parseISO(event.isoDate);
             const today = startOfDay(new Date());
             return isAfter(eventDate, today) || isSameDay(eventDate, today);

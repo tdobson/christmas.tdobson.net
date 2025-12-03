@@ -1,11 +1,77 @@
 {
 	"items": [
 		{
-			"name": "Baby wearing coat",
-			"shortDescription": "So I can stay warm and dry (ish) whilst James is on my back",
-			"longDescription": "I've already purchased it for £85 so contributions are welcome",
+			"name": "Hobie's Gluten-Free Egg Cake",
+			"shortDescription": "Delicious gluten-free treat",
+			"longDescription": "Hobie's gluten-free egg cake - a tasty GF option!",
+			"category": "food",
+			"icon": "IconCake",
+			"url": ""
+		},
+		{
+			"name": "Give It a Grow by Martha Sherwood",
+			"shortDescription": "Gardening book by Martha Sherwood",
+			"longDescription": "A gardening book that I'd love to read and learn from.",
+			"category": "books",
+			"icon": "IconBook",
+			"url": "https://www.amazon.co.uk/s?k=give+it+a+grow+martha"
+		},
+		{
+			"name": "Filling Meals by Lindsay Wilson",
+			"shortDescription": "Cookbook by Lindsay Wilson",
+			"longDescription": "Filling Meals by Lindsay Wilson - not to be confused with 'Filling the Man'!",
+			"category": "books",
+			"icon": "IconBook",
+			"url": ""
+		},
+		{
+			"name": "Mary Beard Worldwide Live Stream",
+			"shortDescription": "Access to her tour live stream - 6th October 2026",
+			"longDescription": "Mary Beard is doing a tour with a worldwide live stream option on 6th October 2026 at 19:30. Would love access to watch it!",
+			"category": "books",
+			"icon": "IconDeviceTv",
+			"url": "https://www.fane.co.uk/mary-beard-tickets/worldwide-live-stream/2026-10-06-19-30"
+		},
+		{
+			"name": "Micro Toastie Maker",
+			"shortDescription": "Already bought (£19) - contributions welcome",
+			"longDescription": "I've already bought myself a micro toastie maker for £19 - it was a bargain! Contributions towards the cost are welcome.",
+			"category": "home",
+			"icon": "IconToolsKitchen",
+			"url": "",
+			"purchased": true,
+			"price": 19
+		},
+		{
+			"name": "Contribution to a new television",
+			"shortDescription": "Our TV could do with an upgrade",
+			"longDescription": "We're thinking about getting a new television. Any contributions towards this would be gratefully received!",
+			"category": "home",
+			"icon": "IconDeviceTv",
+			"url": ""
+		},
+		{
+			"name": "Warm catsuit / onesie (sweatshirt material)",
+			"shortDescription": "Cosy loungewear for relaxing at home",
+			"longDescription": "Looking for a warm catsuit or onesie in soft sweatshirt material. No tight ankle cuffs please - I don't like them! Half-zip or frontless styles are fine. Darker colours preferred. The key thing is it needs to be warm and soft.",
 			"category": "clothing",
 			"icon": "IconJacket",
+			"url": ""
+		},
+		{
+			"name": "Cosy jumpers",
+			"shortDescription": "Simple, warm jumpers in various necklines",
+			"longDescription": "Looking for straightforward, warm jumpers - nothing fancy or fussy. I don't like roll necks, but boat necks, v-necks, and round necks are all fine. Square shoulders look good too. Just simple and cosy!",
+			"category": "clothing",
+			"icon": "IconJacket",
+			"url": ""
+		},
+		{
+			"name": "Nice gluten-free eating experience",
+			"shortDescription": "A GF meal out or food delivery",
+			"longDescription": "Whether it's a voucher for a restaurant with good gluten-free options, or some quality GF food to enjoy at home - a nice gluten-free eating experience would be lovely.",
+			"category": "food",
+			"icon": "IconToolsKitchen",
 			"url": ""
 		},
 		{
@@ -25,9 +91,17 @@
 			"url": "https://www.ebay.co.uk/sch/i.html?_nkw=House+plant+pots&_sacat=0&_from=R40&_trksid=p4432023.m570.l1313"
 		},
 		{
+			"name": "Glass food storage containers with lids",
+			"shortDescription": "CHUNGG Glass Prep Containers - set of 10",
+			"longDescription": "Glass meal prep containers with lids, suitable for microwave, oven, fridge and dishwasher. Set of 10 in 1040ML & 370ML sizes.",
+			"category": "home",
+			"icon": "IconBox",
+			"url": "https://www.amazon.co.uk/dp/B0FN7GR4PW"
+		},
+		{
 			"name": "Time with helpers for sorting/organizing",
 			"shortDescription": "To help sort out things around the house",
-			"longDescription": "I'd benefit from helpful people to work with me on doing things round the house one day when James is at nursery and I'm off work. ",
+			"longDescription": "I'd benefit from helpful people to work with me on doing things round the house one day when James is at nursery and I'm off work.",
 			"category": "support",
 			"icon": "IconUsers",
 			"url": ""
@@ -41,15 +115,36 @@
 			"url": "https://uk.foodplus.eu/en_GB/p/Krupnik-Plum-Vodka-Alc.30-500ml/23647"
 		},
 		{
+			"name": "Baby wearing coat",
+			"shortDescription": "Already bought - thank you!",
+			"longDescription": "This has been purchased for £85.",
+			"category": "clothing",
+			"icon": "IconJacket",
+			"url": "",
+			"purchased": true,
+			"price": 85
+		},
+		{
 			"name": "Jetboil Stove",
-			"shortDescription": "For making hot chocolate after swimming",
-			"longDescription": "Looking for contributions towards a good quality Jetboil stove system for making hot drinks after swimming. These compact stoves are perfect for quickly heating water outdoors.",
+			"shortDescription": "Already bought - thank you!",
+			"longDescription": "This has been purchased for making hot drinks after swimming.",
 			"category": "wellbeing",
 			"icon": "IconCup",
-			"url": "https://www.gooutdoors.co.uk/15903699/jetboil-flash-cooking-system-15903699"
+			"url": "https://www.gooutdoors.co.uk/15903699/jetboil-flash-cooking-system-15903699",
+			"purchased": true
 		}
 	],
 	"categories": {
+		"food": {
+			"title": "Food & Treats",
+			"icon": "IconCake",
+			"color": "#FD7E14"
+		},
+		"books": {
+			"title": "Books & Reading",
+			"icon": "IconBook",
+			"color": "#7048E8"
+		},
 		"clothing": {
 			"title": "Clothing & Accessories",
 			"icon": "IconJacket",
