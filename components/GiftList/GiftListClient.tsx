@@ -1,8 +1,20 @@
 'use client';
+import { useMemo } from 'react';
 import { Stack, Card, Title, SimpleGrid, Alert, Loader, Text } from '@mantine/core';
 import { IconAlertCircle } from '@tabler/icons-react';
 import { useGifts, GiftWithClaim } from '@/hooks/useGifts';
 import { GiftCard } from '@/components/GiftCard/GiftCard';
+import ctaVariations from '@/config/cta-variations.json';
+
+// Fisher-Yates shuffle
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
 
 interface Category {
   key: string;
@@ -69,6 +81,17 @@ export function GiftListClient({
     {} as Record<string, GiftWithClaim[]>
   );
 
+  // Create a map of gift ID to unique CTA text (shuffled, no duplicates on page)
+  const ctaMap = useMemo(() => {
+    const shuffledCtas = shuffleArray(ctaVariations.claimButtonTexts);
+    const map: Record<string, string> = {};
+    gifts.forEach((gift, index) => {
+      // Cycle through shuffled CTAs if more gifts than CTAs
+      map[gift.id] = shuffledCtas[index % shuffledCtas.length];
+    });
+    return map;
+  }, [gifts]);
+
   return (
     <Stack gap="sm">
       {checkFirstNote && (
@@ -100,6 +123,7 @@ export function GiftListClient({
                       gift={gift}
                       categoryColor={category.color}
                       recipient={recipient}
+                      ctaText={ctaMap[gift.id]}
                     />
                   ))}
                 </SimpleGrid>

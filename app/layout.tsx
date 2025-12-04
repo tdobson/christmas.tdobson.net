@@ -7,7 +7,7 @@ import { LayoutClient } from '../components/Layout/LayoutClient';
 
 export const metadata = {
   title: 'Christmas 2025 - Tim, Jen & James',
-  description: 'Christmas gift lists and schedule for the Dobson family',
+  description: 'Christmas gift lists and schedule for our family',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

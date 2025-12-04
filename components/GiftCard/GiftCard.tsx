@@ -1,10 +1,9 @@
 'use client';
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { Paper, Text, Button, Badge, Stack } from '@mantine/core';
 import { IconGift, IconCheck } from '@tabler/icons-react';
 import { GiftWithClaim } from '@/hooks/useGifts';
 import { ClaimModal } from '@/components/ClaimModal/ClaimModal';
-import ctaVariations from '@/config/cta-variations.json';
 
 // Icon mapping - same as in GiftList.tsx
 import {
@@ -96,18 +95,11 @@ interface GiftCardProps {
   gift: GiftWithClaim;
   categoryColor: string;
   recipient: string;
+  ctaText: string;
 }
 
-export function GiftCard({ gift, categoryColor, recipient }: GiftCardProps) {
+export function GiftCard({ gift, categoryColor, recipient, ctaText }: GiftCardProps) {
   const [modalOpened, setModalOpened] = useState(false);
-
-  // Pick a random CTA text based on gift id for consistency
-  const ctaText = useMemo(() => {
-    const texts = ctaVariations.claimButtonTexts;
-    // Use gift id hash to get consistent but varied selection
-    const hash = gift.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    return texts[hash % texts.length];
-  }, [gift.id]);
 
   const ItemIcon = gift.icon
     ? iconComponents[gift.icon as keyof typeof iconComponents]
