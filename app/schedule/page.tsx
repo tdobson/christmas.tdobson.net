@@ -15,6 +15,7 @@ interface ScheduleEvent {
   sections?: { title: string; items: string[] }[];
   note?: string;
   busy?: boolean;
+  available?: boolean;
 }
 
 // Get availability status color based on who's busy
@@ -22,6 +23,11 @@ function getAvailabilityColor(event: ScheduleEvent): string | undefined {
   // Manual busy override
   if (event.busy) {
     return '#FFF0F0'; // Light red - busy/unavailable
+  }
+
+  // Manual available override - show green for visitor days
+  if (event.available) {
+    return '#E6F9E6'; // Light green - available for visitors
   }
 
   const allText = [

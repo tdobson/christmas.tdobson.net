@@ -36,6 +36,19 @@ export function GiftListClient({
 }: GiftListClientProps) {
   const { data: gifts, isLoading, error } = useGifts(recipient);
 
+  // Create a map of gift ID to unique CTA text (shuffled, no duplicates on page)
+  // Must be called before any conditional returns to comply with hooks rules
+  const ctaMap = useMemo(() => {
+    if (!gifts || gifts.length === 0) return {};
+    const shuffledCtas = shuffleArray(ctaVariations.claimButtonTexts);
+    const map: Record<string, string> = {};
+    gifts.forEach((gift, index) => {
+      // Cycle through shuffled CTAs if more gifts than CTAs
+      map[gift.id] = shuffledCtas[index % shuffledCtas.length];
+    });
+    return map;
+  }, [gifts]);
+
   if (isLoading) {
     return (
       <Stack gap="md" align="center" py="xl">
@@ -80,17 +93,6 @@ export function GiftListClient({
     },
     {} as Record<string, GiftWithClaim[]>
   );
-
-  // Create a map of gift ID to unique CTA text (shuffled, no duplicates on page)
-  const ctaMap = useMemo(() => {
-    const shuffledCtas = shuffleArray(ctaVariations.claimButtonTexts);
-    const map: Record<string, string> = {};
-    gifts.forEach((gift, index) => {
-      // Cycle through shuffled CTAs if more gifts than CTAs
-      map[gift.id] = shuffledCtas[index % shuffledCtas.length];
-    });
-    return map;
-  }, [gifts]);
 
   return (
     <Stack gap="sm">

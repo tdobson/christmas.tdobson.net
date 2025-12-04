@@ -10,10 +10,6 @@
 					"items": ["Tim: Working from Home", "James: Nursery"]
 				},
 				{
-					"title": "Afternoon",
-					"items": ["16:15-17:15 — Dentist"]
-				},
-				{
 					"title": "Evening",
 					"items": [
 						"17:00-23:00 — A Bagshawe Christmas / Giggletrip (Caving Crew) - Tim and Jen on caving trip, Judith has James"
@@ -68,6 +64,7 @@
 			"date": "Sunday 21st December",
 			"isoDate": "2025-12-21",
 			"icon": "calendar",
+			"available": true,
 			"description": "Available for visitors - come say hello!"
 		},
 		{
@@ -97,12 +94,14 @@
 			"date": "Thursday 25th December - Christmas Day",
 			"isoDate": "2025-12-25",
 			"icon": "users",
+			"available": true,
 			"description": "Christmas Day at home - Available for visitors!"
 		},
 		{
 			"date": "Friday 26th December - Boxing Day",
 			"isoDate": "2025-12-26",
 			"icon": "users",
+			"available": true,
 			"description": "Boxing Day at home - Available for visitors!"
 		},
 		{
@@ -116,12 +115,14 @@
 			"date": "Sunday 28th December",
 			"isoDate": "2025-12-28",
 			"icon": "calendar",
+			"available": true,
 			"description": "Jen's mum and dad staying with us begins (runs through 1st Jan) - may still be available for visitors, and may welcome distraction!"
 		},
 		{
 			"date": "Monday 29th December",
 			"isoDate": "2025-12-29",
 			"icon": "calendar",
+			"available": true,
 			"sections": [
 				{
 					"title": "Day",
@@ -137,18 +138,21 @@
 			"date": "Tuesday 30th December",
 			"isoDate": "2025-12-30",
 			"icon": "calendar",
+			"available": true,
 			"description": "Jen's parents staying - visitors welcome!"
 		},
 		{
 			"date": "Wednesday 31st December - New Year's Eve",
 			"isoDate": "2025-12-31",
 			"icon": "calendar",
+			"available": true,
 			"description": "Jen: Working Day, Jen's parents staying - visitors welcome!"
 		},
 		{
 			"date": "Thursday 1st January - New Year's Day",
 			"isoDate": "2026-01-01",
 			"icon": "calendar",
+			"available": true,
 			"description": "Available for visitors!",
 			"sections": [
 				{
@@ -167,12 +171,14 @@
 			"date": "Saturday 3rd January",
 			"isoDate": "2026-01-03",
 			"icon": "calendar",
+			"available": true,
 			"description": "Available for visitors - come say hello!"
 		},
 		{
 			"date": "Sunday 4th January",
 			"isoDate": "2026-01-04",
 			"icon": "calendar",
+			"available": true,
 			"description": "Available for visitors - come say hello!"
 		},
 		{

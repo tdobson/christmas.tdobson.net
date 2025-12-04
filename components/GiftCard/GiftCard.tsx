@@ -46,6 +46,7 @@ import {
   IconToolsKitchen,
   IconBox,
   IconCup,
+  IconAlertCircle,
 } from '@tabler/icons-react';
 
 const iconComponents = {
@@ -89,6 +90,7 @@ const iconComponents = {
   IconToolsKitchen,
   IconBox,
   IconCup,
+  IconAlertCircle,
 };
 
 interface GiftCardProps {
@@ -107,6 +109,7 @@ export function GiftCard({ gift, categoryColor, recipient, ctaText }: GiftCardPr
 
   const isClaimed = gift.isClaimed && !gift.allow_multiple;
   const claimCount = gift.claimCount || 0;
+  const isDoNotBuy = gift.category_key === 'do_not_buy';
 
   const content = (
     <Paper
@@ -176,23 +179,25 @@ export function GiftCard({ gift, categoryColor, recipient, ctaText }: GiftCardPr
           </Text>
         )}
 
-        <Button
-          variant={isClaimed ? 'light' : 'filled'}
-          color={isClaimed ? 'gray' : 'blue'}
-          size="sm"
-          fullWidth
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            if (!isClaimed) {
-              setModalOpened(true);
-            }
-          }}
-          disabled={isClaimed}
-          leftSection={isClaimed ? <IconCheck size="1rem" /> : <IconGift size="1rem" />}
-        >
-          {isClaimed ? 'Already Claimed' : ctaText}
-        </Button>
+        {!isDoNotBuy && (
+          <Button
+            variant={isClaimed ? 'light' : 'filled'}
+            color={isClaimed ? 'gray' : 'blue'}
+            size="sm"
+            fullWidth
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              if (!isClaimed) {
+                setModalOpened(true);
+              }
+            }}
+            disabled={isClaimed}
+            leftSection={isClaimed ? <IconCheck size="1rem" /> : <IconGift size="1rem" />}
+          >
+            {isClaimed ? 'Already Claimed' : ctaText}
+          </Button>
+        )}
       </Stack>
     </Paper>
   );

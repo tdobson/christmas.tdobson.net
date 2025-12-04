@@ -4,6 +4,7 @@ import { GiftListClient } from '../../components/GiftList/GiftListClient';
 import { ShareGiftList } from '../../components/ShareGiftList';
 
 const categories = [
+  { key: 'do_not_buy', title: 'Please Don\'t Buy', icon: 'IconAlertCircle', color: '#FA5252' },
   { key: 'outdoor', title: 'Outdoor & Adventure', icon: 'IconMountain', color: '#228BE6' },
   { key: 'tech', title: 'Tech & Equipment', icon: 'IconDevices', color: '#1C7ED6' },
   { key: 'books', title: 'Books & Reading', icon: 'IconBook', color: '#7048E8' },
