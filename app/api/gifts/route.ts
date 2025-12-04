@@ -31,9 +31,18 @@ export async function GET(request: NextRequest) {
 
     const recipientId = recipientResult.id;
 
-    // Get gifts for this recipient
+    // Get gifts for this recipient, sorted by price (most expensive first)
     const giftsResult = await db
-      .prepare('SELECT * FROM gifts WHERE recipient_id = ? ORDER BY created_at ASC')
+      .prepare(`SELECT * FROM gifts WHERE recipient_id = ?
+        ORDER BY
+          CASE price_indicator
+            WHEN '£££' THEN 1
+            WHEN '££' THEN 2
+            WHEN '£' THEN 3
+            WHEN 'FREE' THEN 4
+            ELSE 5
+          END ASC,
+          created_at ASC`)
       .bind(recipientId)
       .all<Gift>();
 
