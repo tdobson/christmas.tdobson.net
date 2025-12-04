@@ -1,9 +1,11 @@
+'use client';
+
 import React from 'react';
-import { Title, Stack, Card, Text, Timeline, List, rem } from '@mantine/core';
+import { Title, Stack, Card, Text, Timeline, List } from '@mantine/core';
 import { parseISO, startOfDay, isAfter, isSameDay } from 'date-fns';
-import { FAQ } from '../components/FAQ';
+import { FAQ } from '../../components/FAQ';
 import { IconCalendar, IconUsers, IconStar } from '@tabler/icons-react';
-import scheduleData from '../config/schedule.json';
+import scheduleData from '../../config/schedule.json';
 
 interface ScheduleEvent {
   date: string;
@@ -12,6 +14,35 @@ interface ScheduleEvent {
   description?: string;
   sections?: { title: string; items: string[] }[];
   note?: string;
+  busy?: boolean;
+}
+
+// Get availability status color based on who's busy
+function getAvailabilityColor(event: ScheduleEvent): string | undefined {
+  // Manual busy override
+  if (event.busy) {
+    return '#FFF0F0'; // Light red - busy/unavailable
+  }
+
+  const allText = [
+    event.description || '',
+    ...(event.sections?.flatMap(s => s.items) || [])
+  ].join(' ').toLowerCase();
+
+  const jamesNursery = allText.includes('james: nursery') || allText.includes('james:nursery');
+  const timWorking = allText.includes('tim: working') || allText.includes('tim:working');
+  const jenWorking = allText.includes('jen: working') || allText.includes('jen:working');
+
+  const busyCount = [jamesNursery, timWorking, jenWorking].filter(Boolean).length;
+
+  if (busyCount >= 2) {
+    return '#FFF0F0'; // Light red - multiple people busy
+  } else if (jamesNursery) {
+    return '#FFF0F0'; // Light red - James at nursery
+  } else if (timWorking || jenWorking) {
+    return '#FFFBEB'; // Light yellow - one parent working
+  }
+  return undefined; // No special color
 }
 
 export default function SchedulePage() {
@@ -40,7 +71,7 @@ export default function SchedulePage() {
 
   return (
     <Stack gap="md">
-      <Title order={1}>🎄 Schedule</Title>
+      <Title order={1}>Schedule</Title>
 
       <Card withBorder>
         {(() => {
@@ -51,16 +82,19 @@ export default function SchedulePage() {
           });
           return (
             <Timeline active={-1} bulletSize={24} color="blue">
-              {currentEvents.map((event, index) => (
+              {currentEvents.map((event, index) => {
+                const bgColor = getAvailabilityColor(event);
+                return (
             <Timeline.Item
               key={index}
               bullet={getIcon(event.icon, 20)}
               title={event.date}
+              style={bgColor ? { backgroundColor: bgColor, padding: '0.5rem', borderRadius: '4px', marginLeft: '-0.5rem' } : undefined}
             >
               {event.description && (
                 <Text size="sm">{event.description}</Text>
               )}
-              
+
               {event.sections && (
                 <Stack gap="xs">
                   {event.sections.map((section, sectionIndex) => (
@@ -75,12 +109,13 @@ export default function SchedulePage() {
                   ))}
                 </Stack>
               )}
-              
+
               {event.note && (
                 <Text size="sm" c="dimmed">{event.note}</Text>
               )}
             </Timeline.Item>
-          ))}
+                );
+              })}
             </Timeline>
           );
         })()}

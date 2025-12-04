@@ -1,3 +1,5 @@
+'use client';
+
 import { Alert, List } from "@mantine/core";
 import { IconAlertCircle } from "@tabler/icons-react";
 import { useGuidelines } from "../contexts/GuidelinesContext";

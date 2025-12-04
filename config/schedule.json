@@ -52,6 +52,7 @@
 			"date": "Saturday 20th December",
 			"isoDate": "2025-12-20",
 			"icon": "calendar",
+			"busy": true,
 			"sections": [
 				{
 					"title": "Day",
@@ -96,19 +97,20 @@
 			"date": "Thursday 25th December - Christmas Day",
 			"isoDate": "2025-12-25",
 			"icon": "users",
-			"description": "Christmas Day at home"
+			"description": "Christmas Day at home - Available for visitors!"
 		},
 		{
 			"date": "Friday 26th December - Boxing Day",
 			"isoDate": "2025-12-26",
 			"icon": "users",
-			"description": "Boxing Day at home"
+			"description": "Boxing Day at home - Available for visitors!"
 		},
 		{
 			"date": "Saturday 27th December",
 			"isoDate": "2025-12-27",
 			"icon": "calendar",
-			"description": "12:00-20:00 — Oswald/Taylor Christmas at 17 Copperbeech Cl, Birmingham"
+			"busy": true,
+			"description": "12:00-20:00 — Oswald/Taylor Christmas at Copperbeech Close"
 		},
 		{
 			"date": "Sunday 28th December",
@@ -147,6 +149,7 @@
 			"date": "Thursday 1st January - New Year's Day",
 			"isoDate": "2026-01-01",
 			"icon": "calendar",
+			"description": "Available for visitors!",
 			"sections": [
 				{
 					"title": "Day",

@@ -1,0 +1,19 @@
+name = "christmas-tdobson-net"
+main = ".open-next/worker.js"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Static assets for Next.js
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+# D1 Database bindings
+[[d1_databases]]
+binding = "DB"
+database_name = "christmas-gifts-prod"
+database_id = "ed695f87-6897-4147-a501-619461f6116f"
+migrations_dir = "migrations"
+
+[observability]
+enabled = true

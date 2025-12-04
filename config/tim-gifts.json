@@ -39,7 +39,7 @@
 		{
 			"name": "Heated socks",
 			"shortDescription": "More heated socks please!",
-			"longDescription": "I love heated socks for keeping warm - can never have too many pairs. Link to follow.",
+			"longDescription": "I love heated socks for keeping warm - can never have too many pairs.",
 			"category": "outdoor",
 			"icon": "IconSock",
 			"url": "",
@@ -272,6 +272,20 @@
 		"bookNote": "Currently have plenty of books - prefer other gifts unless specifically listed",
 		"wishlistUrl": "https://www.amazon.co.uk/hz/wishlist/ls/7AXWFJB4G301?type=wishlist&filter=unpurchased&sort=priority&viewType=list"
 	},
+	"doNotBuy": [
+		{
+			"name": "Booze / Alcohol",
+			"reason": "I barely drink - please skip the alcohol"
+		},
+		{
+			"name": "Chocolates",
+			"reason": "Not a big fan - would rather have cheese!"
+		},
+		{
+			"name": "Sweets",
+			"reason": "Not my thing - prefer savoury snacks"
+		}
+	],
 	"archivedItems": [
 		{
 			"name": "Chainsaw cutting course",

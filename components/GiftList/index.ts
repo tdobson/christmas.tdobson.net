@@ -1,0 +1,1 @@
+export { GiftListClient } from './GiftListClient';

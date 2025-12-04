@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
 import { Title, Stack, Card, Text, Accordion } from '@mantine/core';
-import faqData from '../config/faq.json' assert { type: "json" };
+import faqData from '../config/faq.json';
 
 interface Answer {
   person: string;

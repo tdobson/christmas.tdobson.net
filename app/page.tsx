@@ -9,21 +9,21 @@ export default function HomePage() {
     {
       title: "James's List",
       description: "Gift ideas for James",
-      href: "/james-list",
+      href: "/james",
       icon: IconGift,
       color: "blue",
     },
     {
       title: "Jen's List",
       description: "Gift ideas for Jen",
-      href: "/jen-list",
+      href: "/jen",
       icon: IconGift,
       color: "grape",
 
     },    {
       title: "Tim's List",
       description: "Gift ideas for Tim",
-      href: "/tim-list",
+      href: "/tim",
       icon: IconGift,
       color: "green",
     },
