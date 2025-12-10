@@ -4,18 +4,7 @@
 			"date": "Tuesday 16th December",
 			"isoDate": "2025-12-16",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "James: Nursery"]
-				},
-				{
-					"title": "Evening",
-					"items": [
-						"17:00-23:00 — A Bagshawe Christmas / Giggletrip (Caving Crew) - Tim and Jen on caving trip, Judith has James"
-					]
-				}
-			]
+			"description": "Tim: Working from Home, James: Nursery. Evening: Caving trip (Judith has James)"
 		},
 		{
 			"date": "Wednesday 17th December",
@@ -33,16 +22,7 @@
 			"date": "Friday 19th December",
 			"isoDate": "2025-12-19",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "James: Nursery", "Jen: Working Day"]
-				},
-				{
-					"title": "Evening",
-					"items": ["19:30-00:00 — Jen: Work Christmas Do"]
-				}
-			]
+			"description": "Tim: Working from Home, James: Nursery, Jen: Working Day. Evening: Jen's work Christmas do"
 		},
 		{
 			"date": "Saturday 20th December",
@@ -101,8 +81,17 @@
 			"date": "Friday 26th December - Boxing Day",
 			"isoDate": "2025-12-26",
 			"icon": "users",
-			"available": true,
-			"description": "Boxing Day at home - Available for visitors!"
+			"busy": true,
+			"sections": [
+				{
+					"title": "Daytime",
+					"items": ["Tim's parents visiting - not available for other visitors"]
+				},
+				{
+					"title": "Evening",
+					"items": ["May be available - get in touch!"]
+				}
+			]
 		},
 		{
 			"date": "Saturday 27th December",
