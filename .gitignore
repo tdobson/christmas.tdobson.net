@@ -132,3 +132,7 @@ out
 
 .DS_Store
 .aider*
+
+# Build output and local Cloudflare state
+.open-next/
+.wrangler/
