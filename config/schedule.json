@@ -1,204 +1,166 @@
 {
 	"events": [
 		{
-			"date": "Tuesday 16th December",
-			"isoDate": "2025-12-16",
+			"date": "Saturday 12th December",
+			"isoDate": "2026-12-12",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, James: Nursery. Evening: Caving trip (Judith has James)"
+			"description": "James at Judith's for the weekend"
 		},
 		{
-			"date": "Wednesday 17th December",
-			"isoDate": "2025-12-17",
+			"date": "Sunday 13th December",
+			"isoDate": "2026-12-13",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, James: Nursery, Jen: TOIL"
+			"description": "James at Judith's for the weekend"
 		},
 		{
-			"date": "Thursday 18th December",
-			"isoDate": "2025-12-18",
+			"date": "Monday 14th December",
+			"isoDate": "2026-12-14",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, Jen: Working Day"
+			"description": "James at home"
 		},
 		{
-			"date": "Friday 19th December",
-			"isoDate": "2025-12-19",
+			"date": "Tuesday 15th December",
+			"isoDate": "2026-12-15",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, James: Nursery, Jen: Working Day. Evening: Jen's work Christmas do"
+			"description": "James: Nursery"
 		},
 		{
-			"date": "Saturday 20th December",
-			"isoDate": "2025-12-20",
+			"date": "Wednesday 16th December",
+			"isoDate": "2026-12-16",
 			"icon": "calendar",
-			"busy": true,
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Judith has James for the day"]
-				},
-				{
-					"title": "Evening",
-					"items": ["17:00-21:00 — Carols in a cave"]
-				}
-			]
+			"description": "James: Nursery"
 		},
 		{
-			"date": "Sunday 21st December",
-			"isoDate": "2025-12-21",
+			"date": "Thursday 17th December",
+			"isoDate": "2026-12-17",
+			"icon": "calendar",
+			"description": "James at home"
+		},
+		{
+			"date": "Friday 18th December",
+			"isoDate": "2026-12-18",
+			"icon": "calendar",
+			"description": "James: Nursery"
+		},
+		{
+			"date": "Saturday 19th December",
+			"isoDate": "2026-12-19",
 			"icon": "calendar",
 			"available": true,
-			"description": "Available for visitors - come say hello!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Monday 22nd December",
-			"isoDate": "2025-12-22",
+			"date": "Sunday 20th December",
+			"isoDate": "2026-12-20",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, Jen and James hanging out all day"
+			"available": true,
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Tuesday 23rd December",
-			"isoDate": "2025-12-23",
+			"date": "Monday 21st December",
+			"isoDate": "2026-12-21",
 			"icon": "calendar",
-			"description": "Tim: Working from Home, James: Nursery"
+			"description": "James at home"
 		},
 		{
-			"date": "Wednesday 24th December - Christmas Eve",
-			"isoDate": "2025-12-24",
+			"date": "Tuesday 22nd December",
+			"isoDate": "2026-12-22",
+			"icon": "calendar",
+			"description": "James: Nursery"
+		},
+		{
+			"date": "Wednesday 23rd December",
+			"isoDate": "2026-12-23",
+			"icon": "calendar",
+			"description": "James: Nursery (last day before Christmas)"
+		},
+		{
+			"date": "Thursday 24th December - Christmas Eve",
+			"isoDate": "2026-12-24",
 			"icon": "gift",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "Jen: Working Day", "James: Nursery (07:30-13:20, til 4pm)"]
-				}
-			]
+			"description": "James at home. Nothing planned yet - get in touch!",
+			"available": true
 		},
 		{
-			"date": "Thursday 25th December - Christmas Day",
-			"isoDate": "2025-12-25",
+			"date": "Friday 25th December - Christmas Day",
+			"isoDate": "2026-12-25",
 			"icon": "users",
-			"available": true,
-			"description": "Christmas Day at home - Available for visitors!"
+			"description": "At home - guests welcome!",
+			"available": true
 		},
 		{
-			"date": "Friday 26th December - Boxing Day",
-			"isoDate": "2025-12-26",
+			"date": "Saturday 26th December - Boxing Day",
+			"isoDate": "2026-12-26",
 			"icon": "users",
-			"busy": true,
-			"sections": [
-				{
-					"title": "Daytime",
-					"items": ["Tim's parents visiting - not available for other visitors"]
-				},
-				{
-					"title": "Evening",
-					"items": ["May be available - get in touch!"]
-				}
-			]
+			"description": "Sarah and Chris coming to see us"
 		},
 		{
-			"date": "Saturday 27th December",
-			"isoDate": "2025-12-27",
-			"icon": "calendar",
-			"busy": true,
-			"description": "12:00-20:00 — Oswald/Taylor Christmas at Copperbeech Close"
-		},
-		{
-			"date": "Sunday 28th December",
-			"isoDate": "2025-12-28",
+			"date": "Sunday 27th December",
+			"isoDate": "2026-12-27",
 			"icon": "calendar",
 			"available": true,
-			"description": "Jen's mum and dad staying with us begins (runs through 1st Jan) - may still be available for visitors, and may welcome distraction!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Monday 29th December",
-			"isoDate": "2025-12-29",
+			"date": "Monday 28th December",
+			"isoDate": "2026-12-28",
 			"icon": "calendar",
 			"available": true,
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Jen's parents staying - visitors welcome!"]
-				},
-				{
-					"title": "Late Morning",
-					"items": ["11:00-13:00 — Ghost walk on Werneth Low at Hare & Hounds Inn"]
-				}
-			]
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Tuesday 30th December",
-			"isoDate": "2025-12-30",
+			"date": "Tuesday 29th December",
+			"isoDate": "2026-12-29",
 			"icon": "calendar",
 			"available": true,
-			"description": "Jen's parents staying - visitors welcome!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Wednesday 31st December - New Year's Eve",
-			"isoDate": "2025-12-31",
+			"date": "Wednesday 30th December",
+			"isoDate": "2026-12-30",
 			"icon": "calendar",
 			"available": true,
-			"description": "Jen: Working Day, Jen's parents staying - visitors welcome!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Thursday 1st January - New Year's Day",
-			"isoDate": "2026-01-01",
+			"date": "Thursday 31st December - New Year's Eve",
+			"isoDate": "2026-12-31",
 			"icon": "calendar",
 			"available": true,
-			"description": "Available for visitors!",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["New Year's Day at home", "Jen's parents depart around 12:30"]
-				}
-			]
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Friday 2nd January",
-			"isoDate": "2026-01-02",
-			"icon": "calendar",
-			"description": "Tim: Working from Home, James: Nursery, Jen: Working Day"
-		},
-		{
-			"date": "Saturday 3rd January",
-			"isoDate": "2026-01-03",
+			"date": "Friday 1st January - New Year's Day",
+			"isoDate": "2027-01-01",
 			"icon": "calendar",
 			"available": true,
-			"description": "Available for visitors - come say hello!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Sunday 4th January",
-			"isoDate": "2026-01-04",
+			"date": "Saturday 2nd January",
+			"isoDate": "2027-01-02",
 			"icon": "calendar",
 			"available": true,
-			"description": "Available for visitors - come say hello!"
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Monday 5th January - Twelfth Night",
-			"isoDate": "2026-01-05",
+			"date": "Sunday 3rd January",
+			"isoDate": "2027-01-03",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home"]
-				},
-				{
-					"title": "Afternoon",
-					"items": ["13:25-13:55 — James: Swimming lesson at Life Leisure Hazel Grove"]
-				}
-			]
+			"available": true,
+			"description": "Nothing planned yet - get in touch!"
 		},
 		{
-			"date": "Tuesday 6th January",
-			"isoDate": "2026-01-06",
+			"date": "Monday 4th January",
+			"isoDate": "2027-01-04",
 			"icon": "calendar",
-			"sections": [
-				{
-					"title": "Day",
-					"items": ["Tim: Working from Home", "James: Nursery"]
-				},
-				{
-					"title": "Morning",
-					"items": ["09:30-10:00 — Jen: Chiropractor"]
-				}
-			]
+			"description": "James at home (nursery reopens today, but James isn't back until Tuesday)"
+		},
+		{
+			"date": "Tuesday 5th January",
+			"isoDate": "2027-01-05",
+			"icon": "calendar",
+			"description": "James: Nursery - back after the Christmas break"
 		}
 	],
 	"visitingNotes": [

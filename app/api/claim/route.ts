@@ -52,7 +52,7 @@ export async function POST(request: NextRequest) {
 
     // 3. Get the gift
     const gift = await db
-      .prepare('SELECT * FROM gifts WHERE id = ?')
+      .prepare('SELECT * FROM gifts WHERE id = ? AND hidden = 0')
       .bind(giftId)
       .first<Gift>();
 

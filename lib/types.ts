@@ -26,6 +26,7 @@ export interface Gift {
   price: number | null;
   price_indicator: string | null;
   allow_multiple: number;
+  hidden: number;
   created_at: string;
 }
 

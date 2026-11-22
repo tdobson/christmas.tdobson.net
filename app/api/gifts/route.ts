@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
 
     // Get gifts for this recipient, sorted by price (most expensive first)
     const giftsResult = await db
-      .prepare(`SELECT * FROM gifts WHERE recipient_id = ?
+      .prepare(`SELECT * FROM gifts WHERE recipient_id = ? AND hidden = 0
         ORDER BY
           CASE price_indicator
             WHEN '£££' THEN 1

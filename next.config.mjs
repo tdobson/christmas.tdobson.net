@@ -7,8 +7,8 @@ const withBundleAnalyzer = bundleAnalyzer({
 export default withBundleAnalyzer({
   output: 'standalone',
   reactStrictMode: false,
-  eslint: {
-    ignoreDuringBuilds: true,
+  turbopack: {
+    root: import.meta.dirname,
   },
   experimental: {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks'],

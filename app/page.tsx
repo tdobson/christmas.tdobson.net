@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Title, Text, Stack, Paper, Group, SimpleGrid } from '@mantine/core';
 import { IconGift, IconCalendar } from '@tabler/icons-react';
@@ -29,7 +31,7 @@ export default function HomePage() {
     },
     {
       title: "Schedule",
-      description: "Christmas 2025 timeline",
+      description: "Christmas 2026 timeline",
       href: "/schedule",
       icon: IconCalendar,
       color: "red",

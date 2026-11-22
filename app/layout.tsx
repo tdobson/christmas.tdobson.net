@@ -6,7 +6,7 @@ import { Providers } from './providers';
 import { LayoutClient } from '../components/Layout/LayoutClient';
 
 export const metadata = {
-  title: 'Christmas 2025 - Tim, Jen & James',
+  title: 'Christmas 2026 - Tim, Jen & James',
   description: 'Christmas gift lists and schedule for our family',
 };
 
