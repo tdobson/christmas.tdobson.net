@@ -97,9 +97,8 @@
 		{
 			"date": "Sunday 27th December",
 			"isoDate": "2026-12-27",
-			"icon": "calendar",
-			"available": true,
-			"description": "Nothing planned yet - get in touch!"
+			"icon": "users",
+			"description": "Judith and Adrian coming to see us (10am to 8pm)"
 		},
 		{
 			"date": "Monday 28th December",
